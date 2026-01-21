@@ -1,0 +1,39 @@
+name: Run Hybrid RAG Pipeline and Upload Report
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run full pipeline
+        run: |
+          python code/run_pipeline.py
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: final-report
+          path: |
+            reports/final_report.html
+            reports/final_report.pdf
+
+      - name: Clean up workspace (optional)
+        run: |
+          rm -rf data/wikipedia_chunks.json data/faiss_index.bin data/chunk_metadata.json data/generated_qa_pairs.json data/evaluation_results*.json
