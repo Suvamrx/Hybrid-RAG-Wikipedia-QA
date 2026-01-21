@@ -1,0 +1,1002 @@
+[
+  {
+    "question_id": 0,
+    "question": "What kind of tests can be divided into recordings of : ( 1 ) spontaneous or continuously running electrical activity , or ( 2 ) stimulus evoked responses ?",
+    "ground_truth": "physiology or function of the central and peripheral aspects of the nervous system . These kinds of tests can be divided into recordings of : ( 1 ) spontaneous or continuously running electrical activity , or ( 2 ) stimulus evoked responses .",
+    "generated_answer": "the identification of the nature and cause of a given phenomenon .",
+    "source_url": "https://en.wikipedia.org/wiki/Medicine",
+    "mrr": 1.0,
+    "f1": 0.14545454545454545,
+    "rougeL": 0.17391304347826086
+  },
+  {
+    "question_id": 1,
+    "question": "What is the main topic of the passage?",
+    "ground_truth": "Engineering education , Engineering education in the United States , List of engineering schools List of CAx companies List of engineering branches List of engineering journals and magazines Lists of engineers List of free and open-source software packages for engineering",
+    "generated_answer": "The Theory of the Novel : A Historico-Philosophical Essay on the Forms of Great Epic Literature . London : Verso , 1998 . Moretti , Franco . An Atlas of the European Novel , 1800-1900 . London : Verso , 1998 . Moretti , Franco . Graphs , Maps , Trees : Abstract Models for a Literary History . London : Verso , 2005 .",
+    "source_url": "https://en.wikipedia.org/wiki/Lists_of_engineering_software",
+    "mrr": 0.0,
+    "f1": 0.0761904761904762,
+    "rougeL": 0.11764705882352941
+  },
+  {
+    "question_id": 2,
+    "question": "Which of the following is not an example of interstellar ion–molecule chemistry : atomic hydrogen or molecular hydrogen ?",
+    "ground_truth": "atomic hydrogen",
+    "generated_answer": "In dense clouds , thin ice mantles form on dust grains . The chemistry of these ices depends strongly on the form of hydrogen present : atomic hydrogen tends to produce reduced species such as H2O , CH4 and NH3 , while molecular hydrogen allows heavier atoms to form species such as CO , CO2 and CN . These mixed-molecular ices are processed by ultraviolet radiation and cosmic rays , driving complex radiation-induced chemistry . Laboratory photochemistry experiments on simple ice analogues have produced amino acids , and similarities between interstellar and cometary ices , together with comparisons of gas-phase compounds , have been used to argue for a connection between interstellar and cometary chemistry .",
+    "source_url": "https://en.wikipedia.org/wiki/Astrochemistry",
+    "mrr": 1.0,
+    "f1": 0.03389830508474576,
+    "rougeL": 0.037037037037037035
+  },
+  {
+    "question_id": 3,
+    "question": "Which of the following is not a type of glass: safety glass or polymer teflon?",
+    "ground_truth": "polymer teflon",
+    "generated_answer": "Samsung marketed its Galaxy Z Flip as featuring 30  m ( 0.0012 in ) -thick  ultra-thin glass '' with a plastic layer similar to the Galaxy Fold , manufactured by Samsung with materials from Schott AG , which is  produced using an intensifying process to enhance its flexibility and durability '' , and injected with a  special material up to an undisclosed depth to achieve a consistent hardness '' . A stress test by YouTube channel JerryRigEverything showed the screen was scratched when rubbed with a pick with a Mohs rating of 2 ( in comparison , most smartphones tested by the channel begin to experience scratches with 6 and 7-rated picks .",
+    "source_url": "https://en.wikipedia.org/wiki/Serendipity",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 4,
+    "question": "Who defined the anthropological usage of communitas ?",
+    "ground_truth": "Victor Turner , who defined the anthropological usage of communitas , was interested in the interplay between what he called social 'structure ' and 'antistructure ' ; Liminality and Communitas are both components of antistructure .",
+    "generated_answer": "Communitas is a Latin noun commonly referring either to an unstructured community in which people are equal , or to the very spirit of community . It also has special significance as a loanword in cultural anthropology and the social sciences . Victor Turner , who defined the anthropological usage of communitas , was interested in the interplay between what he called social 'structure ' and 'antistructure ' ; Liminality and Communitas are both components of antistructure . Communitas refers to an unstructured state in which all members of a community are equal allowing them to share a common experience , usually through a rite of passage . This brings everyone onto an equal level : even if you are higher in position , you have been lower and you know what that is . Turner ( 1969 , Pg.132 ; see also ) distinguishes between : existential or spontaneous communitas , the transient personal experience of togetherness ; e.g . that which Source: Communitas structure '' is filled with objective difficulties ",
+    "source_url": "https://en.wikipedia.org/wiki/Communitas",
+    "mrr": 1.0,
+    "f1": 0.2884615384615385,
+    "rougeL": 0.3314917127071823
+  },
+  {
+    "question_id": 5,
+    "question": "What is the Miami classification ?",
+    "ground_truth": "The Miami classification is the most popular system in oesophageal CLE diagnosis .",
+    "generated_answer": "Public criminology is a sub-discipline of criminology . Public criminology advocates for the rehabilitation of offenders rather than the incarceration of them , prevent crime , and make the justice system so it is more efficient and ethical . They use public criminology to advocate for the rehabilitation of offenders rather than the incarceration of them , prevent crime , and make the justice system so it is more efficient and ethical .",
+    "source_url": "https://en.wikipedia.org/wiki/Confocal_endoscopy",
+    "mrr": 0.125,
+    "f1": 0.09302325581395347,
+    "rougeL": 0.10126582278481013
+  },
+  {
+    "question_id": 6,
+    "question": "What is the name of Banaras Hindu University's MPhil-PhD program?",
+    "ground_truth": "History of Science and Technology at the Faculty of Science",
+    "generated_answer": "Russia Spain University of the Basque Country , offers a master 's degree and PhD programme in History and Philosophy of Science",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_science_and_technology",
+    "mrr": 1.0,
+    "f1": 0.3125,
+    "rougeL": 0.25806451612903225
+  },
+  {
+    "question_id": 7,
+    "question": "What is the purpose of the Uruz Project?",
+    "ground_truth": "to recreate the aurochs by a more efficient breeding strategy using genome editing, in order to decrease the number of generations of breeding needed and the ability to quickly eliminate undesired traits from the population of aurochs-like cattle",
+    "generated_answer": "The Windrose Project ( 2016–2017 ) , a multi-part public art and research initiative developed within the Valletta 2018 Cultural Programme , investigated vernacular knowledge , environmental conditions , and collective memory related to the wind . This research culminated in public events and interventions , including the inauguration of public sculpture .",
+    "source_url": "https://en.wikipedia.org/wiki/De-extinction",
+    "mrr": 0.0,
+    "f1": 0.13186813186813184,
+    "rougeL": 0.16470588235294117
+  },
+  {
+    "question_id": 8,
+    "question": "What is the first novel in the Yorùbá language?",
+    "ground_truth": "Ogboju Ode ninu Igbo Irunmale",
+    "generated_answer": "The first novel in the Yorùbá language was Ogboju Ode ninu Igbo Irunmale ( The Forest of A Thousand Demons ) , written in 1938 by Chief Daniel O. Fagunwa ( 1903–1963 ) . Other writers in the Yorùbá language include : Senator Afolabi Olabimtan ( 1932–1992 ) and Akinwunmi Isola . See also Aureation Classical language Official language Sacred language Standard language Written language Acrolect List of languages by first written accounts References Bibliography Crystal , David ( ed . ) , The Cambridge Encyclopedia of the English Language ( Cambridge , 2003 ) ISBN 0-521-53033-4 Gould , Rebecca Ruth ( 2018 ) .  Sweetening the Heavy Georgian Tongue : J m in the Georgian-Persianate World '' . In d'Hubert , Thibaut ; Papas , Alexandre ( eds. ) . J m",
+    "source_url": "https://en.wikipedia.org/wiki/Literary_language",
+    "mrr": 1.0,
+    "f1": 0.07246376811594202,
+    "rougeL": 0.08620689655172413
+  },
+  {
+    "question_id": 9,
+    "question": "Which of the following is not a type of molecular engineering: Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling",
+    "ground_truth": "Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics Molecular modeling Molecular dynamics",
+    "generated_answer": "Molecular engineering is an emerging field of study concerned with the design and testing of molecular properties , behavior and interactions in order to assemble better materials , systems , and processes for specific functions . Molecular engineers utilize sophisticated tools and instruments to make and analyze the interactions of molecules and the surfaces of materials at the molecular and nano-scale . The complexity of molecules being introduced at the surface is increasing , and the techniques used to analyze surface characteristics at the molecular level are ever-changing and improving . Meantime , advancements in high performance computing have greatly expanded the use of computer simulation in the study of molecular scale systems . Molecular engineering is highly interdisciplinary by nature , encompassing aspects of chemical engineering , materials science , bioengineering , electrical engineering , physics , mechanical engineering , and chemistry . Rather than relying on well-described but poorly-understood empirical correlations between the makeup of a system and its properties , a molecular design approach seeks to manipulate system properties directly using an understanding of their chemical and physical origins . This often gives rise to fundamentally new materials",
+    "source_url": "https://en.wikipedia.org/wiki/Molecular_engineering",
+    "mrr": 1.0,
+    "f1": 0.00554016620498615,
+    "rougeL": 0.046242774566473986
+  },
+  {
+    "question_id": 10,
+    "question": "What can be interpreted as a weakened Si-Si bond due to the removal of an electron ?",
+    "ground_truth": "The weakened bonds can be attacked by a nucleophilic species such as HF or H2O , which in turn leads to the dissolution of the silicon substrate in close proximity to the noble metal particle .",
+    "generated_answer": "ionic bond theory ( VSEPR ) , atoms stick together in molecules or crystals are said to be bonded with one another .",
+    "source_url": "https://en.wikipedia.org/wiki/Metal_assisted_chemical_etching",
+    "mrr": 1.0,
+    "f1": 0.20338983050847456,
+    "rougeL": 0.11320754716981131
+  },
+  {
+    "question_id": 11,
+    "question": "What is the total carbon footprint of the internet , our electronic devices , and supporting elements accounts for about 3.7 % of global greenhouse gas emissions ?",
+    "ground_truth": "The total carbon footprint of the internet , our electronic devices , and supporting elements accounts for about 3.7 % of global greenhouse gas emissions .",
+    "generated_answer": "global warming is largely unaffected by climate change .",
+    "source_url": "https://en.wikipedia.org/wiki/Digital_ecology",
+    "mrr": 1.0,
+    "f1": 0.1142857142857143,
+    "rougeL": 0.06451612903225806
+  },
+  {
+    "question_id": 12,
+    "question": "Which of the following is not a factor in stratification : property , status , or power ?",
+    "ground_truth": "power .",
+    "generated_answer": "culture .",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 1.0,
+    "f1": 0.5,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 13,
+    "question": "Who criticizes the system wherein a double-income childless couple receives two pensions , while a family that raised future contributors on a single income receives only one?",
+    "ground_truth": "Roman Herzog",
+    "generated_answer": "The Schreiber Plan , is a concept that has been criticized for its involuntary nature , as individuals are automatically part of the contract by being born . The Schreiber Plan is a concept that has been criticized for its involuntary nature , as individuals are automatically part of the contract by being born . Because child-rearing costs are private while pension benefits are socialized based on employment , parents may suffer from  transfer exploitation . '' Constitutional concerns : Former German President Roman Herzog criticized the system wherein a double-income childless couple receives two pensions , while a family that raised future contributors on a single income receives only one , calling it a violation of constitutional equity . Gender and normativity Research often relies on the normative idea of family generations and employment , which leads to the exclusion of childless adults and working-age people who are unemployed or unable to work . Studies have also been noted for failing to problematize the gendered and heteronormative nature of generational contracts . Additionally , the concept is often ",
+    "source_url": "https://en.wikipedia.org/wiki/Generational_contract",
+    "mrr": 1.0,
+    "f1": 0.022099447513812154,
+    "rougeL": 0.02380952380952381
+  },
+  {
+    "question_id": 14,
+    "question": "What are the academic disciplines that study culture ?",
+    "ground_truth": "Science Anthropology Cultural anthropology Archaeology Sociocultural evolution Biology Sociobiology Social neuroscience Cultural neuroscience Cultural history Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience Cultural history combines the approaches of anthropology and history to look at popular cultural traditions and cultural interpretations of historical experience Cultural history combines the approaches",
+    "generated_answer": "Cultural universals are found in all human societies . The concept of material culture covers the physical expressions of culture , such as technology , architecture and art , whereas the immaterial aspects of culture such as principles of social organization (including practices of political organization and social institutions ) , mythology , philosophy , literature ( both written and oral ) , and science comprise the intangible aspects of culture .",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_culture",
+    "mrr": 1.0,
+    "f1": 0.042704626334519574,
+    "rougeL": 0.14126394052044608
+  },
+  {
+    "question_id": 15,
+    "question": "What is the cyclic impact of storm waves , or crushing by sea ice ?",
+    "ground_truth": "The cyclic impact of storm waves , or crushing by sea ice .",
+    "generated_answer": "Rain , fog and snow may cause delays in some operations , but with radar and precision positioning systems they are not as serious a hazard as in the past . In heavy rainfall appreciable quantities of water may enter unprotected openings , and must be removed before it has adverse effects on stability due to free-surface . Rain , fog and snow may prevent helicopter operations , which generally require good visibility for landing . Snow may present the additional problem of removal to prevent accumulation to prevent accumulation .",
+    "source_url": "https://en.wikipedia.org/wiki/Marine_construction",
+    "mrr": 1.0,
+    "f1": 0.07692307692307693,
+    "rougeL": 0.04255319148936171
+  },
+  {
+    "question_id": 16,
+    "question": "What may be a fact about Kazakhstan 's GDI per capita in purchasing power parity being five times greater than Kyrgyzstan 's in 2009 ?",
+    "ground_truth": "Kazakhstan 's GDI per capita in purchasing power parity was five times greater than Kyrgyzstan 's in 2009 .",
+    "generated_answer": "Landlocked developing countries depend on their transit neighbours .",
+    "source_url": "https://en.wikipedia.org/wiki/Landlocked_developing_countries",
+    "mrr": 1.0,
+    "f1": 0.07142857142857142,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 17,
+    "question": "What is the main idea of the passage ?",
+    "ground_truth": "There is a continuum between more dialectical varieties and more standard varieties in German , while colloquial German nonetheless tends to increase analytic elements at the expense of synthetic elements . Greek From the early nineteenth century until the mid-20th century , Katharevousa , a form of Greek , was used for literary purposes . In later years , Katharevousa was used only for official and formal purposes ( such as politics , letters , official documents , and newscasting ) while Dimotiki , 'demotic ' or popular Greek , was the daily language .",
+    "generated_answer": "The Theory of the Novel : A Historico-Philosophical Essay on the Forms of Great Epic Literature . London : Verso , 1998 . Moretti , Franco . An Atlas of the European Novel , 1800-1900 . London : Verso , 1998 . Moretti , Franco . Graphs , Maps , Trees : Abstract Models for a Literary History . London : Verso , 2005 .",
+    "source_url": "https://en.wikipedia.org/wiki/Literary_language",
+    "mrr": 0.0,
+    "f1": 0.0875,
+    "rougeL": 0.126984126984127
+  },
+  {
+    "question_id": 18,
+    "question": "Which of the following is not a subfield of sociology : criminology , medical sociology , education , or digital sociology ?",
+    "ground_truth": "digital sociology.",
+    "generated_answer": "institutions , encompassing professional , analytical , critical , and public dimensions . The internet has reshaped social networks and power relations , illustrating the growing importance of digital sociology . Sociologists seek to understand how identities , inequalities , norms , and institutions evolve across time and context . The internet has reshaped social networks and power relations , illustrating the growing importance of digital sociology . Sociologists seek to understand how identities , inequalities , norms , and institutions evolve across time and context .",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_sociology",
+    "mrr": 1.0,
+    "f1": 0.02247191011235955,
+    "rougeL": 0.05555555555555556
+  },
+  {
+    "question_id": 19,
+    "question": "What is the relationship dissatisfaction associated with psychological aggression by females ?",
+    "ground_truth": "psychological aggression by females is more likely to be associated with relationship dissatisfaction for both partners , while withdrawal by men is more likely to be associated with relationship dissatisfaction for both partners .",
+    "generated_answer": "US , the rate of prosecution and convictions for rape varies considerably in different jurisdictions .",
+    "source_url": "https://en.wikipedia.org/wiki/Abuse",
+    "mrr": 1.0,
+    "f1": 0.12,
+    "rougeL": 0.043478260869565216
+  },
+  {
+    "question_id": 20,
+    "question": "Which of the following is true of atoms : electrons or protons ?",
+    "ground_truth": "The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The protons and neutrons in the nucleus are attracted to each other by the nuclear force . This force is usually stronger than the electromagnetic force that repels the positively charged protons from one another . This is a form of nuclear decay . Atoms can attach to one or more other atoms by chemical bonds to form chemical compounds such as molecules or crystals . The ability of atoms to attach and detach from each other is responsible for most of the physical changes observed in nature .",
+    "generated_answer": "The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The electrons of an atom are attracted to the protons in an atomic nucleus by the electromagnetic force . The electrons of an atom are attracted to the pro",
+    "source_url": "https://en.wikipedia.org/wiki/Atom",
+    "mrr": 1.0,
+    "f1": 0.1107266435986159,
+    "rougeL": 0.3357664233576642
+  },
+  {
+    "question_id": 21,
+    "question": "What are the two major branches of aerospace engineering ?",
+    "ground_truth": "Aeronautical engineering – deals with craft that stay within Earth 's atmosphere Astronautical engineering – deals with craft that operate outside of Earth 's atmosphere Automotive engineering ( automotive systems engineering ) Manufacturing engineering Marine engineering Thermal engineering Naval architecture Sports engineering Vacuum engineering Military engineering Combat engineering Military technology Petroleum engineering Petroleum geology Drilling engineering Production engineering Reservoir engineering Well logging Well testing Radiation engineering Nuclear engineering Radiation protection engineering Planetary engineering – planetary engineering is the application of technology for the purpose of influencing the global properties of a planet . Perhaps the best-known type of planetary engineering is terraforming , by which a planet 's surface conditions are altered to be more like those of Earth . Perhaps the best-known type of planetary engineering is terraforming , by which a planet 's surface conditions are altered to be more like those of Earth . Perhaps the best-known type of planetary engineering is terraforming , by which a planet 's surface conditions are altered to be more like those of Earth .",
+    "generated_answer": "Engineering is a broad discipline that is often broken down into several sub-disciplines . Although most engineers will usually be trained in a specific discipline , some engineers become multi-disciplined through experience . The traditional disciplines of engineering are civil , mechanical , electrical , and chemical . ( Sometimes structural , industrial , or mining and materials is added .) Below is a list of recognized branches of engineering . Note that there are additional sub-disciplines – for example , Earth systems engineering and management involves a wide range of subject areas including engineering studies , environmental science , engineering ethics and philosophy of engineering . For any engineering undergraduate program to be accredited , regardless of concentration , it must cover a largely similar span of such foundational work , which also overlaps heavily with the content tested on one or more engineering licensure exams in most jurisdictions . The coursework specific to IE entails specialized courses in areas such as optimization , applied probability , stochastic modeling , design of experiments , statistical process control , simulation , manufacturing engineering , ergonomics/safety engineering , and",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_engineering",
+    "mrr": 0.3333333333333333,
+    "f1": 0.11049723756906077,
+    "rougeL": 0.12804878048780488
+  },
+  {
+    "question_id": 22,
+    "question": "What is the main idea of the passage?",
+    "ground_truth": "There is no definite cure available for LAMA2-MD. However , preclinical studies on experimental animal models of Laminin alpha-2 chain deficient congenital muscular dystrophy are showing favorable yet early results.",
+    "generated_answer": "The Theory of the Novel : A Historico-Philosophical Essay on the Forms of Great Epic Literature . London : Verso , 1998 . Moretti , Franco . An Atlas of the European Novel , 1800-1900 . London : Verso , 1998 . Moretti , Franco . Graphs , Maps , Trees : Abstract Models for a Literary History . London : Verso , 2005 .",
+    "source_url": "https://en.wikipedia.org/wiki/LAMA2_related_congenital_muscular_dystrophy",
+    "mrr": 0.0,
+    "f1": 0.10526315789473684,
+    "rougeL": 0.05194805194805195
+  },
+  {
+    "question_id": 23,
+    "question": "What type of work is Oka-leczenie ?",
+    "ground_truth": "Oka-leczenie is a type or genre of literature in which the text is integrated with the physical space of the book into a meaningful whole and in which all elements ( from the graphic ones to the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of paper ( or other material ) and the kinds of",
+    "generated_answer": "                                                                                                                               ",
+    "source_url": "https://en.wikipedia.org/wiki/Liberature",
+    "mrr": 0.5,
+    "f1": 0.0,
+    "rougeL": 0
+  },
+  {
+    "question_id": 24,
+    "question": "What is the name of the asteroid that the DESTINY+ Dust Analyzer will fly on ?",
+    "ground_truth": "3200 Phaethon.",
+    "generated_answer": "This region that is free.",
+    "source_url": "https://en.wikipedia.org/wiki/Dust_astronomy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 25,
+    "question": "Which of the following is true of an atom : a nucleus of protons and neutrons , surrounded by an electromagnetically bound swarm of electrons , or a nucleus of protons and electrons ?",
+    "ground_truth": "An atom consists of a nucleus of protons and neutrons , surrounded by an electromagnetically bound swarm of electrons .",
+    "generated_answer": "The electrons of an atom are bound to the positively charged nucleus by the attraction created from opposite electric charges .",
+    "source_url": "https://en.wikipedia.org/wiki/Atom",
+    "mrr": 1.0,
+    "f1": 0.3902439024390244,
+    "rougeL": 0.2105263157894737
+  },
+  {
+    "question_id": 26,
+    "question": "Which of the following is true of intersex people ?",
+    "ground_truth": "Intersex people can experience difficulty finding specialized care for their variations .",
+    "generated_answer": "Intersex people are at an increased risk of suicide .",
+    "source_url": "https://en.wikipedia.org/wiki/Intersex_healthcare",
+    "mrr": 1.0,
+    "f1": 0.2727272727272727,
+    "rougeL": 0.19999999999999998
+  },
+  {
+    "question_id": 27,
+    "question": "Which of the following is not a sub-field of sociology : education or environment ?",
+    "ground_truth": "environment .",
+    "generated_answer": "Social science – field of academic scholarship that explores aspects of human society .",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 1.0,
+    "f1": 0.125,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 28,
+    "question": "Which of the following is not a book: Enciclopedia di astronomia e cosmologia or Atlante illustrato dell'Universo?",
+    "ground_truth": "Atlante illustrato dell'Universo.",
+    "generated_answer": ", from the Smithsonian/NASA Astrophysics Data System https : //viewspace.org/ veiwspace.org - interactives and videos about astronomy , from the Smithsonian/NASA Astrophysics Data System https : //viewspace.org/ veiwspace.org - interactives and videos about astronomy , from the Smithsonian/NASA Astrophysics Data System https : //viewspace.org/ veiwspace.org - interactives and videos about astronomy , from the Smithsonian/NASA Astrophysics Data System https : //viewspace.org/ veiwspace.org - interactives and videos about astronomy , from the Smithsonian/NASA Astrophysics Data System https : //viewspace.org/ veiwspace.org - interactives and videos about astronomy , from the Smithsonian/NASA Astrophysics Data System https : //viewspace.org/ veiwspace.org - interactives and videos about astronomy , from the Smithsonian/NASA Astrophysics Data System https : //viewspace.",
+    "source_url": "https://en.wikipedia.org/wiki/Cygnus_Molecular_Nebula_Complex",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 29,
+    "question": "What is the name of the university that offers a course in History and Philosophy of Science and Technology ?",
+    "ground_truth": "Huron University College offers a course in the History of Science which follows the development and philosophy of science from 10,000 BCE to the modern day .",
+    "generated_answer": "University of Manchester offers undergraduate modules and postgraduate study in History of Science , Technology and Medicine and is sponsored by the Wellcome Trust.",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_science_and_technology",
+    "mrr": 1.0,
+    "f1": 0.3137254901960785,
+    "rougeL": 0.31999999999999995
+  },
+  {
+    "question_id": 30,
+    "question": "What did Elaine Solowey do to attempt the germination of the seeds?",
+    "ground_truth": "She revived several seeds using simple hydration with a household baby bottle warmer , along with standard fertiliser and growth hormones.",
+    "generated_answer": "Thomas Chappel , a crewman of the Essex , is also cited as contributing to the subspecies ’ early decline .",
+    "source_url": "https://en.wikipedia.org/wiki/De-extinction",
+    "mrr": 1.0,
+    "f1": 0.09523809523809523,
+    "rougeL": 0.05405405405405405
+  },
+  {
+    "question_id": 31,
+    "question": "What is cultural pluralism ?",
+    "ground_truth": "Cultural and religious pluralism has a long history and development that reaches from antiquity to contemporary trends in post-modernity .",
+    "generated_answer": "The concept of material culture encompasses the physical expressions of culture , such as technology , architecture and art , while the immaterial aspects of culture such as principles of social organization (including practices of political organization and social institutions ) , mythology , philosophy , literature ( both written and oral ) , and science comprise the intangible cultural expressions of culture .",
+    "source_url": "https://en.wikipedia.org/wiki/Religious_pluralism",
+    "mrr": 0.0,
+    "f1": 0.07142857142857142,
+    "rougeL": 0.0821917808219178
+  },
+  {
+    "question_id": 32,
+    "question": "What is the gimmick of the Readius ?",
+    "ground_truth": "foldable smartphone , the Readius ( zh ) , at the Mobile World Congress ( MWC ) which also serves as a reader .",
+    "generated_answer": "Futurists were able to create a new language without punctuation , and metrics that allowed for free expression .",
+    "source_url": "https://en.wikipedia.org/wiki/Foldable_smartphone",
+    "mrr": 0.0,
+    "f1": 0.13953488372093023,
+    "rougeL": 0.058823529411764705
+  },
+  {
+    "question_id": 33,
+    "question": "Which of the following is not a reference to the memory effect: Strominger , Zhiboedov , or Sabrina Pasterski?",
+    "ground_truth": "Strominger , Zhiboedov , or Sabrina Pasterski",
+    "generated_answer": "On-line evaluation model , individuals construct their evaluations on the spot based on information available in the working memory . Memory-based evaluation model , individuals construct their evaluations on the spot based on information available in the working memory . Priming is a cognitive process that occurs when a stimulus changes the attitudinal or behavioral response of an individual . Psychologists have tested this by priming different cognitive styles in the lab and then having participants read articles about political issues .",
+    "source_url": "https://en.wikipedia.org/wiki/Gravitational_memory_effect",
+    "mrr": 1.0,
+    "f1": 0.0449438202247191,
+    "rougeL": 0.024096385542168672
+  },
+  {
+    "question_id": 34,
+    "question": "What is the name of the asteroid that ejects dust and produces transient comet-like comae and tails ?",
+    "ground_truth": "Recently Active asteroid have been observed that eject dust and produce transient comet-like comae and tails .",
+    "generated_answer": "During the Cassini spacecraft , a dust-free zone was observed inside  5 solar radii ( 0.025 AU ) from the Sun . During the Cassini spacecraft , a dust-free zone was observed inside  5 solar radii ( 0.025 AU ) from the Sun . During the Cassini spacecraft , a dust-free zone was observed inside  5 solar radii ( 0.025 AU ) from the Sun . During the Cassini spacecraft , a dust-free zone was observed inside  5 solar radii ( 0.025 AU ) from the Sun . During the Cassini spacecraft , a dust-free zone was observed inside  5 solar radii ( 0.025 AU ) from the Sun . During the Cassini spacecraft , a dust-free zone was observed inside  5 solar radii ( 0.025 AU ) from the Sun . During the Cassini spacecraft , a dust-free zone was observed inside  5",
+    "source_url": "https://en.wikipedia.org/wiki/Dust_astronomy",
+    "mrr": 1.0,
+    "f1": 0.024844720496894408,
+    "rougeL": 0.026845637583892617
+  },
+  {
+    "question_id": 35,
+    "question": "Which of the following is not a common impurity in steel : phosphorus , sulfur , or oxygen ?",
+    "ground_truth": "Oxygen.",
+    "generated_answer": "Alloying may be performed with one or more constituents in a gaseous state , such as found in a blast furnace to make pig iron ( liquid-gas ) , nitriding , carbonitriding or other forms of case hardening ( solid-gas ) , or the cementation process used to make blister steel ( solid-gas ) .",
+    "source_url": "https://en.wikipedia.org/wiki/Alloy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 36,
+    "question": "What country is Nimrud located in ?",
+    "ground_truth": "Nimrud is an Assyrian city from the 13th century BC .",
+    "generated_answer": "The risks and opportunities for SIDS in deep-sea mining are numerous , but they are not without significant structural and legal risks . Most SIDS lack the technological capacity , financial resources , and institutional infrastructure to undertake deep-sea extraction independently . Under UNCLOS , participation in activities in The Area is restricted to states , state enterprises , or private entities that are formally sponsored by a state . As a consequence , these state-owned enterprises function primarily as legal intermediaries that enable partnerships with multinational corporations or larger states possessing the necessary expertise , capital , and equipment . Because SIDS do not possess the capacity to conduct extraction themselves , these state-owned enterprises function primarily as legal intermediaries that enable partnerships with multinational corporations or larger states possessing the necessary expertise , capital , and equipment . This imbalance produces a considerable risk that SIDS may accept agreements that undervalue their natural resources , diminish their regulatory autonomy , or create long term dependencies that echo",
+    "source_url": "https://en.wikipedia.org/wiki/Art",
+    "mrr": 0.0,
+    "f1": 0.03333333333333333,
+    "rougeL": 0.024390243902439025
+  },
+  {
+    "question_id": 37,
+    "question": "What are some examples of comparative politics ?",
+    "ground_truth": "Some examples of comparative politics are studying the differences between presidential and parliamentary systems , democracies and dictatorships , parliamentary systems in different countries , multi-party systems such as Canada and two-party systems such as the United States .",
+    "generated_answer": "Comparative politics is a field in political science characterized either by the use of the comparative method or other empirical methods to explore politics both within and between countries . Some examples of comparative politics are studying the differences between presidential and parliamentary systems , democracies and dictatorships , parliamentary systems in different countries , multi-party systems such as Canada and two-party systems such as the United States . Some examples of comparative politics are studying the differences between presidential and parliamentary systems , democracies and dictatorships , parliamentary systems in different countries , multi-party systems such as Canada and two-party systems such as the United States .",
+    "source_url": "https://en.wikipedia.org/wiki/Comparative_politics",
+    "mrr": 1.0,
+    "f1": 0.38095238095238093,
+    "rougeL": 0.5285714285714286
+  },
+  {
+    "question_id": 38,
+    "question": "Which of the following is true of human stem cells , embryonic stem cells or human stem cells taken from the umbilical cord ?",
+    "ground_truth": "embryonic stem cells.",
+    "generated_answer": "Life extension is a scientific certainty that we possess more lethal genes that activate in later life than in early life . Therefore , to extend life , we should be able to prevent these genes from switching on , and we should be able to do so by  identifying changes in the internal chemical environment of a body that take place during aging ... and by simulating the superficial chemical properties of a young body '' . Cloning and body part replacement Some proponents of therapeutic cloning and stem cell research suggest that therapeutic cloning and stem cell research could one day provide a way to generate cells , body parts , or even entire bodies ( generally referred to as reproductive cloning ) that would be genetically identical to a prospective patient . In 2008 , the US Department of Defense announced a program to research the possibility of growing human body parts on mice . Complex biological structures , such as mammalian joints and limbs , have not yet been replicated . Dog and primate brain transplantation experiments were conducted in the mid-20th century but failed due to rejection and the inability to restore nerve",
+    "source_url": "https://en.wikipedia.org/wiki/Life_extension",
+    "mrr": 1.0,
+    "f1": 0.009950248756218907,
+    "rougeL": 0.021621621621621623
+  },
+  {
+    "question_id": 39,
+    "question": "Who was executed by counter-revolutionary forces after the end of the American Civil War?",
+    "ground_truth": "Che Guevara.",
+    "generated_answer": "In Kerala , many are killed in protests by the police , and some are assassinated by activists in other political parties , such as the INC and the RSS .",
+    "source_url": "https://en.wikipedia.org/wiki/Martyr",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 40,
+    "question": "Which of the following is not a cyberpunk film: Robocop, The Matrix or Blade Runner?",
+    "ground_truth": "The Matrix.",
+    "generated_answer": "Cyberpunk 2077 ( 2020 ) , based on R. Talsorian Games.",
+    "source_url": "https://en.wikipedia.org/wiki/Cyberpunk",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 41,
+    "question": "Which of the following is not a type of fertilizer: Potassium-magnesium sulfate double salt or ethanol ?",
+    "ground_truth": "Ethanol is also used , but it exhibits a preference for potassium sulfate precipitation .",
+    "generated_answer": "Potassium-magnesium sulfate double salt , a good fertilizer , is a salt that precipitates from bitterns upon addition of methanol . Ethanol is also used , but it exhibits a preference for potassium sulfate precipitation . The solution can furthermore be used in the production of potash and potassium salts . Tartaric acid is one compound that can facilitate the precipitation of these salts . Magnesium hydroxide ( Mg ( OH ) 2 ) can be derived from bittern . Adding an alkaline solution such as sodium hydroxide ( NaOH ) or lime will cause magnesium hydroxide to precipitate , although lime is not as effective . Slower addition of the alkaline solution results in the precipitation of larger particles that are easier to remove from solution . Coagulation Tofu Nigari is produced from seawater after first removing sodium chloride . It contains mostly magnesium chloride , smaller amounts of magnesium sulfate ( Epsom salt ) , potassium chloride , calcium chloride",
+    "source_url": "https://en.wikipedia.org/wiki/Bittern_(salt)",
+    "mrr": 1.0,
+    "f1": 0.1694915254237288,
+    "rougeL": 0.1699346405228758
+  },
+  {
+    "question_id": 42,
+    "question": "What is the name of the space telescope science institute that transferred its holdings of various later analogue sky surveys that were digitized as part of the Digitized Sky Survey?",
+    "ground_truth": "Space Telescope Science Institute",
+    "generated_answer": "Astroinformatics field of science is largely unrelated to the field of astronomy , the field of astroinformatics is a distinct field of research .",
+    "source_url": "https://en.wikipedia.org/wiki/Harvard_Plate_Stacks",
+    "mrr": 1.0,
+    "f1": 0.07142857142857142,
+    "rougeL": 0.07692307692307693
+  },
+  {
+    "question_id": 43,
+    "question": "What is the main idea of the passage ?",
+    "ground_truth": "He defines thinking as a  collective activity '' [ 1999:16 ] , that is , the sum of the knowledge , beliefs and opinions held by those who are governed . He also raises the point that a mentality is not usually  examined by those who inhabit it '' [ 1999:16 ] . This raises the point that those who are governed may not understand the unnaturalness of both the way they live and the fact that they take this way of life for granted—that the same activity in which they engage in  can be regarded as a different form of practice depending on the mentalities that invest it '' [ 1999:16 ] . Dean highlights another important feature of the concept of governmentality—its reflexivity . He explains : On the one hand , we govern others and ourselves according to what we take to be true about who we are , what aspects of our existence should be worked upon , how , with what means , and to what ends . On the other hand , the ways in which we govern and conduct ourselves give rise to different ways of producing truth .",
+    "generated_answer": "The Theory of the Novel : A Historico-Philosophical Essay on the Forms of Great Epic Literature . London : Verso , 1998 . Moretti , Franco . An Atlas of the European Novel , 1800-1900 . London : Verso , 1998 . Moretti , Franco . Graphs , Maps , Trees : Abstract Models for a Literary History . London : Verso , 2005 .",
+    "source_url": "https://en.wikipedia.org/wiki/Governmentality",
+    "mrr": 0.0,
+    "f1": 0.06130268199233717,
+    "rougeL": 0.08108108108108109
+  },
+  {
+    "question_id": 44,
+    "question": "What is the name of the museum in Mannheim , Germany?",
+    "ground_truth": "Technoseum",
+    "generated_answer": "The Museum of Engines and Mechanisms is an academic museum located in Palermo , Italy , and is part of the Museum System of the University of Palermo . Inaugurated on February 25 , 2011 , it houses a vast collection of engines and industrial , scientific , and educational equipment , acquired and used in various fields of research and teaching since the second half of the 19th century . The museum is dedicated to the research , restoration , and dissemination of its heritage , in accordance with the recommendations of ICOM ( International Council of Museums ) . On May 31 , 2017 , the museum was recognized by the American Society of Mechanical Engineers ( ASME ) with the  Mechanical Engineering Heritage Collection '' distinction for its historical , technical , and collection significance .",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_technology",
+    "mrr": 0.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 45,
+    "question": "What is art valuation ?",
+    "ground_truth": "Art valuation , an art-specific subset of financial valuation , is the process of estimating the market value of works of art .",
+    "generated_answer": "Andy Warhol 's ideas of business art , a recognition that art has become a business and making money in business is an art . For collectors , the emotional connection felt toward a work or collection creates subjective personal value . The weight assigned by Andy Warhol 's ideas of business art , a recognition that art has become a business and making money in business is an art .",
+    "source_url": "https://en.wikipedia.org/wiki/Art_valuation",
+    "mrr": 1.0,
+    "f1": 0.1702127659574468,
+    "rougeL": 0.1627906976744186
+  },
+  {
+    "question_id": 46,
+    "question": "Which of the following is not a factor in the well-being and development of a child : stress and emotions , resistance and hate towards authority , aggression , early rates of sexual encounters , transferences of the mother 's negative talk about the father , or pressured ideologies to become the breadwinner ?",
+    "ground_truth": "pressured ideologies to become the breadwinner.",
+    "generated_answer": "social behavior that is correlated with the caregiver 's behavior .",
+    "source_url": "https://en.wikipedia.org/wiki/Father_absence",
+    "mrr": 1.0,
+    "f1": 0.11764705882352942,
+    "rougeL": 0.125
+  },
+  {
+    "question_id": 47,
+    "question": "Which of the following is not a type of microcystin: MC-LR or MC-RR ?",
+    "ground_truth": "MC-RR.",
+    "generated_answer": "Microelectronics – the study and manufacture ( or microfabrication ) of very small electronic designs and components . Microelectronics – the study and manufacture ( or microfabrication ) of very small electronic designs and components . Microelectronics – the study and manufacture ( or microfabrication ) of very small electronic designs and components . Microelectronics – the study and manufacture ( or microfabrication ) of very small electronic designs and components . Microelectronics – the study and manufacture ( or microfabrication ) of very small electronic designs and components . Microelectronics – the study and manufacture ( or microfabrication ) of very small electronic designs and components . Microelectronics – the study and manufacture ( or microfabrication ) of very small electronic designs and components . Microelectronics – the study and manufacture ( or microfabrication ) of very small electronic designs and components . Microelectronics – the study and manufacture ( or microfabrication ) of very small electronic",
+    "source_url": "https://en.wikipedia.org/wiki/Biliprotein",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 48,
+    "question": "What was the name of William Gibson 's novel that was published in 1984 ?",
+    "ground_truth": "Neuromancer.",
+    "generated_answer": "Lucien Goldmann , ( 1964 ) The Hidden God : A Study of Tragic Vision in the 'Pensées ' of Pascal and the Tragedies of Racine , trans . Philip Thody , London : Routledge and Kegan Paul . Lucien Goldmann , ( 1975 ) Towards a Sociology of the Novel , trans . Alan Sheridan , London : Tavistock . Jürgen Habermas , ( 1989 ) The Structural Transformation of the Public Sphere : An Inquiry into a Category of Bourgeois Society , trans . T. Burger , Cambridge : Polity Press . John A . Hall , ( 1979 ) , The Sociology of Literature , London : Longman . Fredric Jameson , ( 1981 ) The Political Unconscious : Narrative as a Socially Symbolic Act , London : Methuen . Diana T. Laurenson and Alan Swingewood , The Sociology of Literature , London : McGibbon and Ke",
+    "source_url": "https://en.wikipedia.org/wiki/Cyberpunk",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 49,
+    "question": "What is Mohr Siebeck's occupation?",
+    "ground_truth": "ISBN 3-16-146889-9",
+    "generated_answer": "James Philip Mills ( 1890–1960 ) , member of the Indian Civil Service and ethnographer , author of an ethnological study of the Ao people of Nagaland ; The Ao Nagas ( 1926 ) J. C. Molony ( 1877–1948 ) , administrator and civil servant of the Indian civil service ; A book of South India ( Methuen , London 1926 ) C. S. Mullan , Census Superintendent of Assam during the Census of India 1931 , British administrator responsible for recording caste information . N John Collinson Nesfield ( 1836–1919 ) , British civil servant and ethnographer ; authored works on social and religious structures in India , including caste classification ; Brief view on the caste system of the North-Western Provinces and Oudh ( 1882 ) O Occupation-based hierarchy – Early ethnographers documented the link between profession and social rank , particularly in caste contexts . Pasfield Oliver ( 1838–1907 ) ( editor ) : Madagascar : Or , Robert",
+    "source_url": "https://en.wikipedia.org/wiki/Generational_contract",
+    "mrr": 0.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 50,
+    "question": "What is the full-duplex nature of the link?",
+    "ground_truth": "The full-duplex nature of the link allows transport of video , touch and haptics information , audio and display control , simultaneously over the same cable .",
+    "generated_answer": "GMSL is an asymmetric , full duplex SerDes technology - which means that it transports data at a high rate in the downlink direction , while simultaneously transporting a lower data rate in the uplink direction . It transports power , bidirectional control data , Ethernet , bidirectional audio and multiple streams of unidirectional video simultaneously over a single coaxial cable or shielded twisted pair cable . The first technologies dedicated to connect these displays and cameras were FPD-Link from National Semiconductor and GMSL from Maxim Integrated . GMSL was introduced in 2008 , and supported up to 3.125 Gb/s data rate in the downlink direction . This was sufficient to deliver uncompressed video from the head unit to high-definition displays commonly used in in-car entertainment systems , and to transport video from cameras to a CPU . As increasing display resolutions and camera resolutions were adopted by the automotive industry , there was a need to transport higher video data rates in automotive video systems .",
+    "source_url": "https://en.wikipedia.org/wiki/Gigabit_Multimedia_Serial_Link",
+    "mrr": 1.0,
+    "f1": 0.13402061855670103,
+    "rougeL": 0.11049723756906078
+  },
+  {
+    "question_id": 51,
+    "question": "Which of the following statements is true about the framing effect in opinion polls : 1. Framing is an omnipresent process used in analysis to discern connections between aspects of reality and to convey an interpretation of opinions that may not be entirely accurate . 2. Framing is an omnipresent process used in analysis to discern connections between aspects of reality and to convey an interpretation of opinions that may not be entirely accurate . 3. Framing is an omnipresent process used in analysis to discern connections between aspects of reality and to convey an interpretation of opinions that may not be entirely accurate . 4. Framing is an omnipresent process used in analysis to discern connections between aspects of reality and to convey an interpretation of opinions that may not be entirely accurate . 5. Framing is an omnipresent process used in analysis to discern connections between aspects of reality and to convey an interpretation of opinions that may not be entirely accurate . 6. Framing is an omnipresent process used in analysis to discern connections between aspects of reality and to convey an interpretation of opinions that may not be entirely accurate . 7. Framing is an omnipresent process used in analysis to discern connections between aspects of reality and to convey an interpretation of opinions",
+    "ground_truth": "Framing is an omnipresent process used in analysis to discern connections between aspects of reality and to convey an interpretation of opinions that may not be entirely accurate .",
+    "generated_answer": "Gatekeeping bias.",
+    "source_url": "https://en.wikipedia.org/wiki/Political_bias",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 52,
+    "question": "What is halakha sometimes translated as in modern translations ?",
+    "ground_truth": "The walk or path sometimes translated as law , which guides religious practice and belief and many aspects of daily life .",
+    "generated_answer": "Buddhism , Hinduism , Taoism , and Confidential were used interchangeably.",
+    "source_url": "https://en.wikipedia.org/wiki/Religion",
+    "mrr": 0.5,
+    "f1": 0.12121212121212123,
+    "rougeL": 0.07142857142857144
+  },
+  {
+    "question_id": 53,
+    "question": "Which of the following is not a physical phenomenon that occurs in space : lithosphere , atmosphere , hydrosphere , or biosphere ?",
+    "ground_truth": "Biosphere.",
+    "generated_answer": "Earth 's atmosphere.",
+    "source_url": "https://en.wikipedia.org/wiki/Geography",
+    "mrr": 0.16666666666666666,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 54,
+    "question": "What is the origin of Jainism ?",
+    "ground_truth": "Jainism , taught primarily by Rishabhanatha ( the founder of ahimsa ) is an ancient Indian religion that prescribes a path of non-violence , truth and anekantavada for all forms of living beings in this universe ; which helps them to eliminate all the Karmas , and hence to attain freedom from the cycle of birth and death ( sasra ) , that is , achieving nirvana .",
+    "generated_answer": "Jainism is an ancient Indian religion that prescribes a path of non-violence , truth and anekantavada for all forms of living beings in this universe ; which helps them to eliminate all the Karmas , and hence to attain freedom from the cycle of birth and death ( sa s ra ) , that is , achieving nirvana . Jains are found mostly in India . According to Dundas , outside of the Jain tradition , historians date the Mahavira as about contemporaneous with the Buddha in the 5th-century BCE , and accordingly the historical Parshvanatha , based on the c. 250-year gap , is placed in 8th or 7th century BCE . Digambara Jainism ( or sky-clad ) is mainly practiced in South India . Their holy books are Pravachanasara and Samayasara written by their Prophets Kundakunda and Amritchandra as their original canon is lost . Shwetambara Jainism",
+    "source_url": "https://en.wikipedia.org/wiki/Religion",
+    "mrr": 1.0,
+    "f1": 0.4147465437788018,
+    "rougeL": 0.5104166666666666
+  },
+  {
+    "question_id": 55,
+    "question": "What is the X-axis located within the Greenwich observatory 's meridian plane ?",
+    "ground_truth": "The X-axis lies within the Greenwich observatory 's meridian plane .",
+    "generated_answer": "asteroid cluster.",
+    "source_url": "https://en.wikipedia.org/wiki/Geodesy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 56,
+    "question": "What is the main idea of the passage ?",
+    "ground_truth": "The deepest problems of modern life flow from the attempt of the individual to maintain the independence and individuality of his existence against the sovereign powers of society , against the weight of the historical heritage and the external culture and technique of life .",
+    "generated_answer": "The Theory of the Novel : A Historico-Philosophical Essay on the Forms of Great Epic Literature . London : Verso , 1998 . Moretti , Franco . An Atlas of the European Novel , 1800-1900 . London : Verso , 1998 . Moretti , Franco . Graphs , Maps , Trees : Abstract Models for a Literary History . London : Verso , 2005 .",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 0.0,
+    "f1": 0.07272727272727272,
+    "rougeL": 0.15730337078651688
+  },
+  {
+    "question_id": 57,
+    "question": "What is the earliest example of pewter from ancient Egypt ?",
+    "ground_truth": "Around 1450 BC .",
+    "generated_answer": "Mesopotamia and Iran , the first two-wheeled carts were derived from travois and were first used in Mesopotamia and Iran in around 4,000 BCE .",
+    "source_url": "https://en.wikipedia.org/wiki/Alloy",
+    "mrr": 1.0,
+    "f1": 0.13793103448275865,
+    "rougeL": 0.07142857142857142
+  },
+  {
+    "question_id": 58,
+    "question": "What is the term for the technology that makes unauthorized access to the protected object easily detected?",
+    "ground_truth": "Tamper-evident technology",
+    "generated_answer": "Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means Assisted reproductive technology – Methods to achieve pregnancy by artificial or partially artificial means ",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_technology",
+    "mrr": 1.0,
+    "f1": 0.009433962264150945,
+    "rougeL": 0.010101010101010102
+  },
+  {
+    "question_id": 59,
+    "question": "What is the Arctic Antarctic Circle ?",
+    "ground_truth": "Boundary of the Antarctic North Pole – Northernmost point on Earth South Pole – Southernmost point on Earth Altitude – Height in relation to a specified reference point Elevation – Height of a geographic location above a fixed reference point Place Aspects of a place or region Climate – Long-term weather pattern of a region Population – Group of individuals of a species , separated from other groups by in some manner Demographics – Science that deals with populations and their structures , statistically and theoreticallyPages displaying short descriptions of redirect targets Population density – Measurement of population per unit area or unit volume Human overpopulation – Proposed condition wherein human numbers exceed the carrying capacity of the environment World population – Total number of living humans on Earth",
+    "generated_answer": "specialized to survive in extreme environments , such as the polar ice caps , the driest spots in deserts , and abysmal depths in the ocean .",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_geography",
+    "mrr": 1.0,
+    "f1": 0.0641025641025641,
+    "rougeL": 0.056737588652482275
+  },
+  {
+    "question_id": 60,
+    "question": "Which of the following is not an example of serendipity in inventions : corn flakes or safety glass?",
+    "ground_truth": "Safety glass.",
+    "generated_answer": "Technology is the application of conceptual knowledge to achieve practical goals , especially in a reproducible way . The term technology can also mean the products resulting from such efforts , including both tangible tools such as utensils or machines , and intangible ones such as software . Technology plays a critical role in science , engineering , and everyday life . The earliest known technology is the stone tool , used during prehistory , followed by the control of fire .",
+    "source_url": "https://en.wikipedia.org/wiki/Serendipity",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 61,
+    "question": "Which of the following is not a term for the Four traditions of Geography : Spatial or Locational Tradition , Man-Land or Human-Environment Interaction Tradition , or Human-Environment Interaction Tradition ?",
+    "ground_truth": "Human-Environment Interaction Tradition.",
+    "generated_answer": "Geographers study the Earth 's spatial and temporal distribution of phenomena , processes , and features as well as the interaction of humans and their environment .",
+    "source_url": "https://en.wikipedia.org/wiki/Geography",
+    "mrr": 1.0,
+    "f1": 0.06666666666666667,
+    "rougeL": 0.14285714285714285
+  },
+  {
+    "question_id": 62,
+    "question": "Which of the following is not a factor in the outcome of a STV countback: elimination of a winning candidate , or a second-place finisher ?",
+    "ground_truth": "A second-place finisher could become the last-place finisher under a full STV recount , meaning a politician might lose their seat because of a colleague 's death or resignation .",
+    "generated_answer": "In a system that uses multiple votes , the voter can vote for a multiple-member subset of the running candidates .",
+    "source_url": "https://en.wikipedia.org/wiki/Countback",
+    "mrr": 1.0,
+    "f1": 0.19607843137254902,
+    "rougeL": 0.16
+  },
+  {
+    "question_id": 63,
+    "question": "What may be a plausible fact about religious pluralism ?",
+    "ground_truth": "Religious pluralism enables a country made up of people of different faiths to exist without sectarian warfare or the persecution of religious minorities .",
+    "generated_answer": "Religious pluralism is a cultural construct that embodies some shared conception of how a country 's various religious communities relate to each other and to the larger nation whole . Religious pluralism governments expanded the policy of religious toleration , but then , between the 1760s and the 1780s , they replaced it with  something that is usually called religious liberty '' . Religious pluralism can be defined as  respecting the otherness of others '' . Religious pluralism can be defined as  respecting the otherness of others '' . Religious pluralism can be defined as  respecting the otherness of others '' . Religious pluralism can be defined as  respecting the otherness of others '' . Religious pluralism is a cultural construct that embodies some shared conception of how a country 's various religious communities relate to each other and to the larger nation whole . Religious pluralism can be defined as  respecting the otherness of others '' . Religious pluralism can be defined as  respecting the otherness of others '",
+    "source_url": "https://en.wikipedia.org/wiki/Religious_pluralism",
+    "mrr": 1.0,
+    "f1": 0.08247422680412371,
+    "rougeL": 0.11428571428571427
+  },
+  {
+    "question_id": 64,
+    "question": "What are the main legal texts in Canada restricting the sale of certain chemicals are the Explosives Act , and the Explosives Regulations , 2013 ( SOR/2013-211 ) ?",
+    "ground_truth": "The Explosives Act , and the Explosives Regulations , 2013 ( SOR/2013-211 ) are the main legal texts in Canada restricting the sale of certain chemicals are the Explosives Act , and the Explosives Regulations , 2013 ( SOR/2013-211 ) .",
+    "generated_answer": "The Explosives Act prohibits the sale of certain chemicals , including ammonium nitrate in solid form and with a nitrogen concentration >=28 % , hydrogen peroxide >=30 % conc. , nitromethane , potassium chlorate , potassium perchlorate , solid sodium chlorate , nitric acid >= 75 % conc. , potassium nitrate , mixtures of potassium nitrate and sodium nitrate , and solid sodium nitrate . In 2021 , the Canada Gazette published an amendment proposal to the Explosives Regulations , 2013 , which suggested measures including the classification of precursors into three tiers , and the addition of calcium ammonium nitrate , hexamethylenetetramine , aluminium powder , and acetone to the precursors list . In late 2008 , Lewis Casey , an 18-year-old college student from Saskatchewan , was arrested for owning a small chemistry lab in his family 's garage . After the raid , the police initially",
+    "source_url": "https://en.wikipedia.org/wiki/Amateur_chemistry",
+    "mrr": 1.0,
+    "f1": 0.1473684210526316,
+    "rougeL": 0.16352201257861634
+  },
+  {
+    "question_id": 65,
+    "question": "Which of the following is not a type of social anthropology: non-industrial or non-Western societies , sociologists focus on industrialized societies in the Western world , or non-industrial societies in the Western world ?",
+    "ground_truth": "non-industrial or non-Western societies , sociologists focus on industrialized societies in the Western world , or non-industrial societies in the Western world .",
+    "generated_answer": "Sociological Francoism Notes References Citations Sources External links American Sociological Association ( ASA ) Eastern Sociological Society ( ESS ) Australian Sociological Sociological",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.04761904761904762
+  },
+  {
+    "question_id": 66,
+    "question": "What is the star formation rate in the Alaknanda Galaxy?",
+    "ground_truth": "about 20 times that of the Milky Way",
+    "generated_answer": "The Alaknanda Galaxy is a spiral galaxy about 12 billion light years away , in the constellation Sculptor . It was discovered by two Indian astronomers Rashi Jain and Yogesh Wadadekar while studying the JWST images of the galaxy taken through 21 different filters of the JWST 's astronomical telescope . While studying the images , they spotted a galaxy remarkably similar to Milky Way galaxy . The galaxy is actively forming new stars , at a rate of approximately 60 M / year . The stellar mass of the galaxy is 1.58 1010 M . Characteristics of galaxy The star formation rate in the Alaknanda Galaxy is about 20 times that of the Milky Way . It has been estimated that the half of the appeared stars in the Alaknanda Galaxy were formed in only 200 million years . See also Indian astronomy List of spiral galaxies == References == Source: Alaknanda Galaxy The Alaknanda Galaxy ( designated as UNCOVER DR3 ID 42812 ) is a spiral galaxy about 12 billion light years",
+    "source_url": "https://en.wikipedia.org/wiki/Alaknanda_Galaxy",
+    "mrr": 1.0,
+    "f1": 0.08791208791208792,
+    "rougeL": 0.09523809523809523
+  },
+  {
+    "question_id": 67,
+    "question": "What is the main idea of the passage ? Available choices: (A). The concept of aesthetics of art . (B). The concept of aesthetics of art . (C). The concept of aesthetics of art . (D). The concept of aesthetics of art .",
+    "ground_truth": "(A).",
+    "generated_answer": "conditions of application are emendable and corrigible",
+    "source_url": "https://en.wikipedia.org/wiki/Theory_of_art",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 68,
+    "question": "Which of the following is not a possible reason for weight gain in children : mother absence or environmental stress ?",
+    "ground_truth": "Mother absence does not predict weight gain in children .",
+    "generated_answer": "Father absence in a household can result in children ( of both sexes ) having earlier average ages of first sexual intercourse than those raised in father-present households . There is also the effect of increased rates of teenage pregnancy . Some evolutionary theories propose that early childhood is vital for encoding information that shapes future reproductive strategies in regulating physical and motivational pathways of sexual behavior . Conflicting and stressful parental relationships can lead children to believe that resources are limited . This is possible because in ancestral times the survival rate of children with mother being absent was extremely low . A study shows that there are fewer monitored meals in the father-absent household . Having meals in the family is arguably more beneficial to children than eating alone ( i.e . solitary eating ) , as the former lowers the chance of obesity . Moreover , proximity to a mother 's relatives ( matrilateral kin ) can dramatically improve female children 's height for age , an indicator of good nutrition . Women who return to their village of birth following marital dissolution are seen to benefit from extra matrilateral kin support . Presence of a",
+    "source_url": "https://en.wikipedia.org/wiki/Father_absence",
+    "mrr": 1.0,
+    "f1": 0.04784688995215311,
+    "rougeL": 0.03125
+  },
+  {
+    "question_id": 69,
+    "question": "What are the names of the three universities that offer graduate degrees dedicated to molecular engineering ?",
+    "ground_truth": "At least three universities offer graduate degrees dedicated to molecular engineering : the University of Chicago , the University of Washington , and Kyoto University .",
+    "generated_answer": "The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The Disappearing Spoon – and Other True Tales from The",
+    "source_url": "https://en.wikipedia.org/wiki/Molecular_engineering",
+    "mrr": 1.0,
+    "f1": 0.022222222222222227,
+    "rougeL": 0.03773584905660378
+  },
+  {
+    "question_id": 70,
+    "question": "What is the name of the celestial object that emits strong radio waves into space?",
+    "ground_truth": "radio source",
+    "generated_answer": "A quadrature is a configuration in which two celestial bodies have apparent ecliptic longitudes that differ by 90 degrees as viewed.",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_astronomy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 71,
+    "question": "Which of the following is not a literary influence on Pinter's work: Beckett , Kafka or American gangster films?",
+    "ground_truth": "American gangster films.",
+    "generated_answer": "Pinter 's second one-act play , The Dumb Waiter ( 1960 ) , as accentuated through the 2008 film by Martin McDonagh closely resembling and markedly influenced by it , In Bruges ,  Pinter conveys the idea of political terror through the staccato rhythms of music-hall cross-talk and the urban thriller : Hackney Empire cross-fertilises with Hemingway 's The Killers  , one of Pinter 's own acknowledged early influences , along with Franz Kafka ( 348–49 ) ; Elizabethan and Jacobean dramatists , such as William Shakespeare , John Webster , and Cyril Tourneur , whose work his schoolmaster Joseph Brearley had introduced to him ; Samuel Beckett ( mostly his novels ) ; and black-and-white American movies of the 1940s and 1950s .",
+    "source_url": "https://en.wikipedia.org/wiki/Comedy_of_menace",
+    "mrr": 1.0,
+    "f1": 0.015748031496062992,
+    "rougeL": 0.017699115044247787
+  },
+  {
+    "question_id": 72,
+    "question": "Which of the following is not a type of steel: pig iron or wrought iron?",
+    "ground_truth": "wrought iron.",
+    "generated_answer": "Iron is an alloy of iron and carbon , but the term alloy steel usually only refers to steels that contain other elements—like vanadium , molybdenum , or cobalt—in amounts sufficient to alter the properties of the base steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because ",
+    "source_url": "https://en.wikipedia.org/wiki/Alloy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.010638297872340427
+  },
+  {
+    "question_id": 73,
+    "question": "Which of the following is not a type of communication : telecommunication , telegraphy , telemetry , radio , television , or data communications ?",
+    "ground_truth": "Telecommunication , telegraphy , telemetry , radio , television , or data communications .",
+    "generated_answer": "Telecommunication – the transfer of information at a distance , including signaling , telegraphy , telemetry , radio , television , and data communications . Internet – the global system of interconnected computer networks that use the standard Internet Protocol Suite ( TCP/IP ) . Communication improved with the invention of the telegraph , the telephone , the radio , and television . The 20th century brought a host of innovations . In physics , the discovery of nuclear fission in the Atomic Age led to both nuclear weapons and nuclear power . Analog computers were invented and asserted dominance in processing complex data . While the invention of vacuum tubes allowed for digital computing with computers like the ENIAC , their sheer size precluded widespread use until innovations in quantum physics allowed for the invention of the transistor in 1947 , which significantly compacted computers and led the digital transition . In medicine , new technologies were developed for diagnosis ( CT , PET , and MRI scanning ) , treatment ( like the dialysis machine , defibrillator , pacemaker , and a wide array of",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_technology",
+    "mrr": 1.0,
+    "f1": 0.08955223880597016,
+    "rougeL": 0.08588957055214723
+  },
+  {
+    "question_id": 74,
+    "question": "What is the main idea of the passage?",
+    "ground_truth": "The failure of the Chicago, Columbia, and Wisconsin departments to produce a significant number of graduate students interested in and committed to general theory in the years 1936–45 was to the advantage of the Harvard department.",
+    "generated_answer": "The Theory of the Novel : A Historico-Philosophical Essay on the Forms of Great Epic Literature . London : Verso , 1998 . Moretti , Franco . An Atlas of the European Novel , 1800-1900 . London : Verso , 1998 . Moretti , Franco . Graphs , Maps , Trees : Abstract Models for a Literary History . London : Verso , 2005 .",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 0.0,
+    "f1": 0.07920792079207921,
+    "rougeL": 0.16867469879518074
+  },
+  {
+    "question_id": 75,
+    "question": "Which of the following is not a planetary system: planetary nebula or planetary nebula?",
+    "ground_truth": "planetary nebula",
+    "generated_answer": "A planetary nebula is a type of emission nebula formed from a glowing shell of expanding plasma that has been ejected from a red giant star late in its life . The name derives from their resemblance to a planet . An example is the Ring Nebula . planetary science Also planetology . The scientific study of planets , moons , and planetary systems , with the aim of understanding their formation , composition , topography , dynamics , and interactions with other bodies . The Cygnus X area is heavily obscured by the dark complex of the Fissure , which overlaps our line of sight and almost completely masks both the large H II regions and the very bright star fields of the various young star associations . A total of as many as 159 distinct clouds have been identified overall , of which various characteristics such as density , size , and mass are known ; in addition , there are seven large H II regions , three supernova remnants , 45 T Tauri stars , 18 molecular jets , and as many as 215",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_astronomy",
+    "mrr": 1.0,
+    "f1": 0.021164021164021163,
+    "rougeL": 0.024096385542168676
+  },
+  {
+    "question_id": 76,
+    "question": "Which of the following is true of Anthony Giddens ' introduction to Central Problems in Social Theory ?",
+    "ground_truth": "In Anthony Giddens ' introduction to Central Problems in Social Theory , he states that ,  in order to show the interdependence of action and structure...we must grasp the time space relations inherent in the constitution of all social interaction .",
+    "generated_answer": "Sociology is a branch of social science .",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 1.0,
+    "f1": 0.12244897959183672,
+    "rougeL": 0.08888888888888889
+  },
+  {
+    "question_id": 77,
+    "question": "What is the main idea of the passage?",
+    "ground_truth": "In practice , culture referred to an elite ideal and was associated with such activities as art , classical music , and haute cuisine.",
+    "generated_answer": "The Theory of the Novel : A Historico-Philosophical Essay on the Forms of Great Epic Literature . London : Verso , 1998 . Moretti , Franco . An Atlas of the European Novel , 1800-1900 . London : Verso , 1998 . Moretti , Franco . Graphs , Maps , Trees : Abstract Models for a Literary History . London : Verso , 2005 .",
+    "source_url": "https://en.wikipedia.org/wiki/Culture",
+    "mrr": 0.0,
+    "f1": 0.0449438202247191,
+    "rougeL": 0.029850746268656712
+  },
+  {
+    "question_id": 78,
+    "question": "What type of poetry is considered to be the earliest example of literature ?",
+    "ground_truth": "poetry '' before the 19th century was usually less a technical designation for verse than a normative category of fictive or rhetorical art . As a result of Aristotle 's influence ( his Poetics ) ,  poetry '' before the 19th century was usually less a technical designation for verse than a normative category of fictive or rhetorical art . As a form it may pre-date literacy , with the earliest works being composed within and sustained by an oral tradition ; hence it constitutes the earliest example of literature .",
+    "generated_answer": "Poetics is the study or theory of device , structure , form , type , and effect with regards to poetry , though usage of the term can also refer to literature broadly . The primary genres of the literature of ancient Egypt—didactic texts , hymns and prayers , and tales—were written almost entirely in verse ; By the Old Kingdom ( 26th century BC to 22nd century BC ) , literary works included funerary texts , epistles and letters , hymns and poems , and commemorative autobiographical texts recounting the careers of prominent administrative officials . It was not until the early Middle Kingdom ( 21st century BC to 17th century BC ) that a narrative Egyptian literature was created . Many works of early periods , even in narrative form , had a covert moral or didactic purpose , such as the Shijing or Book of Songs ( 1046–c . 600 BC ) . In ancient China , the origin of modern paper making and woodblock printing produced the world 's first print cultures . Much of Chinese literature originates with the Hundred Schools of Thought period that",
+    "source_url": "https://en.wikipedia.org/wiki/Literature",
+    "mrr": 1.0,
+    "f1": 0.1637010676156584,
+    "rougeL": 0.12955465587044535
+  },
+  {
+    "question_id": 79,
+    "question": "What is the political heuristic associated with?",
+    "ground_truth": "African American voters use evaluations of their group-level interests as short-cuts to determine the policy positions , vote choice , and political engagement that would safeguard their individual-level interest",
+    "generated_answer": "In political science , the study of political cognition was facilitated by the emergence of survey research and a growing interest in understanding how individual-level factors influence political decisions . In political science , the study of political cognition was facilitated by the emergence of survey research and a growing interest in understanding how individual make voting decisions . In political science , the study of political cognition was facilitated by the emergence of survey research and a growing interest in understanding how individual make voting decisions . In political science , the study of political cognition was facilitated by the emergence of survey research and a growing interest in understanding how individual make voting decisions . In political science , the study of political cognition was facilitated by the emergence of survey research and a growing interest in understanding how individual make voting decisions . In political science , the study of political cognition was facilitated by the emergence of survey research and a growing interest in understanding how individual make voting decisions . In political science , the study of political cognition was facilitated by the emergence of survey research and a growing interest in understanding how individual make voting decisions . In political science , the study of",
+    "source_url": "https://en.wikipedia.org/wiki/Political_cognition",
+    "mrr": 1.0,
+    "f1": 0.05833333333333335,
+    "rougeL": 0.07929515418502203
+  },
+  {
+    "question_id": 80,
+    "question": "What is the main idea of the passage ?",
+    "ground_truth": "Lack of collaboration and coordination leads to information conflict affecting the quality of self-management .",
+    "generated_answer": "The Theory of the Novel : A Historico-Philosophical Essay on the Forms of Great Epic Literature . London : Verso , 1998 . Moretti , Franco . An Atlas of the European Novel , 1800-1900 . London : Verso , 1998 . Moretti , Franco . Graphs , Maps , Trees : Abstract Models for a Literary History . London : Verso , 2005 .",
+    "source_url": "https://en.wikipedia.org/wiki/Diabetes_self-management",
+    "mrr": 0.0,
+    "f1": 0.075,
+    "rougeL": 0.09836065573770492
+  },
+  {
+    "question_id": 81,
+    "question": "What type of alloying process is used to make pig iron ?",
+    "ground_truth": "alloying ( in particular , interstitial alloying ) may be performed with one or more constituents in a gaseous state , such as found in a blast furnace to make pig iron ( liquid-gas ) , nitriding , carbonitriding or other forms of case",
+    "generated_answer": "Iron is an alloy of iron and carbon , but the term alloy steel usually only refers to steels that contain other elements—like vanadium , molybdenum , or cobalt—in amounts sufficient to alter the properties of the base steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because ",
+    "source_url": "https://en.wikipedia.org/wiki/Alloy",
+    "mrr": 1.0,
+    "f1": 0.07317073170731707,
+    "rougeL": 0.08071748878923767
+  },
+  {
+    "question_id": 82,
+    "question": "Which of the following is not a characteristic of the child : temperament , personality , or temperament ?",
+    "ground_truth": "personality .",
+    "generated_answer": "a child 's personality.",
+    "source_url": "https://en.wikipedia.org/wiki/Social_behavior",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.4
+  },
+  {
+    "question_id": 83,
+    "question": "What is an example of allotropes having different chemical behaviours ?",
+    "ground_truth": "ozone ( O3 ) is a much stronger oxidizing agent than dioxygen ( O2 ) .",
+    "generated_answer": "Allotropy refers only to different forms of an element within the same physical phase ( the state of matter , i.e. plasmas , gases , liquids , or solids ) . For some elements , allotropes have different molecular formulae or different crystalline structures , as well as a difference in physical phase ; for some elements , two allotropes of oxygen ( dioxygen , O2 , and ozone , O3 ) can both exist in the solid , liquid and gaseous states . Other elements do not",
+    "source_url": "https://en.wikipedia.org/wiki/Allotropy",
+    "mrr": 1.0,
+    "f1": 0.15384615384615385,
+    "rougeL": 0.07317073170731707
+  },
+  {
+    "question_id": 84,
+    "question": "What is the subject of the podcasts mentioned in the passage?",
+    "ground_truth": "history",
+    "generated_answer": "Allusions may be made increasingly obscure , until at last they are understood by the author alone , who thereby retreats into a private language .",
+    "source_url": "https://en.wikipedia.org/wiki/Popular_history",
+    "mrr": 0.5,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 85,
+    "question": "Which of the following is not a type of literary allusion : parody or pastiche ?",
+    "ground_truth": "Parody is a type of literary allusion , while pastiche is a type of literary allusion .",
+    "generated_answer": "author is unaware of.",
+    "source_url": "https://en.wikipedia.org/wiki/Allusion",
+    "mrr": 1.0,
+    "f1": 0.09523809523809523,
+    "rougeL": 0.2105263157894737
+  },
+  {
+    "question_id": 86,
+    "question": "What is the name of the person who discovered that stars are made up of hydrogen and helium by analyzing spectra plates from the Draper telescope in 1925?",
+    "ground_truth": "Cecilia Payne-Gaposchkin.",
+    "generated_answer": "DASCH 's successor , StarGlass , was launched . On December 29 , 2024 , DASCH 's successor , StarGlass , was launched . StarGlass is hosted on the cloud and is publicly available for anyone to view , allowing searches to be done for plates worked on by a specific astronomer , plates that show specific celestial objects , and much more . Notable people Williamina Fleming—First Curator of the collection and head of the department from ca . 1879 to 1911 . Antonia Maury—Niece of Anna Draper and builds on Fleming 's stellar classification Henrietta Swan Leavitt—Discovers the period-luminosity relation of cephids on plates of the Large and Small Magellanic Clouds , now known at the Leavitt Law . Annie Jump Cannon—Editor of the Draper Catalogue and named second curator 1911 but does not receive the official appointment until 1938 and retires in 1940 . Cecilia Payne-Gaposchkin—First",
+    "source_url": "https://en.wikipedia.org/wiki/Harvard_Plate_Stacks",
+    "mrr": 1.0,
+    "f1": 0.013245033112582781,
+    "rougeL": 0.04225352112676056
+  },
+  {
+    "question_id": 87,
+    "question": "What is the difference between social anthropology and applied sociology ?",
+    "ground_truth": "Both disciplines study social interactions , community and the effect of various systems ( i.e. family , school , community , laws , political sphere ) on the individual .",
+    "generated_answer": "Sociology is the systematic study of society , human social behavior , and patterns of social interactions , social interaction , and culture .",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 1.0,
+    "f1": 0.2962962962962963,
+    "rougeL": 0.1904761904761905
+  },
+  {
+    "question_id": 88,
+    "question": "Which of the following is true of CTC clusters ?",
+    "ground_truth": "CTC clusters are a type of cancer .",
+    "generated_answer": "CTC clusters are able to maintain their multicellular structure throughout the metastatic process , enabling them to perform every step of metastasis while maintaining their group/cluster structure . These findings underscore the critical role of CTC clusters in driving the metastatic cascade and suggest that CTC clusters could serve as important biomarkers in cancer diagnosis , prognosis , and treatment planning . Furthermore , understanding the mechanisms that allow CTC clusters to retain their structure and survive in the bloodstream opens new avenues for targeted cancer therapies designed to disrupt this process .",
+    "source_url": "https://en.wikipedia.org/wiki/Cancer_exodus_hypothesis",
+    "mrr": 1.0,
+    "f1": 0.11881188118811882,
+    "rougeL": 0.10638297872340424
+  },
+  {
+    "question_id": 89,
+    "question": "Which of the following is not a type of first-past-the-post voting system : approval voting , two-round , proportional representation , or instant-runoff voting ?",
+    "ground_truth": "approval voting , two-round , proportional representation , or instant-runoff voting.",
+    "generated_answer": "The purpose of an election may be to choose one person , such as a president , or a group , such as a committee or a parliament .",
+    "source_url": "https://en.wikipedia.org/wiki/Election",
+    "mrr": 1.0,
+    "f1": 0.1,
+    "rougeL": 0.05714285714285714
+  },
+  {
+    "question_id": 90,
+    "question": "What is the name of the genus of songbirds that was endemic to the islands of Hawaii?",
+    "ground_truth": "Moho",
+    "generated_answer": "The Cuban macaw is endemic to the island of Mauritius in the Indian Ocean . The bird has become a symbol of extinction and is often cited as the primary example of man-made extinction . The last widely accepted recorded sighting was in 1662 . The Federal government of Mexico has considered the species extinct since 2001 , 47 years after the last widely accepted sighting . However , they have conservation plans if the species is rediscovered or attempts at de-extinction are made .",
+    "source_url": "https://en.wikipedia.org/wiki/De-extinction",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 91,
+    "question": "What may be a reason for a seller to sell a particular work ?",
+    "ground_truth": "A seller may be motivated by financial need , boredom with a particular artwork , or the desire to raise funds for a different purchase .",
+    "generated_answer": "art 's value .",
+    "source_url": "https://en.wikipedia.org/wiki/Art_valuation",
+    "mrr": 1.0,
+    "f1": 0.06666666666666668,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 92,
+    "question": "What are the main branches of medicine ?",
+    "ground_truth": "Basic sciences of medicine ; this is what every physician is educated in , and some return to in biomedical research .",
+    "generated_answer": "Physiatry – comprising physical medicine and rehabilitation .",
+    "source_url": "https://en.wikipedia.org/wiki/Medicine",
+    "mrr": 0.5,
+    "f1": 0.19999999999999998,
+    "rougeL": 0.16
+  },
+  {
+    "question_id": 93,
+    "question": "Which of the following is not a risk factor for intersex people : suicidal ideation or suicidal thoughts ?",
+    "ground_truth": "Suicidal thoughts.",
+    "generated_answer": "Intersex people are at an increased risk of suicide ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted suicide compared to 1.8 % of the general population sampled . Intersex people are at an increased risk of suicide ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted suicide compared to 1.8 % of the general population sampled . Intersex people are at an increased risk of stigma and discrimination ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted suicide compared to 1.8 % of the general population sampled . Intersex people are at an increased risk of suicide ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted suicide compared to 1.8 % of the general population sampled . Intersex people are at an increased risk of suicide ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted suicide compared to 1.8 % of",
+    "source_url": "https://en.wikipedia.org/wiki/Intersex_healthcare",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.011428571428571427
+  },
+  {
+    "question_id": 94,
+    "question": "Which country has the highest prevalence of congenital muscular dystrophy type 1A ?",
+    "ground_truth": "Qatar.",
+    "generated_answer": "LAMA2 related congenital muscular dystrophy type 1A ( MDC1A ) is a genetically determined muscle disease caused by pathogenic mutations in the LAMA2 gene . It presents at birth and has a relatively severe clinical presentation . Characteristically it manifests in muscle weakness , hyperlaxity or hypotonia , respiratory difficulties and developmental delay . A scoping review on clinical orthopedic manifestations of congenital muscular dystrophy subtypes reported that the most common subtype was MDC1A accounting for 37 % of the total study sample . A scoping review on clinical orthopedic manifestations of congenital muscular dystrophy subtypes reported that the most common subtype was MDC1A accounting for 37 % of the total study sample . A scoping review on clinical orthopedic manifestations of congenital muscular dystrophy subtypes reported that the most common subtype was MDC1A accounting for 37 % of the total study sample . A scoping review on clinical orthopedic manifestations of congenital muscular dystrophy subtypes reported that the most common subtype was MDC1A accounting for 37 % of the",
+    "source_url": "https://en.wikipedia.org/wiki/LAMA2_related_congenital_muscular_dystrophy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 95,
+    "question": "What is the narrator describing in the passage ?",
+    "ground_truth": "Liberature is literature in which the material form is considered an important part of the whole and essential to understanding the work .",
+    "generated_answer": "In the play , Ben and Gus are both victims of some unseen authority and a surrogate married couple quarrelling , testing , talking past each other and raking over old times . The comedy in this  comedy of menace '' often derives from such arguments between Gus and Ben , especially the one that occurs when  Ben tells Gus to go and light the kettle , '' a  semantic nit-picking that is a standard part of music-hall comedy . '' ( Pilkington . 1991 , 53 ) .",
+    "source_url": "https://en.wikipedia.org/wiki/Liberature",
+    "mrr": 0.0,
+    "f1": 0.14285714285714285,
+    "rougeL": 0.14285714285714285
+  },
+  {
+    "question_id": 96,
+    "question": "What is a broad range of ethical issues revolving around technology , from specific areas of focus affecting professionals working with technology to broader social , ethical , and legal issues concerning the role of technology in society and everyday life ?",
+    "ground_truth": "There is a broad range of ethical issues revolving around technology , from specific areas of focus affecting professionals working with technology to broader social , ethical , and legal issues concerning the role of technology in society and everyday life .",
+    "generated_answer": "Technology of technology is an interdisciplinary subfield of ethics that analyzes technology 's ethical implications and explores ways to mitigate potential negative impacts of new technologies . There is a broad range of ethical issues revolving around technology , from specific areas of focus affecting professionals working with technology to broader social , ethical , and legal issues concerning the role of technology in society and everyday life . Prominent debates have surrounded genetically modified organisms , the use of robotic soldiers , algorithmic bias , and the issue of aligning AI behavior with human values . Within the field of AI ethics , significant yet-unsolved research problems include AI alignment ( ensuring that AI behaviors are aligned with their creators ' intended goals and interests ) and the issue of aligning AI behavior with human values . Within the field of AI ethics , significant yet-unsolved research problems include AI alignment ( ensuring that AI behaviors are aligned with their creators ' intended goals and interests ) and the issue of aligning AI behavior with human values . Within the field of AI ethics , significant yet-unsolved research problems include AI",
+    "source_url": "https://en.wikipedia.org/wiki/Technology",
+    "mrr": 1.0,
+    "f1": 0.28205128205128205,
+    "rougeL": 0.3568075117370892
+  },
+  {
+    "question_id": 97,
+    "question": "What religion is the narrator describing ?",
+    "ground_truth": "The narrator is describing Hinduism .",
+    "generated_answer": "The Journal of Inter-Religious Dialogue Elijah Interfaith Institute : Inter Religious Dialogue  Religious Diversity ( Pluralism Project : Researching Religious Diversity in the United States A New Religious America : Managing Religious Diversity in a Democracy : Challenges and Prospects for the 21st Century by Diana Eck , retrieved 2009-07-16 .",
+    "source_url": "https://en.wikipedia.org/wiki/Religious_pluralism",
+    "mrr": 1.0,
+    "f1": 0.07017543859649122,
+    "rougeL": 0.03846153846153846
+  },
+  {
+    "question_id": 98,
+    "question": "What religion is Hinduism naturally pluralistic as it acknowledges different forms and representations of the divine , all understood in their relation to the supreme being , Brahman ?",
+    "ground_truth": "Hinduism is naturally pluralistic as it acknowledges different forms and representations of the divine , all understood in their relation to the supreme being , Brahman .",
+    "generated_answer": "Hinduism is naturally pluralistic as it  acknowledges different forms and representations of the divine , all understood in their relation to the supreme being , Brahman . '' Historians argue that the differentiations between the various Indic religions of the subcontinent were blurred before their specific codification and separation during British efforts to catalog different Indic philosophies . Moreover , Hinduism itself is the oldest major religion , explaining a relative lack of antipathy towards specifiable religious traditions – and so the Hindu religion has no theological difficulties in accepting degrees of truth in other religions .",
+    "source_url": "https://en.wikipedia.org/wiki/Religious_pluralism",
+    "mrr": 1.0,
+    "f1": 0.4032258064516128,
+    "rougeL": 0.42857142857142855
+  },
+  {
+    "question_id": 99,
+    "question": "Which of the following is not a characteristic of a self-reinforcing feedback loop: X t1 –– > Y t2 –– > D t3 –– > Y t4 –– > D t5 –– > Y t6",
+    "ground_truth": "X t1 –– > Y t2 –– > D t3 –– > Y t4 –– > D t5 –– > Y t6",
+    "generated_answer": "nation-building culture and ethnically linguistically distinct subject populations in the peripheries .",
+    "source_url": "https://en.wikipedia.org/wiki/Critical_juncture_theory",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  }
+]

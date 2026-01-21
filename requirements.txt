@@ -1,0 +1,15 @@
+sentence-transformers
+faiss-cpu
+rank-bm25
+transformers
+wikipedia-api
+beautifulsoup4
+nltk
+rouge-score
+bert-score
+scikit-learn
+streamlit
+gradio
+flask
+markdown
+pdfkit

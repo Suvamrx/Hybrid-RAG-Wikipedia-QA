@@ -1,0 +1,1002 @@
+[
+  {
+    "question_id": 0,
+    "question": "How old was Pierce when he died?",
+    "ground_truth": "20",
+    "generated_answer": "Morgan 's fate is a dark reflection of Rick 's worst fears ; with his wife and son missing , and with no way to contact them , Rick never knows if he 'll turn a corner.",
+    "source_url": "https://en.wikipedia.org/wiki/Daniel_M._Pierce",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 1,
+    "question": "Which of the following is true of Gaut 's criteria : '' Being expressive of emotion '' and '' possessing aesthetic merit '' ?",
+    "ground_truth": "Neither of these criteria is necessary for art status , but both are parts of subsets of these ten criteria that are sufficient for art status .",
+    "generated_answer": "artifacts .",
+    "source_url": "https://en.wikipedia.org/wiki/Theory_of_art",
+    "mrr": 1.0,
+    "f1": 0.06896551724137931,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 2,
+    "question": "What is the coulomb ?",
+    "ground_truth": "The coulomb ( symbol : C ) is the International System of Units ( SI ) unit of electric charge .",
+    "generated_answer": "electrically charged particles either repel , or attract each other .",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_engineering:_A%E2%80%93L",
+    "mrr": 1.0,
+    "f1": 0.0625,
+    "rougeL": 0.16666666666666669
+  },
+  {
+    "question_id": 3,
+    "question": "Who replaced Ron Verlin on bass ?",
+    "ground_truth": "Eric Johnson ( not the famous guitarist ) and the band toured with Bad English , Bryan Adams , and 38 Special .",
+    "generated_answer": "Ron Verlin , Ron Verlin , and Ron McLain reunite .",
+    "source_url": "https://en.wikipedia.org/wiki/Shooting_Star_(band)",
+    "mrr": 1.0,
+    "f1": 0.1764705882352941,
+    "rougeL": 0.07692307692307691
+  },
+  {
+    "question_id": 4,
+    "question": "What is the primary concern of feminist sociology ?",
+    "ground_truth": "The primary concern of feminist theory is the patriarchy and the systematic oppression of women apparent in many societies , both at the level of small-scale interaction and in terms of the broader social structure .",
+    "generated_answer": "Sociology is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is a sub-field of economics . It is ",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 1.0,
+    "f1": 0.03243243243243243,
+    "rougeL": 0.05434782608695651
+  },
+  {
+    "question_id": 5,
+    "question": "Which of the following is not a reference to non-contiguous regions : Angola , the Cabinda exclave or Angola , divided into the mainland and the Cabinda exclave to the north ?",
+    "ground_truth": "Angola , divided into the mainland and the Cabinda exclave to the north .",
+    "generated_answer": "The first part is subjectivity. The second part is objectivity. The third part is objectivity.",
+    "source_url": "https://en.wikipedia.org/wiki/Geographic_contiguity",
+    "mrr": 1.0,
+    "f1": 0.0689655172413793,
+    "rougeL": 0.22222222222222224
+  },
+  {
+    "question_id": 6,
+    "question": "What is the main idea of the passage ?",
+    "ground_truth": "New concepts and philosophies have emerged from the rapid advancement of computers , quantitative methods , and interdisciplinary approaches .",
+    "generated_answer": "Inspector frustrates that intention.",
+    "source_url": "https://en.wikipedia.org/wiki/Geography",
+    "mrr": 0.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 7,
+    "question": "What system was originally discovered as part of the bacterial immune system ?",
+    "ground_truth": "The CRISPR/Cas9 system was originally discovered as part of the bacterial immune system .",
+    "generated_answer": "Pharmacology developed in part from herbalism and some drugs are still derived from plants ( atropine , ephedrine , warfarin , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig , dig ,",
+    "source_url": "https://en.wikipedia.org/wiki/De-extinction",
+    "mrr": 1.0,
+    "f1": 0.011049723756906077,
+    "rougeL": 0.019230769230769232
+  },
+  {
+    "question_id": 8,
+    "question": "Which of the following is not a name of the person who was speared by the blacks on 29 June 1845 during the first overland expedition to Port Essington by Dr Ludwig Leichhardt and his intrepid companions?",
+    "ground_truth": "Harry Brown.",
+    "generated_answer": "expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington . Leichhardt hoped to take part in a proposed government-sponsored expedition to Port Essington .",
+    "source_url": "https://en.wikipedia.org/wiki/Ludwig_Leichhardt",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 9,
+    "question": "Which of the following is not a type of Drape work: Carousel Form II , Carousel Form III , Horizontal Extension , or Light Depth ?",
+    "ground_truth": "Light Depth.",
+    "generated_answer": "Drapes are characterized by .",
+    "source_url": "https://en.wikipedia.org/wiki/Draped_painting",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 10,
+    "question": "What is the name of Philippe Shangti's 2020 collection?",
+    "ground_truth": "No Animal Killer Here",
+    "generated_answer": "Philippe Shangti is a multidisciplinary French contemporary artist. Born in 1983 in Toulouse, he studied in this city then he moved to Saint-Tropez at the beginnings of the 2000s. He became known by exhibiting his art on the walls of trendy restaurants. Ten years later, he moved to the Principality of Andorra. From his beginnings, the artist publishes regularly new collections. Centered on a specific theme, he always denounces different problems affecting society. In 2013, his photographic collection \"Art vs. Drugs\" launches his career. His works are exhibited in about galleries around the world and in collectors' homes.",
+    "source_url": "https://en.wikipedia.org/wiki/Philippe_Shangti",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 11,
+    "question": "How many albums did Shooting Star release in 1982 ?",
+    "ground_truth": "In 1982 Shooting Star released their third album , III Wishes ( July 1982 ) , then returned to touring with such acts as REO Speedwagon , John Mellencamp , Jefferson Starship , Kansas and others .",
+    "generated_answer": "Shooting Star returned to the studio in 1981 to record Hang On for Your Life ( July 1981 ) .  Hollywood '' was released as a single and climbed the Billboard Hot 100 , topping out at # 70 . In support of the album , the band toured with ZZ Top , Cheap Trick , Todd Rundgren , Jefferson Starship and Journey . Keyboardist Bill Guffey left the group after the recording of Hang On for Your Life . In 1982 Shooting Star released their third album , III Wishes ( July 1982 ) , Source: Shooting Star (band) shows Rock Line , King Biscuit Flower Hour ( KBFH ) , The Source and Westwood One . Keyboardist Bill Guffey left the group after the recording of Hang On for Your Life . In 1982 Shooting Star released their third album , III Wishes ( July 1982 ) , then returned to touring with such acts as REO Speedwagon , John Mellencamp , Jefferson Starship and Journey .",
+    "source_url": "https://en.wikipedia.org/wiki/Shooting_Star_(band)",
+    "mrr": 1.0,
+    "f1": 0.2912621359223301,
+    "rougeL": 0.32142857142857145
+  },
+  {
+    "question_id": 12,
+    "question": "Which of the following is not a work of Julie Ellis: Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble",
+    "ground_truth": "Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble, Girls in Trouble,",
+    "generated_answer": "The Task by Douglas Blacklock Lo diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l'avena diplomata linguos ( Gino Buti ) Ka sor l",
+    "source_url": "https://en.wikipedia.org/wiki/Julie_Ellis",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 13,
+    "question": "What is the main idea of the passage?",
+    "ground_truth": "The United States played an influential role in the forced democratization and denazification of post-Nazi Germany in the years following 1945",
+    "generated_answer": "Inspector frustrates that intention.",
+    "source_url": "https://en.wikipedia.org/wiki/Democratic_intervention",
+    "mrr": 0.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 14,
+    "question": "Which of the following is not a type of art : artifact , artifice , medical arts , or military arts ?",
+    "ground_truth": "military arts.",
+    "generated_answer": "Art has existed for almost as long as humankind : from early prehistoric art to contemporary art ; however , some theorists think that the typical concept of  artistic works '' does not fit well outside modern Western societies .",
+    "source_url": "https://en.wikipedia.org/wiki/Art",
+    "mrr": 0.5,
+    "f1": 0.0,
+    "rougeL": 0.05405405405405405
+  },
+  {
+    "question_id": 15,
+    "question": "What is the main cellular phenotype of Fanconi anemia?",
+    "ground_truth": "hypersensitivity to DNA damage",
+    "generated_answer": "Ubiquitinated FANCD2 complexes with BRCA1 and RAD51 . The PALB2 protein acts as a hub , bringing together BRCA1 , BRCA2 and RAD51 at the site of a DNA double-strand break , and also binds to RAD51C , a member of the RAD51 paralog complex RAD51B-RAD51C-RAD51D-XRCC2 ( BCDX2 ) .",
+    "source_url": "https://en.wikipedia.org/wiki/FANCL",
+    "mrr": 1.0,
+    "f1": 0.07407407407407407,
+    "rougeL": 0.04
+  },
+  {
+    "question_id": 16,
+    "question": "What is the name of the collection that was created by the Harvard College Observatory?",
+    "ground_truth": "The Harvard Plate Stacks",
+    "generated_answer": "The Harvard College Observatory's Glass Plate Collection is the largest collection of photographic glass plate negatives of the night sky in the world. This would result in the creation of 12,374 glass plate negatives covering the entire sky from 1961 to 1990 . Though these 8 x 10 plates capture a wide field of view , the advances in dry plate photography allowed for the capturing of the faintest objects captured on plates in the collection . Subsequent additions In addition to the plates and different campaigns made by the Harvard College Observatory , there are other smaller but important additions to the collection of materials made by other departments at the Center for Astrophysics or other observatories . The Meteor Department at the Center for Astrophysics was first a part of the Harvard College Observatory but when Fred Whipple was named director of the Smithsonian Astrophysical Observatory , he moved the department over to the Smithsonian so it could continue under his leadership . This group would create thousands of glass plate negatives as well as film exposures of the night sky , ranging in scale and scope over time . Because of Harvard 's outsized role in the creation of astronomical glass plates even",
+    "source_url": "https://en.wikipedia.org/wiki/Harvard_Plate_Stacks",
+    "mrr": 1.0,
+    "f1": 0.028571428571428574,
+    "rougeL": 0.02955665024630542
+  },
+  {
+    "question_id": 17,
+    "question": "Which law can be used to derive his second law which in turn is identical to the diffusion equation ?",
+    "ground_truth": "'s first law can be used to derive his second law which in turn is identical to the diffusion equation .",
+    "generated_answer": "                                                                                                                               ",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_engineering:_A%E2%80%93L",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0
+  },
+  {
+    "question_id": 18,
+    "question": "What is the term for a process where a sample of some material is analyzed for its elemental and sometimes isotopic composition?",
+    "ground_truth": "Elemental analysis.",
+    "generated_answer": "Elemental analysis is a process where a sample of some material ( e.g. , soil , waste or drinking water , bodily fluids , minerals , chemical compounds ) is analyzed for its elemental and sometimes isotopic composition . Elemental analysis can be qualitative ( determining what elements are present ) , and it can be quantitative ( determining how much of each are present ) . Elemental analysis falls within the ambit of analytical chemistry , the set of instruments involved in deciphering the chemical nature of our world .",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_engineering:_A%E2%80%93L",
+    "mrr": 1.0,
+    "f1": 0.021505376344086023,
+    "rougeL": 0.05128205128205127
+  },
+  {
+    "question_id": 19,
+    "question": "Which of the following is not a reason why art has been disliked by some viewers ?",
+    "ground_truth": "The Last Judgment by Michelangelo was controversial for various reasons , including breaches of decorum through nudity and the Apollo-like pose of Christ .",
+    "generated_answer": "Art has long been controversial , that is to say disliked by some viewers , for a wide variety of reasons , though most pre-modern controversies are dimly recorded , or completely lost to a modern view . The iconographic content of art could cause controversy , as with late medieval depictions of the new motif of the Swoon of the Virgin in scenes of the Crucifixion of Jesus . The content of much formal art through history was dictated by the patron or commissioner rather than just the artist , but with the advent of Romanticism , and economic changes in the production of art , the artists ' vision became the usual determinant of the content of his art , increasing the incidence of controversies , though often much less so by a wider public . The iconographic content of art could cause controversy , as with late medieval depictions of the new motif of the Swoon of the Virgin in scenes of the Crucifixion of Jesus . The iconographic content of art could cause controversy , as with late medieval depictions of the new motif of the Swoon of the Virgin in scenes of the Crucifixion of",
+    "source_url": "https://en.wikipedia.org/wiki/Art",
+    "mrr": 1.0,
+    "f1": 0.09821428571428571,
+    "rougeL": 0.07729468599033816
+  },
+  {
+    "question_id": 20,
+    "question": "What is the narrator describing in the passage ?",
+    "ground_truth": "The narrator is describing space .",
+    "generated_answer": "Bioregion is consistent with , and aligns with an indigenous and western worldview . This is put well by Douglas Aberley and chief Michael George noting that :  Once the bioregional map atlas is completed it becomes the common foundation of knowledge from which planning scenarios can be prepared , and decisions ultimately made . Complex information that is otherwise difficult to present is clearly depicted . The community learns about itself in the process of making decisions about its future .",
+    "source_url": "https://en.wikipedia.org/wiki/Geography",
+    "mrr": 0.0,
+    "f1": 0.06818181818181818,
+    "rougeL": 0.05
+  },
+  {
+    "question_id": 21,
+    "question": "Which of the following is true of a bioregion : geology , topography , tectonics , wind , fracture zones and continental divides , working its way through the  soft '' lines : living systems such as soil , ecosystems , climate , marine life , and flora and fauna , and lastly the  human '' lines : human geography , energy , transportation , agriculture , food , music , language , history , indigenous cultures , and ways of living within the context set into a place , and its limits to determine the final edges and boundaries ?",
+    "ground_truth": "A bioregion is defined along the watershed , and hydrological boundaries , and uses a combination of bioregional layers , beginning with the oldest  hard '' lines : geology , topography , tectonics , wind , fracture zones and continental divides , working its way through the soft '' lines : living systems such as soil , ecosystems , climate , marine life , and flora and fauna , and lastly the  human '' lines : human geography , energy , transportation , agriculture , food , music , language , history , indigenous cultures , and ways of living within the context set into a place , and its limits to determine the final edges and boundaries .",
+    "generated_answer": "Bioregion in how a bioregion is defined . A bioregion is defined along the watershed , and hydrological boundaries , and uses a combination of bioregional layers , beginning with the oldest  hard '' lines : geology , topography , tectonics , wind , fracture zones and continental divides , working its way through the  soft '' lines : living systems such as soil , ecosystems , climate , marine life , and flora and fauna , and lastly the  human '' lines : human geography , energy , transportation , agriculture , food , music , language , history , Indigenous cultures , and ways of living within the context set into a place , and its limits to determine the final edges and boundaries .",
+    "source_url": "https://en.wikipedia.org/wiki/Bioregion",
+    "mrr": 1.0,
+    "f1": 0.5772357723577236,
+    "rougeL": 0.9621621621621621
+  },
+  {
+    "question_id": 22,
+    "question": "Where did Sumer and early dynastic Egypt originate from?",
+    "ground_truth": "Uruk period and Predynastic Egypt.",
+    "generated_answer": "The invention of the wheel and axle mechanism arose in early civilization as a general discipline for the creation of large scale structures such as irrigation , architecture , and military projects . The wheel , along with the wheel and axle mechanism , was invented in Mesopotamia ( modern Iraq ) during the 5th millennium BC . The lever mechanism first appeared around 5,000 years ago in the Near East , where it was used in a simple balance .",
+    "source_url": "https://en.wikipedia.org/wiki/Politics",
+    "mrr": 1.0,
+    "f1": 0.023255813953488372,
+    "rougeL": 0.025974025974025972
+  },
+  {
+    "question_id": 23,
+    "question": "What is the name of the Philippine college team nickname?",
+    "ground_truth": "Philippine Collegiate Champions League",
+    "generated_answer": "a bioregion .",
+    "source_url": "https://en.wikipedia.org/wiki/College_basketball_in_the_Philippines",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 24,
+    "question": "What is the difference between diamagnetic and ferromagnetic materials ?",
+    "ground_truth": "DiamagnetismDiamagnetic materials are repelled by a magnetic field ; an applied magnetic field creates an induced magnetic field in them in the opposite direction , causing a repulsive force . In contrast , paramagnetic and ferromagnetic materials are attracted by a magnetic field .",
+    "generated_answer": "Maclaurin series of a function is an infinite sum of terms that are expressed in terms of the function 's derivatives at a single point .",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_engineering:_A%E2%80%93L",
+    "mrr": 1.0,
+    "f1": 0.1714285714285714,
+    "rougeL": 0.15625
+  },
+  {
+    "question_id": 25,
+    "question": "Who was elected by a group of feudal chieftains in early medieval Bengal?",
+    "ground_truth": "The Pala King Gopala.",
+    "generated_answer": "The royal demesne was favourable to the growth of towns . As the royal demesne was favourable to the growth of towns , the rents derived from urban tenants became a valuable part of the demesne . As the royal demesne was favourable to the growth of towns , the rents derived from urban tenants became a valuable part of the demesne .",
+    "source_url": "https://en.wikipedia.org/wiki/Election",
+    "mrr": 1.0,
+    "f1": 0.029850746268656716,
+    "rougeL": 0.03225806451612903
+  },
+  {
+    "question_id": 26,
+    "question": "What is the cause of dorsal pancreatic agenesis ?",
+    "ground_truth": "There is no suggested cause for the dorsal pancreatic agenesis , however there are several hypotheses for the underlying mechanism .",
+    "generated_answer": "Dorsal pancreatic agenesis is a congenital anomaly characterised by the absence of the duct of Santorini , tail and body of the pancreas. It is regarded as asymptomatic and the most common clinical manifestation is non-specific abdominal pain.",
+    "source_url": "https://en.wikipedia.org/wiki/Dorsal_pancreatic_agenesis",
+    "mrr": 1.0,
+    "f1": 0.2033898305084746,
+    "rougeL": 0.14035087719298245
+  },
+  {
+    "question_id": 27,
+    "question": "Which actor died during production of The Olsen Gang 's Last Trick?",
+    "ground_truth": "Poul Bundgaard",
+    "generated_answer": "Egon was placed at the Institute for Theoretical Crime , which is a psychiatric institution for incurably criminal persons .",
+    "source_url": "https://en.wikipedia.org/wiki/The_Olsen_Gang%27s_Last_Trick",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 28,
+    "question": "Who was the Custodian of the Two Holy Mosques?",
+    "ground_truth": "King Salman Bin Abdulaziz Al Saud",
+    "generated_answer": "The monetary award of the Prize is accompanied by a gold medallion.",
+    "source_url": "https://en.wikipedia.org/wiki/Prince_Sultan_bin_Abdulaziz_International_Prize_for_Water",
+    "mrr": 0.5,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 29,
+    "question": "How many years after Ross joined USS Carney in the Black Sea for an  unspecified regional proactive presence mission '' did she join USS Carney in the Black Sea for an  unspecified regional proactive presence mission ''?",
+    "ground_truth": "1",
+    "generated_answer": "She was laid down on 10 April 1995 ; launched on 22 March 1996 ; sponsored by Mrs. Helen L. Ross , widow of the late Captain Ross ; and commissioned on 28 June 1997 , at Galveston , Texas , Commander Jeffrey R. Ginnow in command . She was laid down on 10 April 1995 ; launched on 22 March 1996 ; sponsored by Mrs. Helen L. Ross , widow of the late Captain Ross ; and commissioned on 28 June 1997 , at Galveston , Texas , Commander Jeffrey R. Ginnow in command . She was laid down on 10 April 1995 ; launched on 22 March 1996 ; sponsored by Mrs. Helen L. Ross , widow of the late Captain Ross ; and commissioned on 28 June 1997 , at Galveston , Texas , Commander Jeffrey R. Ginnow in command . She was laid down on 10 April 1995 ; launched on 22 March 1996 ; sponsored by Mrs. Helen L. Ross , widow of the late Captain Ross ; and commissioned on 28 June 1997 , at Galveston , Texas , Commander Jeffrey R. Ginnow in command .",
+    "source_url": "https://en.wikipedia.org/wiki/USS_Ross_(DDG-71)",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 30,
+    "question": "Which of the following is not a method of enacting policies of democratic intervention : military aggression or non-violent means ?",
+    "ground_truth": "Non-violent means.",
+    "generated_answer": "The Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Bueno de Mesquita model suggests that the Buen",
+    "source_url": "https://en.wikipedia.org/wiki/Democratic_intervention",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 31,
+    "question": "What type of measurement is the tachymeter used for ?",
+    "ground_truth": "The tachymeter determines , electronically or electro-optically , the distance to a target and is highly automated or even robotic in operations .",
+    "generated_answer": "Bioregional map atlas is consistent with , and aligns with an indigenous and western worldview . This is put well by Douglas Aberley and chief Michael George noting that :  Once the bioregional map atlas is completed it becomes the common foundation of knowledge from which planning scenarios can be prepared .",
+    "source_url": "https://en.wikipedia.org/wiki/Geodesy",
+    "mrr": 1.0,
+    "f1": 0.13333333333333333,
+    "rougeL": 0.057971014492753624
+  },
+  {
+    "question_id": 32,
+    "question": "What is the first law of geography ?",
+    "ground_truth": "Tobler 's first law of geography , that  everything is related to everything else , but near things are more related than distant things .",
+    "generated_answer": "related fields . Geography is a branch of inquiry that focuses on spatial information on Earth . It is an extremely broad topic and can be broken down multiple ways . There have been several approaches to doing this spanning at least several centuries , including  four traditions of geography '' and into distinct branches . The 1962 book Theoretical Geography by William Bunge , which argued for a nomothetic approach to geography and that from a purely spatial perspective there was no real difference between human and physical geography , has been described by Kevin R. Cox as  perhaps the seminal text of the spatial-quantitative revolution . '' In 1970 , Waldo Tobler proposed the first law of geography ,  everything is related to everything else , but near things are more related than distant things . '' This law summarizes the first assumption geographers make about the world .",
+    "source_url": "https://en.wikipedia.org/wiki/Geography",
+    "mrr": 1.0,
+    "f1": 0.2272727272727273,
+    "rougeL": 0.25316455696202533
+  },
+  {
+    "question_id": 33,
+    "question": "Which of the following is not a stance toward client religious and spiritual beliefs : rejectionist , exclusivist , constructivist , or pluralist ?",
+    "ground_truth": "constructivist",
+    "generated_answer": "Bahá' u'lláh , founder of Bahá' Faith , urged the elimination of religious intolerance .",
+    "source_url": "https://en.wikipedia.org/wiki/Religious_pluralism",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 34,
+    "question": "Which of the following is true of the decile system ?",
+    "ground_truth": "The decile system was criticised by teacher and principal associations for fomenting destructive competition between schools and the exacerbation of white flight .",
+    "generated_answer": "The decile system was abolished in New Zealand and replaced by the Equity Index in January 2023 .",
+    "source_url": "https://en.wikipedia.org/wiki/Socioeconomic_decile",
+    "mrr": 1.0,
+    "f1": 0.34146341463414637,
+    "rougeL": 0.30769230769230765
+  },
+  {
+    "question_id": 35,
+    "question": "What is social anthropology , political science , economics , social work and social philosophy ?",
+    "ground_truth": "Sociology overlaps with a variety of disciplines that study society , in particular social anthropology , political science , economics , social work and social philosophy .",
+    "generated_answer": "The League of Nations was founded after World War I , and after World War II it was replaced by the United Nations . Regional integration has been pursued by the African Union , ASEAN , the European Union , and Mercosur .",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 1.0,
+    "f1": 0.11428571428571428,
+    "rougeL": 0.06779661016949154
+  },
+  {
+    "question_id": 36,
+    "question": "What is the main channel for Chinese policymakers to balance conflicting interests and stakeholders as long as they do not challenge the CCP priorities ?",
+    "ground_truth": "Chinese People 's Political Consultative Conference ( CPPCC ) .",
+    "generated_answer": "China 's foreign policy is overwhelmingly top-down in decision-making and implementation .",
+    "source_url": "https://en.wikipedia.org/wiki/Democracy_in_China",
+    "mrr": 1.0,
+    "f1": 0.1818181818181818,
+    "rougeL": 0.1
+  },
+  {
+    "question_id": 37,
+    "question": "How many tournaments were taken away from the 2020 Nordic Golf League Order of Merit Golfbox Road to Europe?",
+    "ground_truth": "four tournaments were taken away from the 2020 Nordic Golf League Order of Merit Golfbox Road to Europe , but was still counted on the 2020 MoreGolf Mastercard Tour and still earned OWGR points .",
+    "generated_answer": "European Tour Order of Merit every year from 1977 to 1991 , with a best ranking of 34th in 1987 . In 1985 , Hawkes finished second , reaching his best finish so far on the European Tour , at the Sanyo Open at Real Club de Golf El Prat , Terrassa , Barcelona , Spain . In May 1987 , Hawkes finished second to Mats Lanner at the European Tour match-play event Epson Grand Prix of Europe Matchplay Championship at St Pierre Golf & Country Club in Wales , losing with 1 hole on the last green in the final . In May 1987 , Hawkes finished second to Mats Lanner at the European Tour match-play event Epson Grand Prix of Europe Matchplay Championship at St Pierre Golf & Country Club in Wales , losing with 1 hole on the last green in the final . In May 1987 , Hawkes finished second to Mats Lanner at the European Tour match-play event Epson Grand Prix of Europe Matchplay Championship at St Pierre Golf & Country Club in Wales , losing with 1 hole on the last green in the final .",
+    "source_url": "https://en.wikipedia.org/wiki/2020_Swedish_Golf_Tour",
+    "mrr": 1.0,
+    "f1": 0.10572687224669604,
+    "rougeL": 0.08695652173913043
+  },
+  {
+    "question_id": 38,
+    "question": "What are the two major branches of engineering ?",
+    "ground_truth": "Aeronautical engineering – deals with craft that stay within Earth 's atmosphere Astronautical engineering – deals with craft that operate outside of Earth 's atmosphere Automotive engineering – deals with craft that operate outside of Earth 's atmosphere",
+    "generated_answer": "Interdisciplinary engineering draws from more than one of the principle branches of the practice . Historically , naval engineering and mining engineering were major branches . Other engineering fields are manufacturing engineering , acoustical engineering , corrosion engineering , instrumentation and control , automotive , information engineering , petroleum , systems , audio , software , architectural , biosystems , and textile engineering . These and other branches of engineering are represented in the 40 licensed member institutions of the UK Engineering Council , as of 2025 . New specialties sometimes combine with the traditional fields and form new branches – for example , Earth systems engineering and management involves a wide range of subject areas including engineering studies , environmental science , engineering ethics and philosophy of engineering .",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_engineering",
+    "mrr": 0.3333333333333333,
+    "f1": 0.07142857142857142,
+    "rougeL": 0.09859154929577463
+  },
+  {
+    "question_id": 39,
+    "question": "Who was the first openly gay British footballer Justin Fashanu?",
+    "ground_truth": "Justin Fashanu.",
+    "generated_answer": "In the late 1960s and 1970s , exclusively gay bathhouses began to open in the United States . Though subject to vice raids , these bathhouses were  oases of homosexual camaraderie '' and were , as they remain today ,  places where it was safe to be gay '' and were , as they remain today ,  places where it was safe to be gay '' . In the late 1960s and 1970s , exclusively gay bathhouses began to open in the United States . Though subject to vice raids , these bathhouses were  oases of homosexual camaraderie '' and were , as they remain today ,  places where it was safe to be gay '' and were , as they remain today ,  places where it was safe to be gay '' . In the late 1960s and 1970s , exclusively gay bathhouses began to open in the United States . Though subject to vice raids , these bathhouses were  oases of homosexual camaraderie '' and were , as they remain",
+    "source_url": "https://en.wikipedia.org/wiki/Gay_bathhouse",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 40,
+    "question": "What is Minshu Seiji ?",
+    "ground_truth": "Minshu seiji (  ; lit . 'people-governing administrative rule ' ) for the French word démocratie .",
+    "generated_answer": "Minshu seiji (  ; lit . 'people-governing administrative rule ' ) was used to translate the English word democracy .",
+    "source_url": "https://en.wikipedia.org/wiki/Democracy_in_China",
+    "mrr": 1.0,
+    "f1": 0.7027027027027027,
+    "rougeL": 0.6428571428571429
+  },
+  {
+    "question_id": 41,
+    "question": "What is the purpose of a hot stab ?",
+    "ground_truth": "A hot stab provides a temporary pressure-tight connection between an external service and a subsea installation , which can be used for a wide variety of applications .",
+    "generated_answer": "A hot stab provides a temporary pressure-tight connection between an external service and a subsea installation , which can be used for a wide variety of applications . Some operations require low to medium flow rates for a short period to operate a mechanism from one position to another . These may be called static applications . Other operations need continuous medium or high flow rates . Multifunction hot stabs combine two or more of these services in one connector unit . Bell umbilical services may use a hot stab type connector for emergency services . This is likely to include hot water , breathing gas , and electrical conductors for power and communications . There are types defined by geometry and port specifications . Components The stab plate is a fixed position part on the subsea structure into which the hot stab is inserted . It receives and secures the hot stab and contains the static set of ports or contacts . The stab is normally inserted into a port after removing the plug stab , which is left in the port when the hot stab is disconnected , to keep the port clean and free of fouling when not",
+    "source_url": "https://en.wikipedia.org/wiki/Hot_stab",
+    "mrr": 1.0,
+    "f1": 0.2183406113537118,
+    "rougeL": 0.25233644859813087
+  },
+  {
+    "question_id": 42,
+    "question": "What does the term law enforcement agency refer to in the United States ?",
+    "ground_truth": "The term law enforcement agency is often used in the United States to refer to police agencies ; however , it also includes agencies with peace officer status or agencies which prosecute criminal acts .",
+    "generated_answer": "A national law enforcement agency has the combined responsibilities that federal LEAs and divisional LEAs would have in a federated country.",
+    "source_url": "https://en.wikipedia.org/wiki/Law_enforcement_agency",
+    "mrr": 1.0,
+    "f1": 0.17857142857142855,
+    "rougeL": 0.1509433962264151
+  },
+  {
+    "question_id": 43,
+    "question": "What is the name of the American couple that experimented with photography and astronomy in their personal observatory in Hastings-on-Hudson , New York ?",
+    "ground_truth": "Anna Palmer Draper and Henry Draper.",
+    "generated_answer": "Astronomers observe celestial objects and phenomena , sometimes with consumer-level equipment or equipment that they build themselves . Collectively , amateur astronomers observe celestial objects and phenomena , sometimes with consumer-level equipment or equipment that they build themselves . Common targets include the Sun , the Moon , planets , stars , comets , meteor showers , and deep-sky objects such as star clusters , galaxies , and nebulae . Collectively , amateur astronomers observe celestial objects and phenomena , sometimes with consumer-level equipment or equipment that they build themselves . Common targets include the Sun , the Moon , planets , stars , comets , meteor showers , and deep-sky objects such as star clusters , galaxies , and nebulae . Astronomy clubs throughout the world have programs to help their members set up and run observational programs such as to observe all the objects in the Messier ( 110 objects ) or Herschel 400 catalogues .",
+    "source_url": "https://en.wikipedia.org/wiki/Harvard_Plate_Stacks",
+    "mrr": 1.0,
+    "f1": 0.012195121951219511,
+    "rougeL": 0.014285714285714287
+  },
+  {
+    "question_id": 44,
+    "question": "What did Niels Bohr propose in 1913 ?",
+    "ground_truth": "In 1913 , the physicist Niels Bohr proposed a new model in which the electrons of an atom were assumed to orbit the nucleus but could only do so in a finite set of orbits , and could jump between these orbits only in discrete changes of energy corresponding to absorption or radiation of a photon .",
+    "generated_answer": "In 1913 , Niels Bohr proposed a new model in which the electrons of an atom were assumed to orbit the nucleus but could only do so in a finite set of orbits , and could jump between these orbits only in discrete changes of energy corresponding to absorption or radiation of a photon . For an electron to transition between two different states , e.g. ground state to first excited state , it must absorb or emit a photon at an energy matching the difference in the potential energy of those levels , according to the Niels Bohr model , what can be precisely calculated by the Schrödinger equation .",
+    "source_url": "https://en.wikipedia.org/wiki/Atom",
+    "mrr": 1.0,
+    "f1": 0.4880952380952381,
+    "rougeL": 0.6540880503144655
+  },
+  {
+    "question_id": 45,
+    "question": "What is community sociology often grouped with urban and rural sociology ?",
+    "ground_truth": "community sociology or the sociology of community .",
+    "generated_answer": "Social anthropology or anthroposociology is the dominant constituent of anthropology throughout the United Kingdom and Commonwealth and much of Europe ( France in particular ) , where it is distinguished from cultural anthropology .",
+    "source_url": "https://en.wikipedia.org/wiki/Sociology",
+    "mrr": 1.0,
+    "f1": 0.19047619047619047,
+    "rougeL": 0.16216216216216217
+  },
+  {
+    "question_id": 46,
+    "question": "What is GMSL used for in vehicles ?",
+    "ground_truth": "In IVI systems , GMSL links connect displays , such as electronic instrument clusters , navigation systems , center console displays , and rear seat entertainment displays to the vehicle ’ s head-unit . The full-duplex nature of the link allows transport of video , touch and haptics information , audio and display control , simultaneously over the same cable . In ADAS systems , GMSL links are used to connect cameras to electronic control units . Examples of such cameras are backup cameras , surround view cameras , blind spot monitor cameras , forward-looking cameras and driver monitoring cameras . The GMSL link provides camera power , camera control , fault reporting and video transport across a single , coaxial cable .",
+    "generated_answer": "GMSL is primarily used in In-Vehicle Infotainment ( IVI ) systems and Advanced driver-assistance systems ( ADAS ) in vehicles . In IVI systems , GMSL links connect displays , such as electronic instrument clusters , navigation systems , center console displays , and rear seat entertainment displays to the vehicle ’ s head-unit . The full-duplex nature of the link allows transport of video , touch and haptics information , audio and display control , simultaneously over the same cable . In ADAS systems , GMSL links are used to connect cameras to electronic control units . Examples of such cameras are backup cameras , surround view cameras , blind spot monitor cameras , forward-looking cameras and driver monitoring cameras . The GMSL link provides camera power , camera control , fault reporting and video transport across a single , coaxial cable .",
+    "source_url": "https://en.wikipedia.org/wiki/Gigabit_Multimedia_Serial_Link",
+    "mrr": 1.0,
+    "f1": 0.5093632958801498,
+    "rougeL": 0.9210526315789475
+  },
+  {
+    "question_id": 47,
+    "question": "What type of muscle MRI is suggested to be a diagnostic clue for congenital muscular dystrophy ? Available options: (A). Whole body muscle MRI (B). Whole body muscle MRI (C). Whole body muscle MRI (D). Whole body muscle MRI (A). None of the above choices . (A). Whole body muscle MRI (B). Whole body muscle MRI (C). Whole body muscle MRI (D). Whole body muscle MRI (A). Whole body muscle MRI (B). Whole body muscle MRI (A). Whole body muscle MRI (B). Whole body muscle MRI (C). Whole body muscle MRI (D). Whole body muscle MRI (A). Whole body muscle MRI (B). Whole body muscle MRI (A). Whole body muscle MRI (B). Whole body muscle MRI (C). Whole body muscle MRI (D). Whole body muscle MRI (A). Whole body muscle MRI (B). Whole body muscle MRI (A). Whole body muscle MRI (B). Whole body muscle MRI (C). Whole body muscle MRI (D). Whole body muscle MRI (A). Whole body muscle MRI (B).",
+    "ground_truth": "(B).",
+    "generated_answer": "A homogenous pattern of involvement of group of muscle e.g. , anterior compartment of thigh , could be used to support diagnosis . Moreover , Whole body muscle MRI could be indicative of clinical disease severity and duration of LAMA2-MD . It is therefore paramount to correlate muscle imaging findings with clinical , neuro-imaging , laboratory and genetic testing findings . Muscle biopsy or immunostaining There is an inversely proportional relationship between the quantity of laminin alpha2 ( merosin ) found on immunohistochemistry and disease severity . This means , a more marked degree of laminin-alpha2 deficiency e.g. , total or near-total deficiency , is associated with more pronounced muscle degenerative pathology as myofibrosis , necrosis and fiber size variation . This is also associated with a milder clinical picture . Moreover , Whole body muscle MRI could be indicative of clinical disease severity and duration of LAMA2-MD . It is therefore paramount to correlate muscle imaging findings with clinical , neuro-imaging , laboratory and",
+    "source_url": "https://en.wikipedia.org/wiki/LAMA2_related_congenital_muscular_dystrophy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 48,
+    "question": "Where is Freeport located on California State Route 160?",
+    "ground_truth": "7.5 miles (12.1 km) south of downtown Sacramento",
+    "generated_answer": "Ramapuram Sree Rama Temple is located at about 1.5 km ( 0.93 mi ) away from Ramapuram junction on the Pala - Koothattukulam highway . It is at about 35 km from Kottayam , 17 km from Thodupuzha , 12 km from Pala and 10 km from Koothattukulam . The temple is believed to be thousand years old . The Sreekovil ( sanctum sanctorum ) is in a circular shape .",
+    "source_url": "https://en.wikipedia.org/wiki/Freeport,_California",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.08333333333333333
+  },
+  {
+    "question_id": 49,
+    "question": "What award was established in 2003 by the Illinois School Library Media Association?",
+    "ground_truth": "The Monarch Award: Illinois' K-3 Readers' Choice Award",
+    "generated_answer": "Children in grades kindergarten through 3rd grade are eligible for the Arab American Book Award.",
+    "source_url": "https://en.wikipedia.org/wiki/Monarch_Award",
+    "mrr": 1.0,
+    "f1": 0.08695652173913045,
+    "rougeL": 0.16666666666666669
+  },
+  {
+    "question_id": 50,
+    "question": "Which of the following is not a trace gas species: CFCs or HCFCs?",
+    "ground_truth": "HCFCs.",
+    "generated_answer": "Valve is a device or natural object that regulates , directs or controls the flow of a fluid ( gases , liquids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids , fluids ,",
+    "source_url": "https://en.wikipedia.org/wiki/Atmospheric_chemistry",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 51,
+    "question": "Which of the following is true of the Drape paintings : Baroque Cascade , Carousel Form II , Carousel Form III , Horizontal Extension , or Light Depth ?",
+    "ground_truth": "Baroque Cascade , Carousel Form II , Carousel Form III , Horizontal Extension , or Light Depth .",
+    "generated_answer": "Drapes are characterized by .",
+    "source_url": "https://en.wikipedia.org/wiki/Draped_painting",
+    "mrr": 1.0,
+    "f1": 0.08695652173913045,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 52,
+    "question": "Which of the following is true of the Kunstmuseum Basel ?",
+    "ground_truth": "It is the first public museum of art in the world .",
+    "generated_answer": "The Kunstmuseum Basel opened in 1661 . The Kunstmuseum Basel , situated in the municipality of Holle near Hannover , has a history that stretches back almost one thousand years . For centuries it was a convent and later a monastery . In the 19th Century it became the residence of the Dukes of Münster who commissioned the renowned Hanoverian architect Georg Ludwig Laves to convert it to a stately home . Artist Georg Baselitz acquired the property in the 1970s and it became his residence and studio for approximately thirty years until its sale in 2006. Since then , the Schloss has been reunited with the adjacent domain and both have undergone extensive renovations to become one of the largest privately owned public museums for contemporary art in Europe . In September 2013 , the Foundation opened Source: Draped painting , D.C. , April 15 , 1997 '' . Sam Gilliam : Of Fireflies and Ferris Wheels : Monastery Parallel ( Exhibition catalogue ) . Magdeburg : Kunstmuseum Kloster Unser Lieben Frauen Magdeburg . pp . Unpaginated . ISBN",
+    "source_url": "https://en.wikipedia.org/wiki/Art",
+    "mrr": 1.0,
+    "f1": 0.07291666666666667,
+    "rougeL": 0.08235294117647059
+  },
+  {
+    "question_id": 53,
+    "question": "Which of the following is not a type of star system: planetary systems , star clusters , or starburst galaxy ?",
+    "ground_truth": "planetary systems , which include planets and other bodies such as comets .",
+    "generated_answer": "A super-Earth is an exoplanet with a mass greater than the mass of a planet. A super-Earth is an exoplanet with a mass greater than the mass of a planet. A super-Earth is an exoplanet with a mass greater than the mass of a planet.",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_astronomy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.03389830508474576
+  },
+  {
+    "question_id": 54,
+    "question": "What is the main idea of the passage ?",
+    "ground_truth": "Internationally there are also extensive efforts to protect the works of art created . The UN , UNESCO and Blue Shield International try to ensure effective protection at the national level and to intervene directly in the event of armed conflicts or disasters . This can particularly affect museums , archives , art collections and excavation sites . This should also secure the economic basis of a country , especially because works of art are often of tourist importance . The founding president of Blue Shield International , Karl von Habsburg , explained an additional connection between the destruction of cultural property and the cause of flight during a mission in Lebanon in April 2019 :  Cultural goods are part of the identity of the people who live in a certain place . If you destroy their culture , you also destroy their identity . Many people are uprooted , often no longer have any prospects and as a result flee from their homeland . '' In order to preserve the diversity of cultural identity , UNESCO protects the living human treasure through the Convention for the Safeguarding of the Intangible Cultural Heritage .",
+    "generated_answer": "Inspector frustrates that intention.",
+    "source_url": "https://en.wikipedia.org/wiki/Art",
+    "mrr": 0.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 55,
+    "question": "What term describes the transfer of unwanted material from one container to another?",
+    "ground_truth": "The carryover effect",
+    "generated_answer": "In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or acculturation . In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or acculturation . In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or acculturation . In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or acculturation . In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or acculturation . In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or acculturation . In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or acculturation . In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or acculturation . In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or acculturation . In chemistry , the transfer of unwanted material from one culture to another occurs through diffusion or ac",
+    "source_url": "https://en.wikipedia.org/wiki/Carryover_effect",
+    "mrr": 1.0,
+    "f1": 0.010416666666666666,
+    "rougeL": 0.011560693641618498
+  },
+  {
+    "question_id": 56,
+    "question": "What is the name of Paul Mathai's daughter?",
+    "ground_truth": "Sherin",
+    "generated_answer": "Aishwarya Lekshmi is now married to Sneha and leading a seemingly happy life which irks Paul Mathai out of jealousy , mostly against the new woman for taking his daughter 's role as mother .",
+    "source_url": "https://en.wikipedia.org/wiki/Kaanekkaane",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 57,
+    "question": "What can be viewed using an optical microscope ?",
+    "ground_truth": "nm ) so they can not be viewed using an optical microscope , although individual atoms can be observed using a scanning tunneling microscope .",
+    "generated_answer": "The James Webb Space Telescope senses infrared radiation to detect very distant galaxies .",
+    "source_url": "https://en.wikipedia.org/wiki/Atom",
+    "mrr": 1.0,
+    "f1": 0.05128205128205128,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 58,
+    "question": "Which school did Joseph Hermon Cawthra study at before moving to London?",
+    "ground_truth": "Royal College of Art",
+    "generated_answer": "Cawthra sculpted a Madonna and child .",
+    "source_url": "https://en.wikipedia.org/wiki/Joseph_Hermon_Cawthra",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 59,
+    "question": "What is the main reason why Haiti is on a Fault Line between the Caribbean plate and North American plate ?",
+    "ground_truth": "Haiti is on a Fault Line between the Caribbean plate and North American plate , so sees earthquakes occurring regularly , harming its infrastructure .",
+    "generated_answer": "Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea Culture of Papua New Guinea",
+    "source_url": "https://en.wikipedia.org/wiki/Small_Island_Developing_States",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 60,
+    "question": "What did the Qing Imperial Court do after the Boxer Rebellion and the Eight-Nation Alliance invasion ?",
+    "ground_truth": "The Qing Imperial Court responded by organizing elections . China 's first modern elections were organized by Yuan Shikai for Tianjin 's county council in 1907 . In 1909 , 21 of 22 provinces , with the exception being Xinjiang , held elections for provincial assemblies and municipal councils . Requirements were strict ; only those that passed the imperial exams , worked in government or military , or owned 5000 yuan of property may vote or run for office . China 's first modern elections were organized by Yuan Shikai for Tianjin 's county council in 1907 . In 1909 , 21 of 22 provinces , with the exception being Xinjiang , held elections for provincial assemblies and municipal councils . Requirements were strict ; only those that passed the imperial exams , worked in government or military , or owned 5000 yuan of property may vote or run for office . China 's first modern elections were organized by Yuan Shikai for Tianjin 's county council in 1907 .",
+    "generated_answer": "The Boxer Rebellion and the Eight-Nation Alliance invasion exposed the need for basic changes . The Qing Imperial Court responded by organizing elections . China 's first modern elections were organized by Yuan Shikai for Tianjin 's county council in 1907 . In 1909 , 21 of 22 provinces , with the exception being Xinjiang , held elections for provincial assemblies and municipal councils . Requirements were strict ; only those that passed the imperial exams , worked in government or military , or owned 5000 yuan of property may vote or run for office . This essentially limited the electorate to the gentry class . Hundreds of thousands voted and the winners were overwhelmingly constitutional monarchists , followers of Liang Qichao . The 1912 Republic of China National Assembly elections were held with an enlarged electorate , albeit still small proportionally to the national population . The military leader Yuan Shikai forced the National Assembly to elect him president for a five-year term then purged it of Nationalists . After Yuan 's death",
+    "source_url": "https://en.wikipedia.org/wiki/Democracy_in_China",
+    "mrr": 1.0,
+    "f1": 0.336231884057971,
+    "rougeL": 0.535483870967742
+  },
+  {
+    "question_id": 61,
+    "question": "What is ferromagnetic ?",
+    "ground_truth": "The most familiar effects occur in ferromagnetic materials , which are strongly attracted by magnetic fields and can be magnetized to become permanent magnets , producing magnetic fields themselves .",
+    "generated_answer": "determinism versus voluntarism",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_engineering:_M%E2%80%93Z",
+    "mrr": 0.5,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 62,
+    "question": "What is the last name of the person who served in Vietnam?",
+    "ground_truth": "Brewer",
+    "generated_answer": "improvised explosive device.",
+    "source_url": "https://en.wikipedia.org/wiki/Robert_B._Brewer",
+    "mrr": 0.5,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 63,
+    "question": "Which of the following is not a characteristic of poetry : assonance , alliteration , rhyme , or rhythm ?",
+    "ground_truth": "assonance , alliteration , rhyme , or rhythm .",
+    "generated_answer": "Poetry has traditionally been distinguished from prose by its greater use of the aesthetic qualities of language , including musical devices such as assonance , alliteration , rhyme , and rhythm , and by being set in lines and verses rather than paragraphs , and more recently its use of other typographical elements . This distinction is complicated by various hybrid forms such as digital poetry , sound poetry , concrete poetry and prose poem , and more generally by the fact that prose is not distinguished from poetry by lack of rhythm .",
+    "source_url": "https://en.wikipedia.org/wiki/Literature",
+    "mrr": 1.0,
+    "f1": 0.11650485436893203,
+    "rougeL": 0.09090909090909091
+  },
+  {
+    "question_id": 64,
+    "question": "What is the term for a situation where an incumbent government is unable to form or function, is toppled through an uprising, or collapses?",
+    "ground_truth": "cabinet crisis, government crisis or political crisis",
+    "generated_answer": "Incumbency is a phenomenon that occurs when people perceive times as bad .",
+    "source_url": "https://en.wikipedia.org/wiki/Cabinet_crisis",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 65,
+    "question": "What is the name of the type of technology that is used to make musical sounds?",
+    "ground_truth": "Music instrument technology",
+    "generated_answer": "The cotton gin was invented in India by the 6th century AD , and the spinning wheel was invented in the Islamic world by the early 11th century . The spinning wheel was also a precursor to the spinning jenny , which was a key development during the early Industrial Revolution in the 18th century . The earliest programmable machines were developed in the Muslim world . The first music sequencer was an automated flute player invented by the Banu Musa brothers , described in their Book of Ingenious Devices , in the 9th century .",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_technology",
+    "mrr": 0.2,
+    "f1": 0.0202020202020202,
+    "rougeL": 0.02197802197802198
+  },
+  {
+    "question_id": 66,
+    "question": "How many games did the Force lose in the '78–'79 season ?",
+    "ground_truth": "The team lost 13 of its last 14 games to finish in sixth place , one game behind the Pittsburgh Spirit .",
+    "generated_answer": "Matt Johnson threw for 72 yards with a touchdown . Rice rusher Austin Walter had 12 carries for 78 yards and a touchdown .",
+    "source_url": "https://en.wikipedia.org/wiki/Cleveland_Force_(1978%E2%80%931988)",
+    "mrr": 1.0,
+    "f1": 0.043478260869565216,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 67,
+    "question": "Which of the following is not a SSSB: comets, trojans or centaurs?",
+    "ground_truth": "centaurs",
+    "generated_answer": "The Oort cloud is thought to be a spherical cloud of icy bodies extending from outside the Kuiper belt and the scattered disk to the Oort cloud.",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_astronomy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 68,
+    "question": "Which of the following is not a major cause of delays and reduced operating efficiency : Tsunamis , wind tides or storm surges ?",
+    "ground_truth": "Tsunamis.",
+    "generated_answer": "is a design criterion for a building .",
+    "source_url": "https://en.wikipedia.org/wiki/Marine_construction",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 69,
+    "question": "Which of the following is not a cultural factor cited as '' best suited '' to democracy : India , Japan , Indonesia , or Namibia ?",
+    "ground_truth": "Namibia.",
+    "generated_answer": "It is claimed by some that certain cultures are simply more conducive to democratic values than others . This view is likely to be ethnocentric . Typically , it is Western culture which is cited as  best suited '' to democracy , with other cultures portrayed as containing values which make democracy difficult or undesirable . This argument is sometimes used by undemocratic regimes to justify their failure to implement democratic reforms . Today , however , there are many non-Western democracies . Examples include India , Japan , Indonesia , Namibia , Botswana , Taiwan , and South Korea . Research finds that  Western-educated leaders significantly and substantively improve a country 's democratization prospects '' . Huntington presented an influential , but also controversial arguments about Confucianism and Islam . Huntington held that  In practice Confucian or Confucian-influenced societies have been inhospitable to democracy . '' He also held that  Islamic doctrine ... contains elements that may be both congenial and uncongenial to democracy , '' but generally",
+    "source_url": "https://en.wikipedia.org/wiki/Democratization",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.013605442176870748
+  },
+  {
+    "question_id": 70,
+    "question": "Who was one of the pioneers of Indian sociology?",
+    "ground_truth": "B. R. Ambedkar.",
+    "generated_answer": "Castes and Tribes of Southern India.",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_the_study_of_the_caste_system_in_India",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 71,
+    "question": "Who was the first Australian woman to win an Olympic gold medal in a swimming event ?",
+    "ground_truth": "She won the final , becoming the first Australian woman to win an Olympic gold medal in a swimming event .",
+    "generated_answer": "Fanny Durack died in Sydney in 1956 . She was interred in Waverley Cemetery , together with her late husband Bernard Martin Gately . She was posthumously inducted into the International Swimming Hall of Fame as an  Honour Swimmer '' in 1967 . In addition to this , she was inducted onto the Victorian Honour Roll of Women in 2001 .",
+    "source_url": "https://en.wikipedia.org/wiki/Fanny_Durack",
+    "mrr": 1.0,
+    "f1": 0.1951219512195122,
+    "rougeL": 0.1095890410958904
+  },
+  {
+    "question_id": 72,
+    "question": "Which of the following is not a song: Saiyuki Reload, Saiyuki Gunlock, or Saiyuki Reload Blast?",
+    "ground_truth": "Saiyuki Gunlock.",
+    "generated_answer": "Saiyuki Reload: Zeroin premiered on February 24 , 2022 , in the United States , Canada , the United Kingdom , Ireland , Australia , New Zealand , South Africa , Latin America , Spain , Portugal , Turkey , Scandinavian countries , and the Netherlands . The main cast members reprised their roles . It aired from January 6 to March 31 , 2022 , on AT-X and other networks . Granrodeo performed the opening theme  Kamino Hotokemo , '' while Shugo Nakamura performed the ending theme  Ruten . '' Sentai Filmworks licensed the series outside Asia . In South and Southeast Asia , Muse Communication licensed the anime . HIDIVE streams the English dub of Saiyuki Reload: Zeroin ' , which premiered on February 24 , 2022 , in the United States , Canada , the United Kingdom , Ireland , Australia , New Zealand , South Africa , Latin America , Spain , Portugal , Turkey , Scandinavian",
+    "source_url": "https://en.wikipedia.org/wiki/Saiyuki_(manga)",
+    "mrr": 1.0,
+    "f1": 0.012269938650306747,
+    "rougeL": 0.016260162601626018
+  },
+  {
+    "question_id": 73,
+    "question": "Which of the following is true of the US 163rd Infantry Regiment ( 41st Infantry Division ) ?",
+    "ground_truth": "The US 163rd Infantry Regiment ( 41st Infantry Division ) was en route to the beachheads and the 18th Brigade , with the tanks of the 2/6th Armoured Regiment , would be released from the 32nd Division when Buna fell .",
+    "generated_answer": "On the morning of 10 January , the 18th Brigade took the 2/7th Cavalry Regiment under command and occupied the positions held by the 39th and 49th Battalions of the 30th Brigade , in preparation for an attack on 12 January .",
+    "source_url": "https://en.wikipedia.org/wiki/Battle_of_Buna%E2%80%93Gona",
+    "mrr": 1.0,
+    "f1": 0.1927710843373494,
+    "rougeL": 0.2077922077922078
+  },
+  {
+    "question_id": 74,
+    "question": "Where was Haverman accepted as a member in the Academie the next year ?",
+    "ground_truth": "In 1723 she was thrown out again after claims that her acceptance work was in fact the work of her former master Van Huysum .",
+    "generated_answer": "During World War II , he was active in relief efforts .",
+    "source_url": "https://en.wikipedia.org/wiki/Margaretha_Haverman",
+    "mrr": 1.0,
+    "f1": 0.16216216216216217,
+    "rougeL": 0.11764705882352941
+  },
+  {
+    "question_id": 75,
+    "question": "Which of the following is true of Dianteill 's book La Samaritaine Noire ?",
+    "ground_truth": "It provides a better understanding of the history of New Orleans , and confirms , based on other sources , the historical links between the city and the Caribbean region .",
+    "generated_answer": "Erwan Dianteill 's book La Samaritaine Noire ( The Black Samaritan Woman ) , is a '' major work '' , combining classical analysis of interviews , texts and figures with a personal religious investment , while renewing the anthropological view of Afro-Cuban religions and , more broadly , of all systems of communication with the spirits '' .",
+    "source_url": "https://en.wikipedia.org/wiki/Erwan_Dianteill",
+    "mrr": 1.0,
+    "f1": 0.13333333333333336,
+    "rougeL": 0.16
+  },
+  {
+    "question_id": 76,
+    "question": "Which of the following is not a factor affecting crystal size : agitation , illumination , or the thickness of the film upon which the crystal is deposited ?",
+    "ground_truth": "Agitating the solution prevents the deposition of suspended colloidal crystals , creating a smoother and more homogenous film with a higher band gap energy .",
+    "generated_answer": "Chemical bath deposition is a process in which the precursor ions or colloidal particles stick to the substrate forming a thin crystalline film by one of the two methods described below . Unlike most other deposition processes , chemical bath deposition tends to create a film of uniform thickness , composition , and geometry ( lateral homogeneity ) even on irregular ( patterned or shaped ) substrates because it , unlike other methods of deposition , is governed by surface chemistry . Ions adhere to all exposed surfaces of the substrate and crystals grow from those ions . Unlike most other deposition processes , chemical bath deposition tends to create a film of uniform thickness , composition , and geometry ( lateral homogeneity ) even on irregular ( patterned or shaped ) substrates because it , unlike other methods of deposition , is governed by surface chemistry . Unlike most other deposition processes , chemical bath deposition tends to create a film of uniform thickness , composition , and geometry ( lateral homogeneity ) even on irregular ( patterned or shaped ",
+    "source_url": "https://en.wikipedia.org/wiki/Chemical_bath_deposition",
+    "mrr": 1.0,
+    "f1": 0.0970873786407767,
+    "rougeL": 0.11363636363636363
+  },
+  {
+    "question_id": 77,
+    "question": "Which physicist was the first to formulate a concise definition of thermodynamics in 1854 which stated, \"Thermo-dynamics is the subject of the relation of heat to forces acting between contiguous parts of bodies, and the relation of heat to electrical agency?\"",
+    "ground_truth": "Lord Kelvin.",
+    "generated_answer": "The first law of thermodynamics was formulated in the 1850s . The second law of thermodynamics emerged simultaneously in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s , primarily in the 1850s",
+    "source_url": "https://en.wikipedia.org/wiki/Thermodynamics",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 78,
+    "question": "Which of the following is not a traditional use of breastmilk : nipple problems , eye problems , or conjunctivitis ?",
+    "ground_truth": "nipple problems , eye problems , or conjunctivitis .",
+    "generated_answer": "Breastmilk medicine is a non-nutritional use of human breast milk (HBM) as a medicine or therapy to cure diseases.",
+    "source_url": "https://en.wikipedia.org/wiki/Breastmilk_medicine",
+    "mrr": 1.0,
+    "f1": 0.07142857142857142,
+    "rougeL": 0.07692307692307691
+  },
+  {
+    "question_id": 79,
+    "question": "Who was the first European to see Saratoga Lake?",
+    "ground_truth": "Jogues.",
+    "generated_answer": "Jogues Plays by Harold Pinter.org : The Official Website of the International Playwright Harold Pinter ( Index of Harold Pinter).",
+    "source_url": "https://en.wikipedia.org/wiki/Isaac_Jogues",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.1
+  },
+  {
+    "question_id": 80,
+    "question": "What is the narrator's last name ?",
+    "ground_truth": "Dodge , Y .",
+    "generated_answer": "The author is not dead , merely somewhere else : creative writing reconceived ( Palgrave Macmillan , 2008 ) The Art of Writing Drama : Theory and Practice ( Methuen Publishing , 2008 ) Orfeo 's Last Act : a novel in two parts ( Greenwich Exchange , 2023 )",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_engineering:_M%E2%80%93Z",
+    "mrr": 0.0,
+    "f1": 0.037037037037037035,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 81,
+    "question": "Which of the following is not a measure of central tendency: the arithmetic mean, the median, or the mode?",
+    "ground_truth": "arithmetic mean.",
+    "generated_answer": "                                                                                                                               ",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_engineering:_M%E2%80%93Z",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0
+  },
+  {
+    "question_id": 82,
+    "question": "What is the minimum packet size ?",
+    "ground_truth": "The minimum packet size is 64 bits , which at an average rate of 7,500 bits per second , will take about 1/117th of a second to be transmitted and received .",
+    "generated_answer": "User Agents need a way to define who may subscribe to which amount of their presence information . If the centralized model is used , the User Agents need a way to define who may subscribe to which amount of their presence information . If the centralized model is used , the User Agents need a way to define who may subscribe to which amount of their presence information .",
+    "source_url": "https://en.wikipedia.org/wiki/CEBus",
+    "mrr": 1.0,
+    "f1": 0.1568627450980392,
+    "rougeL": 0.125
+  },
+  {
+    "question_id": 83,
+    "question": "What is the name of the body of water that is flooded?",
+    "ground_truth": "Sea",
+    "generated_answer": "Sea – Large body of salt water Types of sea : Mediterranean sea – Mostly enclosed sea with limited exchange with outer oceansPages displaying short descriptions of redirect targets Sound – Long , wide body of water , connecting two larger bodies Sea components or extensions : Sea loch – Scottish Gaelic and Irish word for a sea inlet Sea loch – Mere – Shallow lake , pond , or wetland Ocean – Body of salt water covering most of Earth Phytotelma – Small water-filled cavity in a terrestrial plant Salt marsh – Coastal ecosystem between land and open saltwater that is regularly flooded Sea – Large body of salt water Types of sea : Mediterranean sea – Mostly enclosed sea with limited exchange with outer oceansPages displaying short descriptions of redirect targets Sound – Long , wide body of water , connecting two larger bodies Sea components or extensions : Sea loch – Scottish Gaelic and Irish word for a sea inlet Sea loch – Mere – Shallow lake , pond , or wetland Ocean – Body of salt",
+    "source_url": "https://en.wikipedia.org/wiki/Outline_of_geography",
+    "mrr": 1.0,
+    "f1": 0.011049723756906079,
+    "rougeL": 0.012987012987012988
+  },
+  {
+    "question_id": 84,
+    "question": "Which of the following is not a work by Paul Guttmann: Die Pathologie des Sympathicus on physiological basis or Die Pathologie des Sympathicus on physiological basis?",
+    "ground_truth": "Die Pathologie des Sympathicus on physiological basis.",
+    "generated_answer": "Paul Guttmann was an assistant to Wilhelm Griesinger (1817-1868). He was remembered for work with neurologist Albert Eulenburg (1840-1917) involving research of the sympathetic nervous system. With Eulenburg he published Die Pathologie des Sympathicus auf physiologischer Grundlage, a work that was considered at the time to be the best written book on the pathology of the sympathetic system from a physiological basis.",
+    "source_url": "https://en.wikipedia.org/wiki/Paul_Guttmann",
+    "mrr": 1.0,
+    "f1": 0.2028985507246377,
+    "rougeL": 0.19718309859154928
+  },
+  {
+    "question_id": 85,
+    "question": "Which of the following is true of stepfathers and their stepchildren ?",
+    "ground_truth": "They are at a dramatically increased risk of physical abuse and homicide than children living with their biological parents .",
+    "generated_answer": "a biological father 's absence.",
+    "source_url": "https://en.wikipedia.org/wiki/Father_absence",
+    "mrr": 1.0,
+    "f1": 0.16000000000000003,
+    "rougeL": 0.16666666666666666
+  },
+  {
+    "question_id": 86,
+    "question": "What are the most commonly used materials in marine construction ?",
+    "ground_truth": "The most commonly used materials in marine construction are concrete and steel .",
+    "generated_answer": "Marine construction can involve the use of a variety of building materials, predominantly steel and concrete. Some examples of marine construction include ships, offshore platforms, moorings, pipelines, cables, wharves, bridges, tunnels and breakwaters. Underwater interventions , diving , underwater work systems , remotely operated underwater vehicles and remote manipulators Underwater concreting and grouting Surveying and navigation Temporary buoyancy augmentation Seafloor modifications The seafloor may be covered with level sediments that have been consolidated over the years and provide a stable platform, but this is often not",
+    "source_url": "https://en.wikipedia.org/wiki/Marine_construction",
+    "mrr": 1.0,
+    "f1": 0.10101010101010101,
+    "rougeL": 0.14736842105263157
+  },
+  {
+    "question_id": 87,
+    "question": "Who was the editor of the American Machinist ?",
+    "ground_truth": "Leon P. Alford.",
+    "generated_answer": "French president of the ASME from 1906 to 1907 .",
+    "source_url": "https://en.wikipedia.org/wiki/Frederick_Winslow_Taylor",
+    "mrr": 0.5,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 88,
+    "question": "Which of the following is true of Allen Van Newkirk : '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . ''",
+    "ground_truth": "Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in Environmental Conservation '' . '' or '' Bioregions : Towards Bioregional Strategy in",
+    "generated_answer": "Bioregionalism is a term that has been used to describe a range of human activities . Bioregionalism is a term that has been used to describe a range of human activities . Bioregionalism is a term that has been used to describe a range of human activities . In North America , for example , restoring native prairie grasses is a basic ecosystem-rebuilding activity for reinhabitants of the Kansas Area Watershed Bioregion in the Midwest , whereas bringing back salmon is a basic ecosystem-rebuilding activity for reinhabitants of the Kansas Area Watershed Bioregion in the Midwest , whereas bringing back salmon is a basic ecosystem-rebuilding activity for reinhabitants of the Kansas Area Watershed Bioregion in the Midwest , whereas bringing back salmon is a basic ecosystem-rebuilding activity for reinhabitants of the Kansas Area Watershed Bioregion in the Midwest , whereas bringing back salmon is a basic ecosystem-rebuilding activity for reinhabitants of the Kansas Area Watershed Bioregion in the Midwest , whereas bringing back salmon is a basic ecosystem-rebuilding activity for reinhabitants of the Kansas Area",
+    "source_url": "https://en.wikipedia.org/wiki/Bioregion",
+    "mrr": 1.0,
+    "f1": 0.013422818791946308,
+    "rougeL": 0.11290322580645161
+  },
+  {
+    "question_id": 89,
+    "question": "What year was Queens Wharf built?",
+    "ground_truth": "1913",
+    "generated_answer": "Queens Wharf was owned and used by Ports of Auckland until 2010.",
+    "source_url": "https://en.wikipedia.org/wiki/Queens_Wharf,_Auckland",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 90,
+    "question": "Who is the author of The Great Art Boom 1970–1997 ?",
+    "ground_truth": "Wood , Christopher.",
+    "generated_answer": "Art has become a business and making money in business is an art . Art has become a business and making money in business is an art . The source of a work 's artistic charisma has long been debated between artists who create and patrons who enable , but the charismatic power of artworks on those who would possess them is historically the initial driver of value . In the 1960s that charismatic power started edging over to accommodate commercialized culture and a new industry of art , when aesthetic value fell from prominence to parity with Pop art and Andy Warhol 's idea of business art , a recognition that art has become a business and making money in business is an art . One of many artists to follow Warhol is Jeff Koons , a stockbroker turned artist who also borrowed imagery from popular culture and made millions . For collectors , the emotional connection felt toward a work or collection creates subjective personal value . The weight assigned by such a collector to that subjective measure as a portion of a work 's overall financial value may be greater than that by an art speculator not sharing the collector 's emotional",
+    "source_url": "https://en.wikipedia.org/wiki/Art_valuation",
+    "mrr": 1.0,
+    "f1": 0.009615384615384616,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 91,
+    "question": "What religion does the phrase vasudhaiva kutumbakam refer to?",
+    "ground_truth": "Hinduism",
+    "generated_answer": "The term vasudhaiva kutumbakam (  the world is one family '' ) is used in Hinduism .",
+    "source_url": "https://en.wikipedia.org/wiki/Universal_brotherhood",
+    "mrr": 0.3333333333333333,
+    "f1": 0.1111111111111111,
+    "rougeL": 0.14285714285714288
+  },
+  {
+    "question_id": 92,
+    "question": "What is the occupation of Julie Willis?",
+    "ground_truth": "Australian architectural historian and academic",
+    "generated_answer": "Bioregion is consistent with , and aligns with an indigenous and western worldview . This is put well by Douglas Aberley and chief Michael George noting that :  Once the bioregional map atlas is completed it becomes the common foundation of knowledge from which planning scenarios can be prepared , and decisions ultimately made . Complex information that is otherwise difficult to present is clearly depicted . The community learns about itself in the process of making decisions about its future .",
+    "source_url": "https://en.wikipedia.org/wiki/Julie_Willis",
+    "mrr": 1.0,
+    "f1": 0.02298850574712644,
+    "rougeL": 0.025
+  },
+  {
+    "question_id": 93,
+    "question": "Who denounced Taylor and the other leaders of the Englewood Black Clergy Council at the January 1983 Mayor and Council Reorganization Meeting ?",
+    "ground_truth": "the other leaders of the Englewood Black Clergy Council denounced Taylor , and the Englewood Black Clergy Council appeared at the meeting to publicly disassociate themselves from Taylor 's comments .",
+    "generated_answer": "In 1982 , Rothman ran for and won the city 's Democratic Party nomination to be Englewood 's mayor . He was also endorsed by the Englewood Black Clergy Council and the Englewood Patrolman 's Benevolent Association ( the first time those two organizations had ever endorsed the same candidate for mayor ) . He won the Democratic primary and the November 1982 general elections . At his January 1983 swearing in , he was 30 years old .",
+    "source_url": "https://en.wikipedia.org/wiki/Steve_Rothman",
+    "mrr": 1.0,
+    "f1": 0.2,
+    "rougeL": 0.2
+  },
+  {
+    "question_id": 94,
+    "question": "Which of the following is not a characteristic of a binary star system : break-up velocity or critical rotation ?",
+    "ground_truth": "Brown dwarf A substellar object that is too low in mass to sustain the nuclear fusion of hydrogen-1 in its core , with the latter being a characteristic of stars on the main sequence .",
+    "generated_answer": "A star is a spherical , luminous spheroid of plasma held together by its own gravity which radiates energy .",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_astronomy",
+    "mrr": 1.0,
+    "f1": 0.21818181818181817,
+    "rougeL": 0.15384615384615383
+  },
+  {
+    "question_id": 95,
+    "question": "What is the narrator describing in the passage ?",
+    "ground_truth": "The narrator is describing a medical treatment plan .",
+    "generated_answer": "Bioregion is consistent with , and aligns with an indigenous and western worldview . This is put well by Douglas Aberley and chief Michael George noting that :  Once the bioregional map atlas is completed it becomes the common foundation of knowledge from which planning scenarios can be prepared , and decisions ultimately made . Complex information that is otherwise difficult to present is clearly depicted . The community learns about itself in the process of making decisions about its future .",
+    "source_url": "https://en.wikipedia.org/wiki/Medicine",
+    "mrr": 0.0,
+    "f1": 0.06593406593406594,
+    "rougeL": 0.07228915662650602
+  },
+  {
+    "question_id": 96,
+    "question": "Which of the following is not a way to specify the longitudinal position of an object upon the celestial sphere: horizon or hour circle?",
+    "ground_truth": "horizon",
+    "generated_answer": "Earth 's celestial equator.",
+    "source_url": "https://en.wikipedia.org/wiki/Glossary_of_astronomy",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  },
+  {
+    "question_id": 97,
+    "question": "What is the purpose of building blocks for medicinal chemistry ?",
+    "ground_truth": "The term defines either imaginable , virtual molecular fragments or chemical reagents from which drugs or drug candidates might be constructed or synthetically prepared .",
+    "generated_answer": "Inorganic chemistry is the study of the properties and reactions of inorganic compounds , such as metals and minerals . Inorganic chemistry is the study of the properties and reactions of inorganic compounds , such as metals and minerals . Inorganic chemistry is the study of the properties and reactions of inorganic compounds , such as metals and minerals . Inorganic chemistry is the study of the properties and reactions of inorganic compounds , such as metals and minerals . Inorganic chemistry is the study of the properties and reactions of inorganic compounds , such as metals and minerals . Inorganic chemistry is the study of the properties and reactions of inorganic compounds , such as metals and minerals . Inorganic chemistry is the study of the properties and reactions of inorganic compounds , such as metals and minerals . Inorganic chemistry is the study of the properties and reactions of inorganic compounds , such as metals and minerals . Inorganic chemistry is the study of the properties and reactions of inorganic compounds , such as metals and minerals .",
+    "source_url": "https://en.wikipedia.org/wiki/Building_block_(chemistry)",
+    "mrr": 1.0,
+    "f1": 0.02926829268292683,
+    "rougeL": 0.010810810810810811
+  },
+  {
+    "question_id": 98,
+    "question": "What was the result of Money 's work ?",
+    "ground_truth": "Money 's work promoted surgeries for intersex people , young children in particular .",
+    "generated_answer": "benevolence of the King 's advisers , Money 's work promoted surgery for intersex people , young children in particular .",
+    "source_url": "https://en.wikipedia.org/wiki/Intersex_healthcare",
+    "mrr": 0.5,
+    "f1": 0.742857142857143,
+    "rougeL": 0.8
+  },
+  {
+    "question_id": 99,
+    "question": "What was the name of the person who won the Estonian Chess Championship?",
+    "ground_truth": "Raul Renter",
+    "generated_answer": "Dillon was a Galway senior footballer who played as a centre-back before ending his career at left corner-back. Dillon began his football career at club level with Ahascragh. While working in Dublin he joined the Westerns club with whom he won a Dublin Senior League title. Dillon later lined out with Ballinasloe in the Galway Senior Championship before returning to Ahascragh where he served as club president. At inter-county level, Dillon was part of the Galway junior team that won the Connacht Junior team. At inter-county level, Dillon was part of the Galway junior team that won the Connacht Junior team.",
+    "source_url": "https://en.wikipedia.org/wiki/Raul_Renter",
+    "mrr": 1.0,
+    "f1": 0.0,
+    "rougeL": 0.0
+  }
+]

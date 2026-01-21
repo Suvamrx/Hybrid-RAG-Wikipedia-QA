@@ -1,0 +1,702 @@
+[
+  {
+    "question_id": 0,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Diagnostic radiology is concerned with imaging of the body , e.g. by x-rays , x-ray computed tomography , ultrasonography , and nuclear magnetic resonance tomography ."
+  },
+  {
+    "question_id": 1,
+    "factuality": 4,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Robert Tally is a geocritical evaluator."
+  },
+  {
+    "question_id": 2,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Atomic hydrogen is the most abundant molecule in the universe ."
+  },
+  {
+    "question_id": 3,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Polymer teflon is a type of glass."
+  },
+  {
+    "question_id": 4,
+    "factuality": null,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Communitas is a Latin noun commonly referring either to an unstructured community in which people are equal , or to the very spirit of community . It also has special significance as a loanword in cultural anthropology and the social sciences . Victor Turner , who defined the anthropological usage of communitas , was interested in the interplay between what he called social 'structure ' and 'antistructure ' ; Liminality and Communitas are both components of antistructure ."
+  },
+  {
+    "question_id": 5,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Miami is a city in Florida , United States ."
+  },
+  {
+    "question_id": 6,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "The Cohn Institute for the History and Philosophy of Science and Ideas is a research and graduate teaching institute within the framework of the School of History of Tel Aviv University ."
+  },
+  {
+    "question_id": 7,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "The Uruz Project is a project of Heinz and Lutz Heck attempting to breed the aurochs."
+  },
+  {
+    "question_id": 8,
+    "factuality": 5,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "The first novel in the Yorùbá language was Ogboju Ode ninu Igbo Irunmale ( The Forest of A Thousand Demons ) , written in 1938 by Chief Daniel O. Fagunwa ( 1903–1963 ) ."
+  },
+  {
+    "question_id": 9,
+    "factuality": 1,
+    "completeness": null,
+    "relevance": 1,
+    "explanation": "Bioengineering , biotechnology , electrical engineering , physics , mechanical engineering , chemistry , physics , chemistry , physics , physics , chemistry , physics , chemistry , physics , chemistry , physics , physics , chemistry , physics , chemistry , physics , physics , chemistry , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics , physics"
+  },
+  {
+    "question_id": 10,
+    "factuality": 4,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "A weakened Si-Si bond can be interpreted as a weakened Si-Si bond due to the removal of an electron ."
+  },
+  {
+    "question_id": 11,
+    "factuality": 4,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Small Island Developing States at a Crossroads : Towards Equitable Energy Access in Least-Electrified Countries , '' these states , which contribute less than 1 % to global greenhouse gas emissions , are exploring decentralized renewable energy solutions to address their energy access issues ."
+  },
+  {
+    "question_id": 12,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "Montesquieu argued that the mobility of commerce meant that rulers had to negotiate with merchants."
+  },
+  {
+    "question_id": 13,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "The Schreiber Plan is a concept that has been criticized for its involuntary nature , as individuals are automatically part of the contract by being born . Because child-rearing costs are private while pension benefits are socialized based on employment , parents may suffer from transfer exploitation . Because child-rearing costs are private while pension benefits are socialized based on employment , parents may suffer from transfer exploitation . Because child-rearing costs are private while pension benefits are socialized based on employment , parents may suffer from transfer exploitation . Because child-rearing costs are private while pension benefits are socialized based on employment , parents may suffer from transfer exploitation . Because child-rearing costs are private while pension benefits are socialized based on employment , parents may suffer from transfer exploitation . Because child-rearing costs are private while pension benefits are socialized based on employment , parents may suffer from transfer exploitation . Because child-rearing costs are private while pension benefits are socialized based on employment , parents may suffer from transfer exploitation . Because child-rearing costs are private while pension benefits are socialized based"
+  },
+  {
+    "question_id": 14,
+    "factuality": 4,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Sound culture refers to the production and consumption of sound ."
+  },
+  {
+    "question_id": 15,
+    "factuality": 1,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Storm waves and icebergs can cause vessels or drill rigs to sink , and can cause an explosion or fire at the surface . A sudden , large release may temporarily reduce water density sufficiently to cause vessels or drill rigs to sink , and can cause an explosion or fire at the surface . In heavy rainfall appreciable quantities of water may enter unprotected openings , and must be removed before it has adverse effects on stability due to free-surface . Rain , fog and snow may prevent helicopter operations , which generally require good visibility for landing . Snow may form directly on cold surfaces and can accumulate rapidly , adding topside weight and increasing wind drag . Icing and frozen spray may occur in the same regions and in similar conditions . Lightning is generally not a major problem to steel and concrete structure with adequate lightning protection , but is a hazard to personnel working in high exposed areas ."
+  },
+  {
+    "question_id": 16,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Kazakhstan 's GDI per capita in purchasing power parity is five times greater than Kyrgyzstan 's GDI per capita in purchasing power parity ."
+  },
+  {
+    "question_id": 17,
+    "factuality": 3,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Literature and the Environment or ecocriticism is the study of literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the"
+  },
+  {
+    "question_id": 18,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Digital sociology focuses on the effects of digital technologies on society ."
+  },
+  {
+    "question_id": 19,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Sexual aggression by females is a form of sexual aggression ."
+  },
+  {
+    "question_id": 20,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "The nucleus is made up of positively charged protons and uncharged neutrons (together called nucleons ) , while the electron cloud consists of negatively charged electrons which orbit the nucleus ."
+  },
+  {
+    "question_id": 21,
+    "factuality": 1,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Engineering is a broad discipline that is often broken down into several sub-disciplines . Historically , naval engineering and mining engineering were major branches . Other engineering fields are manufacturing engineering , acoustical engineering , corrosion engineering , instrumentation and control , automotive , information engineering , petroleum , systems , audio , software , architectural , biosystems , and textile engineering ."
+  },
+  {
+    "question_id": 22,
+    "factuality": 3,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Literature and the Environment or ecocriticism is the study of literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the"
+  },
+  {
+    "question_id": 23,
+    "factuality": 4,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Oka-leczenie is an expert in social theory."
+  },
+  {
+    "question_id": 24,
+    "factuality": 1,
+    "completeness": null,
+    "relevance": 1,
+    "explanation": "The DESTINY+ Dust Analyzer is an asteroid that will fly on the asteroid belt."
+  },
+  {
+    "question_id": 25,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "The nucleus of an atom is made up of positively charged protons and uncharged neutrons (together called nucleons ) , while the electron cloud consists of negatively charged electrons which orbit the nucleus . The nucleus is dense ; the mass of a nucleon is approximately 1,836 times that of an electron , yet the radius of an atom is about 10,000 times that of its nucleus . The constituent particles of an atom are the electron , the proton , and the neutron . The electron is the least massive of these particles by four orders of atomic number."
+  },
+  {
+    "question_id": 26,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Intersex people have a higher risk of depression and PTSD compared to the general population ."
+  },
+  {
+    "question_id": 27,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Environment The sociology of education is the study of how educational institutions determine social structures , experiences , and other outcomes to the extent to which these trends are intimately related to changing patterns of inequality in modern societies and to the changing experiences of individuals and families the ways in which workers challenge , resist and make their own contributions to the patterning of work and shaping of work institutions ."
+  },
+  {
+    "question_id": 28,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Enciclopedia di astronomia e cosmologia is a book that describes the study of astronomy and cosmology."
+  },
+  {
+    "question_id": 29,
+    "factuality": 5,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Oregon State University offers a Masters and Ph.D. in History and Philosophy of Science and Technology ."
+  },
+  {
+    "question_id": 30,
+    "factuality": 3,
+    "completeness": 3,
+    "relevance": 3,
+    "explanation": "Seeds recovered during excavations of Herod the Great 's palace in the 1960s were given to Sarah Sallon of Bar-Ilan University , who had proposed germinating ancient seeds . Solowey then challenged her colleague , Elaine Solowey of the Center for Sustainable Agriculture at the Arava Institute for Environmental Studies , to attempt the germination of the seeds . Solowey successfully revived several seeds using simple hydration with a household baby bottle warmer , along with standard fertiliser and growth hormones . The first plant to grow was named Methuselah , after Lamech 's father , the oldest man mentioned in the Bible . By 2015 , Methuselah was producing viable pollen , which was successfully used to pollinate female date palms ."
+  },
+  {
+    "question_id": 31,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Cultural pluralism is a term used to describe a wide variety of cultural groups ."
+  },
+  {
+    "question_id": 32,
+    "factuality": 1,
+    "completeness": 5,
+    "relevance": 1,
+    "explanation": "Morph is the gimmick of the Readius."
+  },
+  {
+    "question_id": 33,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "Virgil 's Georgics is a collection of essays by Virgil 's Georgics."
+  },
+  {
+    "question_id": 34,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c ) . Dust particles released from a comet ( with eccentricity e c"
+  },
+  {
+    "question_id": 35,
+    "factuality": 3,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Oxygen is not a common impurity in steel ."
+  },
+  {
+    "question_id": 36,
+    "factuality": 4,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Nimrud is located in the Indian state of Maharashtra."
+  },
+  {
+    "question_id": 37,
+    "factuality": 4,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Comparative politics is the systematic study and comparison of the diverse political systems in the world . Some examples of comparative politics are studying the differences between presidential and parliamentary systems , democracies and dictatorships , parliamentary systems in different countries , multi-party systems such as Canada and two-party systems such as the United States . The name comparative politics refers to the discipline 's historical association with the comparative method , described in detail below . Arend Lijphart argues that comparative politics does not have a substantive focus in itself , but rather a methodological one : it focuses on the how but does not specify the what of the analysis . Peter Mair and Richard Rose advance a slightly different definition , arguing that comparative politics is defined by a combination of a substantive focus on the study of countries ' political systems and a method of identifying and explaining similarities and differences between these countries using common concepts ."
+  },
+  {
+    "question_id": 38,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Human stem cells are a type of stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a type of human embryonic stem cell derived from the umbilical cord . Human stem cells are a"
+  },
+  {
+    "question_id": 39,
+    "factuality": 5,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "The Manchester Martyrs were three Irishmen executed by counter-revolutionary forces after the end of the American Civil War."
+  },
+  {
+    "question_id": 40,
+    "factuality": 3,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Robocop ( 1982 ) is set in a dystopian future in which manufactured beings called replicants are slaves used on space colonies and are legal prey on Earth to various bounty hunters who retire '' ( kill ) them . The film 's tone has since been the staple of many cyberpunk movies , such as The Matrix trilogy ( 1999–2003 ) , which uses a wide variety of cyberpunk elements . The TV series Max Headroom ( 1987 ) is an iconic cyberpunk work , taking place in a futuristic dystopia ruled by an oligarchy of television networks ."
+  },
+  {
+    "question_id": 41,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Bittern ( pl . bitterns ) , or nigari , is the salt solution formed when halite ( table salt ) precipitates from seawater or brines . It is used as a natural source of Mg2+ , and it can be used as a coagulant both in the production of tofu and in the treatment of industrial wastewater . The wastewater pH is basic , which is favorable for the use of bittern . After the addition of bittern , precipitated magnesium hydroxide works as the coagulant to collect dye , solids , organic matter , and"
+  },
+  {
+    "question_id": 42,
+    "factuality": 4,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Harvard College Observatory would undertake its last multidecade analogue photographic survey of the night sky ."
+  },
+  {
+    "question_id": 43,
+    "factuality": 3,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Literature and the Environment or ecocriticism is the study of literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the"
+  },
+  {
+    "question_id": 44,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "The Royal School of Applied Engineering and Architecture of the University of Palermo in Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the University of Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the University of Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the University of Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the University of Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the University of Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the University of Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the University of Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the University of Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the University of Palermo was founded in 1866 . The Royal School of Applied Engineering and Architecture of the"
+  },
+  {
+    "question_id": 45,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Art valuation involves comparing data from multiple sources such as art auction houses , private and corporate collectors , curators , art dealer activities , gallerists ( gallery owners ) , experienced consultants , and specialized market analysts to arrive at a value . As with other markets , the art market uses its own industry-specific terms of art or vocabulary , for example bought-in '' , describing the disadvantageous situation occurring when a work or lot at auction is returned to its owner having been passed over , withdrawn or otherwise unsold . As with other markets , the art market uses its own industry-specific terms of art or vocabulary , for example bought-in '' , describing the disadvantageous situation occurring when a work or lot at auction is returned to its owner having been passed over , withdrawn or otherwise unsold . As with other markets , the art market uses its own industry-specific terms of art or vocabulary , for example bought-in '' , describing the disadvantageous situation occurring when a work or lot at auction is returned to its owner having been passed over , withdrawn or otherwise unsold"
+  },
+  {
+    "question_id": 46,
+    "factuality": 1,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "A child 's sexual development is not a factor in the well-being and development of a child ."
+  },
+  {
+    "question_id": 47,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Literature is the activity of conveying information in a textual medium through the use of a set of signs or symbols ( known as a writing system ) . Literature can be described as all of the following : Communication – activity of conveying information in a textual medium through the use of a set of signs or symbols ( known as a writing system ) . Communication requires a sender , a message , and an intended recipient , although the receiver need not be present or aware of the sender 's intent to communicate at the time of communication ; thus communication can occur across vast distances in time and space . Written communication ( writing ) – representation of language in a textual medium through the use of a set of signs or symbols ( known as a writing system ) . Subdivision of culture – shared attitudes , values , goals , and practices that characterize an institution , organization , or group ."
+  },
+  {
+    "question_id": 48,
+    "factuality": 5,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Neuromancer is a 1984 novel by William Gibson ."
+  },
+  {
+    "question_id": 49,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "In India , caste classification is a system of classification based on race , ethnicity , religion , and social class ."
+  },
+  {
+    "question_id": 50,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "GMSL is an asymmetric , full duplex SerDes technology - which means that it transports data at a high rate in the downlink ( or forward ) direction , while GMSL is an asymmetric , full duplex SerDes technology - which means that it transports data at a high rate in the downlink ( or forward ) direction , while GMSL is an asymmetric , full duplex SerDes technology - which means that it transports data at a high rate in the downlink ( or forward ) direction , while GMSL is an asymmetric , full duplex SerDes technology - which means that it transports data at a high rate in the downlink ( or forward ) direction , while GMSL is an asymmetric , full duplex SerDes technology - which means that it transports data at a high rate in the downlink ( or forward ) direction , while GMSL is an asymmetric , full duplex SerDes technology - which means that it transports data at a high rate in the downlink ("
+  },
+  {
+    "question_id": 51,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Framing is the social construction of political or social issues in ways that emphasize certain aspects over others , often creating a positive or negative representation of events, individuals, or policies . This makes their stance appear more favorable and their policies seem like the logical or necessary course of action . Framing further looks at the impact of slanting in political campaigning and its potential impact on the distribution of political power where political bias is present . Search engines influence democracy because of the potential distrust of media , leading to increasing online searches for political information and understanding . Through the use of a bias quantification framework , bias can be measured within political bias by rank within the search system . By setting the political agenda , this strategic focus can influence undecided voters in addition to mobilizing committed voters . Because partisan priorities are given priority over thorough discussion , political discourse becomes distorted ."
+  },
+  {
+    "question_id": 52,
+    "factuality": 1,
+    "completeness": null,
+    "relevance": 1,
+    "explanation": "Modern Standard Arabic is a language of the Middle East and North Africa."
+  },
+  {
+    "question_id": 53,
+    "factuality": 5,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "The term place in geography refers to the physical phenomena that occur in space , including the lithosphere , atmosphere , and hydrosphere . The term place in geography refers to the physical phenomena that occur in space , including the lithosphere , atmosphere , and hydrosphere . The term place in geography refers to the physical phenomena that occur in space , including the lithosphere , atmosphere , and hydrosphere . The term place in geography refers to the physical phenomena that occur in space , including the lithosphere , atmosphere , and hydrosphere . The term place in geography refers to the physical phenomena that occur in space , including the lithosphere , atmosphere , and hydrosphere . The term place in geography refers to the physical phenomena that occur in space , including the lithosphere , atmosphere , and hydrosphere . The term place in geography refers to the physical phenomena that occur in space , including the lithosphere , atmosphere , and hydrosphere . The term place in geography refers to the physical phenomena that occur in space , including the lithosphere ,"
+  },
+  {
+    "question_id": 54,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "Jainism is a theory of the origin of the stellar mass spectrum , i.e. why astronomers observe the same distribution of stellar masses—the initial mass function—regardless of initial conditions ."
+  },
+  {
+    "question_id": 55,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "It is impossible to map the curved surface of Earth onto a flat map surface without deformation ."
+  },
+  {
+    "question_id": 56,
+    "factuality": 3,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Literature and the Environment or ecocriticism is the study of literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the"
+  },
+  {
+    "question_id": 57,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "The Assyrians were notable in their use of metallurgy and incorporation of iron weapons . The Assyrians were notable in their use of metallurgy and incorporation of iron weapons . Many of their advancements were in military equipment , but did make advancements on the wheel and the chariot ."
+  },
+  {
+    "question_id": 58,
+    "factuality": 1,
+    "completeness": null,
+    "relevance": 1,
+    "explanation": "Art is a human activity consisting in this , that one man consciously , by means of certain external signs , hands on to others feelings he has lived through , and that other people are in art , that one man consciously , by means of certain external signs , hands on to others feelings he has lived through , and that other people are in art , that one man consciously , by means of certain external signs , hands on to others feelings he has lived through , and that other people are in art , that one man consciously , by means of certain external signs , hands on to others feelings he has lived through , and that other people are in art , that one man consciously , by means of certain external signs , hands on to others feelings he has lived through , and that other people are in art , that one man consciously , by means of certain external signs , hands on to others feelings he has lived through , and that other people are in art , that one man consciously , by means of certain external signs , hands on to others feelings he has lived through , and"
+  },
+  {
+    "question_id": 59,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "The Arctic Antarctic Circle is a region of Antarctica in the southern hemisphere ."
+  },
+  {
+    "question_id": 60,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "Safety glass was invented in 1894 when John Harvey Kellogg unintentionally left a batch of wheat-berry dough out over night . The next day , he decided to figure safety glass"
+  },
+  {
+    "question_id": 61,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Human-Environment Interaction Tradition , or Human-Environment Interaction Tradition , is a philosophy of geography ."
+  },
+  {
+    "question_id": 62,
+    "factuality": 4,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "In a STV countback , the voter can vote for a multiple-member subset of the running candidates ."
+  },
+  {
+    "question_id": 63,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Religious pluralism refers to a variety of religions, including Christianity, Judaism, Islam, Judaism, and Judaism."
+  },
+  {
+    "question_id": 64,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "The Explosives Act prohibits the sale and possession of explosives precursors , namely , ammonium nitrate in solid form and with a nitrogen concentration >=28 % , hydrogen peroxide >=30 % conc. , nitromethane , potassium chlorate , potassium perchlorate , solid sodium chlorate , nitric acid >= 75 % conc. , potassium nitrate , mixtures of potassium nitrate and sodium nitrate , and solid sodium nitrate . In late 2008 , Lewis Casey , an 18-year-old college student from Saskatchewan , was arrested for owning a small chemistry lab in his family 's garage ."
+  },
+  {
+    "question_id": 65,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Non-industrial or non-Western societies , sociologists focus on industrialized societies in the Western world , or non-industrial societies in the Western world ."
+  },
+  {
+    "question_id": 66,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "The Alaknanda Galaxy ( designated as UNCOVER DR3 ID 42812 ) is a spiral galaxy about 12 billion light years away , in the constellation Sculptor . It was discovered by two Indian astronomers Rashi Jain and Yogesh Wadadekar while studying the JWST images of the galaxy taken through 21 different filters of the JWST 's astronomical telescope . While studying the images , they spotted a galaxy remarkably similar to Milky Way galaxy . It has been estimated that the half of the appeared stars in the Alaknanda Galaxy were formed in only 200 million years . It has been estimated that the half of the appeared stars in the Alaknanda Galaxy were formed in only 200 million years ."
+  },
+  {
+    "question_id": 67,
+    "factuality": null,
+    "completeness": null,
+    "relevance": null,
+    "explanation": "(A)."
+  },
+  {
+    "question_id": 68,
+    "factuality": 4,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Environmental stress can lead children to believe that resources are limited . This is possible because in ancestral times the survival rate of children with mother being absent was extremely low . A study shows that there are fewer monitored meals in the father-absent household . Having meals in the family is arguably more beneficial to children than eating alone ( i.e . solitary eating ) , as the former lowers the chance of obesity . Moreover , proximity to a mother 's relatives ( matrilateral kin ) can dramatically improve female children 's height for age , an indicator of good nutrition . Women who return to their village of birth following marital dissolution are seen to benefit from extra matrilateral kin support ."
+  },
+  {
+    "question_id": 69,
+    "factuality": 3,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Molecular engineering is the study of the structure and function of molecules. Molecular engineering is the study of the structure and function of molecules."
+  },
+  {
+    "question_id": 70,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Any astronomical object that emits strong radio waves into space is a radio source ."
+  },
+  {
+    "question_id": 71,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "American gangster films were a major influence on Pinter 's work ."
+  },
+  {
+    "question_id": 72,
+    "factuality": 4,
+    "completeness": null,
+    "relevance": null,
+    "explanation": "Iron is an alloy of iron and carbon , but the term alloy steel usually only refers to steels that contain other elements—like vanadium , molybdenum , or cobalt—in amounts sufficient to alter the properties of the base steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because pig iron could be melted , people began to develop processes to reduce carbon in liquid pig iron to create steel . Because"
+  },
+  {
+    "question_id": 73,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Written communication ( writing ) – representation of language in a textual medium through the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the use of the"
+  },
+  {
+    "question_id": 74,
+    "factuality": 3,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Literature and the Environment or ecocriticism is the study of literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the"
+  },
+  {
+    "question_id": 75,
+    "factuality": null,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "planetary nebula or planetary nebula is a planetary system."
+  },
+  {
+    "question_id": 76,
+    "factuality": 4,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Anthony Giddens ' introduction to Central Problems in Social Theory is a sociological theory that rejects 'humanist ' assumptions in the construction of social theory ."
+  },
+  {
+    "question_id": 77,
+    "factuality": 3,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Literature and the Environment or ecocriticism is the study of literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the"
+  },
+  {
+    "question_id": 78,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Poetics is the study or theory of device , structure , form , type , and effect with regards to poetry , though usage of the term can also refer to literature broadly . Poetics is distinguished from hermeneutics by its focus on the synthesis of non-semantic elements in a text rather than its semantic interpretation ."
+  },
+  {
+    "question_id": 79,
+    "factuality": 4,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "The political heuristic is a type of heuristic that is associated with the idea-elements that are central to an individual 's belief system."
+  },
+  {
+    "question_id": 80,
+    "factuality": 3,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Literature and the Environment or ecocriticism is the study of literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the environment or literature and the"
+  },
+  {
+    "question_id": 81,
+    "factuality": 5,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "The most common and oldest alloying process is by heating the base metal beyond its melting point."
+  },
+  {
+    "question_id": 82,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Personality is a characteristic of a person 's personality ."
+  },
+  {
+    "question_id": 83,
+    "factuality": 4,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "For some elements , allotropes have different molecular formulae or different crystalline structures , as well as a difference in physical phase ( the state of matter , i.e. plasmas , gases , liquids , or solids ) . For some elements , two allotropes of oxygen ( dioxygen , O2 , and ozone , O3) can both exist in the solid , liquid and gaseous states . Other elements do not"
+  },
+  {
+    "question_id": 84,
+    "factuality": 1,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "It is a Latin noun commonly referring either to an unstructured community in which people are equal , or to the very spirit of community ."
+  },
+  {
+    "question_id": 85,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Pastiche is the cultivation of intimacy to be an essential element of many jokes ."
+  },
+  {
+    "question_id": 86,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 1,
+    "explanation": "The Draper telescope was the first to capture astronomical objects using dry plate photography to capture astronomical objects in 1876 ."
+  },
+  {
+    "question_id": 87,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "Social anthropology is the branch of anthropology that studies how contemporary living human beings behave in social groups , whereas sociologists focused on industrialized societies in the Western world ."
+  },
+  {
+    "question_id": 88,
+    "factuality": 5,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "CTC clusters are a large-scale structure consisting of hundreds or thousands of galaxies bound together by gravity ."
+  },
+  {
+    "question_id": 89,
+    "factuality": 4,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "STV is a type of first-past-the-post voting system ."
+  },
+  {
+    "question_id": 90,
+    "factuality": 1,
+    "completeness": 1,
+    "relevance": 4,
+    "explanation": "Gray wolves are endemic to the islands of Hawaii."
+  },
+  {
+    "question_id": 91,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "The key issues are quality , rarity , condition , provenance and authenticity ."
+  },
+  {
+    "question_id": 92,
+    "factuality": 4,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Hematology is a branch of medicine that deals with the blood and mucus ."
+  },
+  {
+    "question_id": 93,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Intersex people are at an increased risk of suicide ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted suicide compared to 1.8 % of the general population sampled . Intersex people are at an increased risk of stigma and discrimination ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted suicide compared to 1.8 % of the general population sampled . Intersex people are at an increased risk of stigma and discrimination ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted suicide compared to 1.8 % of the general population sampled . Intersex people are at an increased risk of stigma and discrimination ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted suicide compared to 1.8 % of the general population sampled . Intersex people are at an increased risk of stigma and discrimination ; in a European study , 6.8 % of intersex people age 16 or older reporting having attempted"
+  },
+  {
+    "question_id": 94,
+    "factuality": 5,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "A scoping review on clinical orthopedic manifestations of congenital muscular dystrophy subtypes reported that the most common subtype was MDC1A accounting for 37 % of the total study sample ."
+  },
+  {
+    "question_id": 95,
+    "factuality": 4,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "The narrator is describing communitas ."
+  },
+  {
+    "question_id": 96,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "Technology of technology is an interdisciplinary subfield of ethics that analyzes technology 's ethical implications and explores ways to mitigate potential negative impacts of new technologies . There is a broad range of ethical issues revolving around technology , from specific areas of focus affecting professionals working with technology to broader social , ethical , and legal issues concerning the role of technology in society and everyday life ."
+  },
+  {
+    "question_id": 97,
+    "factuality": 3,
+    "completeness": 3,
+    "relevance": 4,
+    "explanation": "The narrator is describing a religion."
+  },
+  {
+    "question_id": 98,
+    "factuality": 5,
+    "completeness": 5,
+    "relevance": 4,
+    "explanation": "Hinduism is the oldest major religion , explaining a relative lack of antipathy towards specifiable religious traditions – and so the Hindu religion has no theological difficulties in accepting degrees of truth in other religions ."
+  },
+  {
+    "question_id": 99,
+    "factuality": 4,
+    "completeness": 4,
+    "relevance": 4,
+    "explanation": "A strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could be a strategy that could"
+  }
+]

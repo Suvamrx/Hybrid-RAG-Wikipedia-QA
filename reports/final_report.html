@@ -1,0 +1,188 @@
+<h1>Hybrid RAG System: Final Report</h1>
+<h2>1. System Architecture</h2>
+<p><img alt="Architecture Diagram" src="architecture_diagram.png" /></p>
+<p><em>Figure 1: System architecture showing data collection, preprocessing, dense/sparse retrieval, RRF, LLM answer generation, evaluation, and LLM-as-Judge.</em></p>
+<hr />
+<h2>2. Evaluation Results</h2>
+<h3>Automated Metrics (MRR, F1, ROUGE-L)</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Mean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MRR</td>
+<td>0.8887</td>
+</tr>
+<tr>
+<td>F1</td>
+<td>0.0925</td>
+</tr>
+<tr>
+<td>ROUGE-L</td>
+<td>0.1036</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Justification for Custom Metrics:</strong>
+- <strong>MRR (Mean Reciprocal Rank):</strong> Chosen because it measures the rank position of the first relevant answer, which is critical for retrieval-based QA. It is calculated as the average reciprocal rank of the first correct answer across all questions. High MRR indicates the system retrieves relevant information early, which is desirable for user-facing QA systems.
+- <strong>F1 Score:</strong> Chosen for its balance between precision and recall, especially important in open-ended QA where partial matches are common. Calculated as the harmonic mean of precision and recall between generated and ground truth answers. Interpreted as the system's ability to generate answers that overlap well with the reference.
+- <strong>ROUGE-L:</strong> Chosen to measure the longest common subsequence between generated and reference answers, capturing fluency and informativeness. Calculated as the LCS-based F1 between generated and ground truth answers. Interpreted as a measure of answer completeness and relevance.</p>
+<p><em>See data/evaluation_results.json for full details.</em></p>
+<h3>LLM-as-Judge Results</h3>
+<table>
+<thead>
+<tr>
+<th>Score Type</th>
+<th>Mean</th>
+<th>Median</th>
+<th>Std</th>
+<th>Nulls</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Factuality</td>
+<td>3.04</td>
+<td>4.00</td>
+<td>1.44</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Completeness</td>
+<td>3.18</td>
+<td>4.00</td>
+<td>1.60</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Relevance</td>
+<td>3.50</td>
+<td>4.00</td>
+<td>1.11</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>3. Innovative Approach: LLM-as-Judge</h2>
+<p>We implemented an LLM-as-Judge evaluation, prompting a language model to rate answers on factuality, completeness, and relevance (1–5 scale) and provide explanations. This complements automated metrics with qualitative, human-like assessment. See llm_judge_evaluation_report.md for details.</p>
+<hr />
+<h2>4. Ablation Studies</h2>
+<table>
+<thead>
+<tr>
+<th>Configuration</th>
+<th>MRR</th>
+<th>F1</th>
+<th>ROUGE-L</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dense Only</td>
+<td>0.8063</td>
+<td>0.0953</td>
+<td>0.0942</td>
+</tr>
+<tr>
+<td>Sparse Only</td>
+<td>0.8624</td>
+<td>0.0692</td>
+<td>0.0603</td>
+</tr>
+<tr>
+<td>RRF (Hybrid)</td>
+<td>0.8701</td>
+<td>0.0744</td>
+<td>0.0753</td>
+</tr>
+<tr>
+<td>No LLM-as-Judge</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fill in ... with results from running evaluate_rag_pipeline.py with only dense, only sparse, and hybrid retrieval.</em></p>
+<hr />
+<h2>5. Error Analysis</h2>
+<ul>
+<li>Some answers are generic or off-topic, especially for definition-type questions.</li>
+<li>Nulls in LLM-judge scores indicate model output limitations.</li>
+<li>Repetitive explanations suggest prompt or model constraints.</li>
+<li>Wikipedia API 403 errors due to missing or improper User-Agent header (fixed by adding a descriptive User-Agent).</li>
+<li>Wikipedia API JSON decode errors and rate limiting (handled with retries and backoff).</li>
+<li>Chunking script originally mixed random sampling and chunking logic, now decoupled for efficiency and reproducibility.</li>
+<li>Random Wikipedia URL sampling was slow and needed to be run overnight; now separated for best practice.</li>
+<li>LLM sometimes produces generic, incomplete, or off-topic answers due to retrieval or chunking limitations.</li>
+<li>LLM-as-Judge sometimes returns nulls or repetitive explanations, indicating model or prompt limitations.</li>
+<li>Some answers are off-topic due to retrieval or chunking issues.</li>
+</ul>
+<h3>Error Analysis Examples</h3>
+<table>
+<thead>
+<tr>
+<th>QID</th>
+<th>Question</th>
+<th>Ground Truth</th>
+<th>Generated Answer</th>
+<th>LLM-Judge (F/C/R)</th>
+<th>Explanation</th>
+<th>Metrics (MRR/F1/ROUGE-L)</th>
+<th>Error Type/Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>Which of the following is not an example of interstellar ion–molecule chemistry: atomic hydrogen or molecular hydrogen?</td>
+<td>atomic hydrogen</td>
+<td>H2 (hydrogen gas, or dihydrogen) is the most abundant molecule in the universe.</td>
+<td>1/1/4</td>
+<td>Atomic hydrogen is the most abundant molecule in the universe.</td>
+<td>1.0/0.11/0.13</td>
+<td>Factual error: model confuses atomic and molecular hydrogen.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>What is the Miami classification?</td>
+<td>The Miami classification is the most popular system in oesophageal CLE diagnosis.</td>
+<td>Earth.</td>
+<td>1/1/4</td>
+<td>Miami is a city in Florida, United States.</td>
+<td>1.0/0.13/0.0</td>
+<td>Irrelevant/generic answer.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>What is the purpose of the Uruz Project?</td>
+<td>to recreate the aurochs by a more efficient breeding strategy using genome editing...</td>
+<td>Heinz and Lutz Heck attempting to breed the aurochs.</td>
+<td>1/1/4</td>
+<td>The Uruz Project is a project of Heinz and Lutz Heck attempting to breed the aurochs.</td>
+<td>0.25/0.17/0.17</td>
+<td>Incomplete answer: lacks purpose and method.</td>
+</tr>
+</tbody>
+</table>
+<p><em>F = Factuality, C = Completeness, R = Relevance</em></p>
+<hr />
+<h2>6. System Screenshots</h2>
+<p><img alt="Screenshot 1: Streamlit App" src="streamlite_UI.png" /></p>
+<p><img alt="Screenshot 2: Evaluation Output" src="evaluation.png" /></p>
+<p><img alt="Screenshot 3: LLM-Judge Plot" src="../data/llm_judge_score_histograms.png" /></p>
+<hr />
+<h2>7. References &amp; Appendix</h2>
+<ul>
+<li>All code/scripts in code/</li>
+<li>Data and results in data/</li>
+<li>README.md for setup and usage</li>
+<li>llm_judge_evaluation_report.md for LLM-as-Judge details</li>
+</ul>
+<hr />
+<p><em>Export this document as PDF after adding the architecture diagram and screenshots. Fill in ablation study results and error analysis examples as needed.</em></p>

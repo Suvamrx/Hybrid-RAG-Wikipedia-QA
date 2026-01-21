@@ -1,0 +1,59 @@
+# Hybrid RAG System Architecture Diagram
+
+Below is a simple text-based diagram. For your PDF, you should create a visual version (e.g., in draw.io, PowerPoint, or any diagram tool) and save as architecture_diagram.png.
+
+```
++-------------------+
+| Wikipedia URLs    |
++-------------------+
+          |
+          v
++-------------------+
+| Preprocessing &   |
+| Chunking          |
++-------------------+
+          |
+          v
++-------------------+
+| Corpus Chunks     |
++-------------------+
+          |
+          v
++-------------------+
+| Dense Retriever   |<---+
+| (FAISS)           |    |
++-------------------+    |
+          |              |
+          v              |
++-------------------+    |
+| Sparse Retriever  |    |
+| (BM25)            |    |
++-------------------+    |
+          |              |
+          +------>+-------------------+
+                  | Reciprocal Rank   |
+                  | Fusion (RRF)      |
+                  +-------------------+
+                            |
+                            v
+                  +-------------------+
+                  | LLM Answer        |
+                  | Generation        |
+                  +-------------------+
+                            |
+                            v
+                  +-------------------+
+                  | Evaluation        |
+                  | (MRR, F1, ROUGE)  |
+                  +-------------------+
+                            |
+                            v
+                  +-------------------+
+                  | LLM-as-Judge      |
+                  | (Innovative Eval) |
+                  +-------------------+
+```
+
+**Instructions:**
+- Recreate this diagram visually and save as architecture_diagram.png in the project root.
+- Insert the image in your final report PDF.
