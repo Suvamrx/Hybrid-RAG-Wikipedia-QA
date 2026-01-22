@@ -3,6 +3,7 @@ import os
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
+import sys
 
 # =============================
 # Dense Retrieval (FAISS) Script
@@ -62,7 +63,11 @@ def retrieve_dense(query, top_k=5):
 
 if __name__ == '__main__':
     # Example usage: interactive query
-    query = input('Enter your query: ')
-    results = retrieve_dense(query, top_k=5)
-    for r in results:
-        print(f"Score: {r['score']:.4f} | Title: {r['title']} | URL: {r['url']}")
+    if sys.stdin.isatty():
+        # Interactive mode: allow user to query
+        query = input('Enter your query: ')
+        results = retrieve_dense(query, top_k=5)
+        for r in results:
+            print(f"Score: {r['score']:.4f} | Title: {r['title']} | URL: {r['url']}")
+    else:
+        print("[INFO] Non-interactive mode detected. Skipping query input.")

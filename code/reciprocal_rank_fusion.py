@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from dense_retrieval_faiss import retrieve_dense
 from sparse_retrieval_bm25 import retrieve_sparse
 
@@ -50,10 +51,14 @@ def reciprocal_rank_fusion(dense_results, sparse_results, k=60, top_n=5):
 
 if __name__ == '__main__':
     # Example usage: interactive query
-    query = input('Enter your query: ')
-    dense_results = retrieve_dense(query, top_k=20)
-    sparse_results = retrieve_sparse(query, top_k=20)
-    fused = reciprocal_rank_fusion(dense_results, sparse_results, k=60, top_n=5)
-    print('\nTop results by Reciprocal Rank Fusion:')
-    for r in fused:
-        print(f"RRF Score: {r['rrf_score']:.4f} | Title: {r['title']} | URL: {r['url']}")
+    if sys.stdin.isatty():
+        # Interactive mode: allow user to query
+        query = input('Enter your query: ')
+        dense_results = retrieve_dense(query, top_k=20)
+        sparse_results = retrieve_sparse(query, top_k=20)
+        fused = reciprocal_rank_fusion(dense_results, sparse_results, k=60, top_n=5)
+        print('\nTop results by Reciprocal Rank Fusion:')
+        for r in fused:
+            print(f"RRF Score: {r['rrf_score']:.4f} | Title: {r['title']} | URL: {r['url']}")
+    else:
+        print("[INFO] Non-interactive mode detected. Skipping query input.")

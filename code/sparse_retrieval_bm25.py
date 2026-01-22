@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from rank_bm25 import BM25Okapi
 from nltk.tokenize import word_tokenize
 
@@ -49,8 +50,11 @@ def retrieve_sparse(query, top_k=5):
 
 if __name__ == '__main__':
     # Example usage: interactive query
-    query = input('Enter your query: ')
-    results = retrieve_sparse(query, top_k=5)
-    # Display the results with scores, titles, and URLs
-    for r in results:
-        print(f"Score: {r['score']:.4f} | Title: {r['title']} | URL: {r['url']}")
+    if sys.stdin.isatty():
+        # Interactive mode: allow user to query
+        query = input('Enter your query: ')
+        results = retrieve_sparse(query, top_k=5)
+        for r in results:
+            print(f"Score: {r['score']:.4f} | Title: {r['title']} | URL: {r['url']}")
+    else:
+        print("[INFO] Non-interactive mode detected. Skipping query input.")

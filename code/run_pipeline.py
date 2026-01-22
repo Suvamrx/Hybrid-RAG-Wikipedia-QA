@@ -24,6 +24,7 @@ PIPELINE_STEPS = [
     ("Preprocess and chunk Wikipedia articles (random)", "preprocess_and_chunk_wikipedia.py --use-random"),
     ("Build dense vector index (FAISS)", "dense_retrieval_faiss.py"),
     ("Build sparse index (BM25)", "sparse_retrieval_bm25.py"),
+    ("Reciprocal Rank Fusion (RRF)", "reciprocal_rank_fusion.py"),
     ("Generate Q&A pairs", "generate_qa_pairs.py"),
     ("Run full RAG evaluation pipeline", "evaluate_rag_pipeline.py"),
     ("Run dense-only ablation", "evaluate_rag_pipeline_dense.py"),
@@ -44,9 +45,12 @@ cwd = os.path.join(os.getcwd(), 'code')
 
 def run_step(idx, desc, script):
     print(f"\n[STEP {idx+1}] {desc}")
+    # For non-interactive run, set environment variable to signal scripts to skip input()
+    env = os.environ.copy()
+    env["NON_INTERACTIVE"] = "1"
     cmd = f"python {script}" if script.endswith('.py') else f"python {script}"
     print(f"Running: {cmd}")
-    result = subprocess.run(cmd, shell=True, cwd=cwd)
+    result = subprocess.run(cmd, shell=True, cwd=cwd, env=env)
     if result.returncode != 0:
         print(f"[ERROR] Step {idx+1} failed: {desc}")
         sys.exit(result.returncode)
