@@ -22,6 +22,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Download NLTK punkt and punkt_tab data
+        run: |
+          python -m nltk.downloader punkt punkt_tab
+
       - name: Run full pipeline
         run: |
           python code/run_pipeline.py
