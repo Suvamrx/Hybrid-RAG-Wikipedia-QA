@@ -12,9 +12,11 @@ import pdfkit
 # This script converts the markdown report template to HTML and PDF (if wkhtmltopdf is installed).
 # It can be extended to fill in metrics and results automatically from JSON files.
 
-TEMPLATE_PATH = os.path.join('reports', 'final_report_template.md')
-OUTPUT_HTML = os.path.join('reports', 'final_report.html')
-OUTPUT_PDF = os.path.join('reports', 'final_report.pdf')
+# Always resolve template and output paths relative to project root
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEMPLATE_PATH = os.path.join(PROJECT_ROOT, 'reports', 'final_report_template.md')
+OUTPUT_HTML = os.path.join(PROJECT_ROOT, 'reports', 'final_report.html')
+OUTPUT_PDF = os.path.join(PROJECT_ROOT, 'reports', 'final_report.pdf')
 
 def main():
     # Read the markdown template
