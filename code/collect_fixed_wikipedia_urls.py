@@ -1,6 +1,7 @@
 import wikipediaapi
 import random
 import json
+import time
 
 # =====================================
 # Fixed Wikipedia URL Collection Script
@@ -19,21 +20,28 @@ wiki = wikipediaapi.Wikipedia(user_agent='HybridRAGStudent/1.0 (2024aa05851@wilp
 
 # Helper to get random articles from a category
 # Returns a list of articles with title, URL, and word count
-def get_articles_from_category(category, min_words=200, max_articles=20):
+def get_articles_from_category(category, min_words=200, max_articles=20, max_retries=3, delay=2):
     cat = wiki.page(f"Category:{category}")
     articles = []
     for title, page in cat.categorymembers.items():
-        try:
-            if page.ns == 0 and len(page.text.split()) >= min_words:
-                articles.append({
-                    "title": page.title,
-                    "url": getattr(page, "fullurl", None),
-                    "word_count": len(page.text.split())
-                })
-        except Exception as e:
-            print(f"[ERROR] Failed to process page '{title}': {e}")
+        for attempt in range(max_retries):
+            try:
+                if page.ns == 0 and len(page.text.split()) >= min_words:
+                    articles.append({
+                        "title": page.title,
+                        "url": getattr(page, "fullurl", None),
+                        "word_count": len(page.text.split())
+                    })
+                break  # Success, break retry loop
+            except Exception as e:
+                print(f"[ERROR] Failed to process page '{title}' (attempt {attempt+1}/{max_retries}): {e}")
+                if attempt < max_retries - 1:
+                    time.sleep(delay)
+                else:
+                    print(f"[ERROR] Giving up on page '{title}' after {max_retries} attempts.")
         if len(articles) >= max_articles:
             break
+        time.sleep(delay)  # Delay between page requests
     return articles
 
 fixed_articles = []
@@ -52,11 +60,10 @@ for topic in TOPICS:
         if article["title"] not in used_titles:
             fixed_articles.append(article)
             used_titles.add(article["title"])
-        if len(fixed_articles) >= 200:
-            break
     if len(fixed_articles) >= 200:
         break
     print(f"  -> After topic '{topic}': {len(fixed_articles)} articles collected.")
+    time.sleep(2)  # Delay between topics
 
 # Save only URLs to data/fixed_urls.json for downstream use
 import os
