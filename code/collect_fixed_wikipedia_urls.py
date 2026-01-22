@@ -23,12 +23,15 @@ def get_articles_from_category(category, min_words=200, max_articles=20):
     cat = wiki.page(f"Category:{category}")
     articles = []
     for title, page in cat.categorymembers.items():
-        if page.ns == 0 and len(page.text.split()) >= min_words:
-            articles.append({
-                "title": page.title,
-                "url": page.fullurl,
-                "word_count": len(page.text.split())
-            })
+        try:
+            if page.ns == 0 and len(page.text.split()) >= min_words:
+                articles.append({
+                    "title": page.title,
+                    "url": getattr(page, "fullurl", None),
+                    "word_count": len(page.text.split())
+                })
+        except Exception as e:
+            print(f"[ERROR] Failed to process page '{title}': {e}")
         if len(articles) >= max_articles:
             break
     return articles
@@ -40,7 +43,11 @@ random.shuffle(TOPICS)
 # Main loop: sample articles from each topic until 200 unique articles are collected
 for topic in TOPICS:
     print(f"Sampling articles from topic: {topic} (collected so far: {len(fixed_articles)})")
-    articles = get_articles_from_category(topic)
+    try:
+        articles = get_articles_from_category(topic)
+    except Exception as e:
+        print(f"[ERROR] Failed to get articles for topic '{topic}': {e}")
+        continue
     for article in articles:
         if article["title"] not in used_titles:
             fixed_articles.append(article)
