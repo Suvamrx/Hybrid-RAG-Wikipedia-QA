@@ -87,10 +87,14 @@ for i, url in enumerate(urls):
         tried_titles.append(raw_title.replace('_', ' '))
     page = None
     for t in tried_titles:
-        candidate = wiki.page(t)
-        if candidate.exists():
-            page = candidate
-            break
+        try:
+            candidate = wiki.page(t)
+            if candidate.exists():
+                page = candidate
+                break
+        except Exception as e:
+            print(f"[ERROR] Exception during wiki.page/exists for '{t}': {e}")
+            time.sleep(2)
     used_fallback = False
     fallback_title = None
     # Fallback: use Wikipedia search API if direct lookup fails
@@ -112,11 +116,14 @@ for i, url in enumerate(urls):
                         for idx, result in enumerate(search_results):
                             print(f"    [{idx+1}] {result['title']}")
                         top_title = search_results[0]['title']
-                        candidate = wiki.page(top_title)
-                        if candidate.exists():
-                            page = candidate
-                            used_fallback = True
-                            fallback_title = top_title
+                        try:
+                            candidate = wiki.page(top_title)
+                            if candidate.exists():
+                                page = candidate
+                                used_fallback = True
+                                fallback_title = top_title
+                        except Exception as e:
+                            print(f"[ERROR] Exception during fallback wiki.page/exists for '{top_title}': {e}")
                         break  # Success, exit retry loop
                     else:
                         print(f"[DEBUG] No search results for URL: {url} | Query: {raw_title}")
@@ -132,13 +139,21 @@ for i, url in enumerate(urls):
         print(f"[WARN] Page does not exist for URL: {url} (tried: {tried_titles})")
         continue
     title = page.title
-    text = clean_text(page.text)
+    try:
+        text = clean_text(page.text)
+    except Exception as e:
+        print(f"[ERROR] Exception during page.text for '{title}': {e}")
+        continue
     # Extract intro/summary (first paragraph or summary attribute)
     intro = ''
-    if hasattr(page, 'summary') and page.summary:
-        intro = clean_text(page.summary)
-    else:
-        intro = text.split('\n\n')[0]
+    try:
+        if hasattr(page, 'summary') and page.summary:
+            intro = clean_text(page.summary)
+        else:
+            intro = text.split('\n\n')[0]
+    except Exception as e:
+        print(f"[ERROR] Exception during intro extraction for '{title}': {e}")
+        intro = ''
     # Compose first chunk: title + intro
     first_chunk = f"Title: {title}\nIntro: {intro}"
     all_chunks.append({
@@ -150,19 +165,23 @@ for i, url in enumerate(urls):
     })
     chunk_id += 1
     # Chunk the rest of the article (excluding intro)
-    rest_text = text[len(intro):].strip()
+    rest_text = text[len(intro):].strip() if intro else text
     if rest_text:
-        chunks = chunk_text(rest_text)
-        for idx, chunk in enumerate(chunks):
-            all_chunks.append({
-                'chunk_id': f'{chunk_id}',
-                'url': url,
-                'title': title,
-                'chunk_index': idx + 1,  # +1 because 0 is the intro chunk
-                'text': chunk
-            })
-            chunk_id += 1
-        print(f"[LOG] Processed: {title} ({len(chunks)+1} chunks)")
+        try:
+            chunks = chunk_text(rest_text)
+            for idx, chunk in enumerate(chunks):
+                all_chunks.append({
+                    'chunk_id': f'{chunk_id}',
+                    'url': url,
+                    'title': title,
+                    'chunk_index': idx + 1,  # +1 because 0 is the intro chunk
+                    'text': chunk
+                })
+                chunk_id += 1
+            print(f"[LOG] Processed: {title} ({len(chunks)+1} chunks)")
+        except Exception as e:
+            print(f"[ERROR] Exception during chunking for '{title}': {e}")
+            print(f"[LOG] Processed: {title} (1 chunk - intro only)")
     else:
         print(f"[LOG] Processed: {title} (1 chunk - intro only)")
 print(f"[LOG] Finished chunking all articles. Total chunks: {len(all_chunks)}")
