@@ -14,9 +14,9 @@
 
 | Metric      | Mean   |
 |-------------|--------|
-| MRR         | 0.8887 |
-| F1          | 0.0925 |
-| ROUGE-L     | 0.1036 |
+| MRR         | {{MRR}} |
+| F1          | {{F1}} |
+| ROUGE-L     | {{ROUGE_L}} |
 
 **Justification for Custom Metrics:**
 - **MRR (Mean Reciprocal Rank):** Chosen because it measures the rank position of the first relevant answer, which is critical for retrieval-based QA. It is calculated as the average reciprocal rank of the first correct answer across all questions. High MRR indicates the system retrieves relevant information early, which is desirable for user-facing QA systems.
@@ -32,6 +32,33 @@
 | Factuality   | 3.04 | 4.00   | 1.44 | 3     |
 | Completeness | 3.18 | 4.00   | 1.60 | 6     |
 | Relevance    | 3.50 | 4.00   | 1.11 | 2     |
+
+#### LLM-as-Judge Score Distributions
+
+![Factuality Histogram](llm_judge_factuality_hist.png)
+*Figure: LLM-as-Judge factuality score distribution.*
+
+![Completeness Histogram](llm_judge_completeness_hist.png)
+*Figure: LLM-as-Judge completeness score distribution.*
+
+![Relevance Histogram](llm_judge_relevance_hist.png)
+*Figure: LLM-as-Judge relevance score distribution.*
+
+---
+
+### Metric Distributions
+
+![MRR Histogram](mrr_hist.png)
+*Figure: Distribution of Mean Reciprocal Rank (MRR) scores across the evaluation set.*
+
+![F1 Histogram](f1_hist.png)
+*Figure: Distribution of F1 scores across the evaluation set.*
+
+![ROUGE-L Histogram](rougeL_hist.png)
+*Figure: Distribution of ROUGE-L scores across the evaluation set.*
+
+![F1 vs MRR Scatter](f1_vs_mrr_scatter.png)
+*Figure: Scatter plot of F1 vs MRR for error analysis.*
 
 ---
 

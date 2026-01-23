@@ -1,3 +1,5 @@
+pandas
+seaborn
 sentence-transformers
 faiss-cpu
 rank-bm25
@@ -13,3 +15,5 @@ gradio
 flask
 markdown
 pdfkit
+torch
+matplotlib

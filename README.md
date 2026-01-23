@@ -179,12 +179,34 @@ The pipeline steps correspond to the following operations:
 
 Use these step numbers with `--skip-step` or `--only-step` flags in the orchestration script.
 
+### 14. LLM-as-Judge Evaluation
+Run LLM-based evaluation for factuality, completeness, and relevance:
+```
+python code/llm_judge_evaluation.py
+```
+- Saves results to data/llm_judge_results.json and data/llm_judge_results.csv.
+- Generates histograms in reports/.
+- Supports batch processing and resume on failure.
+
+### 15. Evaluation Visualizations
+Generate metric and error analysis plots for the report:
+```
+python code/evaluation_visualizations.py
+```
+- Saves plots to reports/ for inclusion in the final report.
+
 ## Submission Checklist
 - data/fixed_urls.json (200 URLs)
+- data/random_urls.json (300 URLs)
 - data/wikipedia_chunks.json (processed corpus)
 - data/faiss_index.bin, data/chunk_metadata.json (vector DB)
 - data/generated_qa_pairs.json (100-question dataset)
-- data/evaluation_results.json (evaluation results)
+- data/evaluation_results.json, data/evaluation_results.csv (evaluation results)
+- data/evaluation_results_dense.json, data/evaluation_results_sparse.json (ablation results)
+- data/llm_judge_results.json, data/llm_judge_results.csv (LLM-as-Judge results)
+- reports/final_report.html, reports/final_report.pdf (auto-generated report)
+- reports/final_report_template.md (template with placeholders)
+- reports/*.png (visualizations, screenshots)
 - code/: All scripts
 - README.md: Updated instructions
 - Streamlit app link or setup instructions
@@ -192,14 +214,18 @@ Use these step numbers with `--skip-step` or `--only-step` flags in the orchestr
 ## Notes
 - For best results, ensure prompts are clear and context-grounded.
 - If answer quality metrics are low, review Q&A pairs and answer generation prompts.
-
-### Limitations & Future Improvements
-- Some generated answers may be generic or not directly address the question, especially for definition-type ("What is...") queries. This is due to the content of retrieved chunks and model limitations.
-- Improving chunking strategy, retrieval, or using a more instruction-tuned model could further enhance answer quality.
-- For best results, ensure that Wikipedia chunks include clear definitions and introductory sentences for key terms.
-- These limitations are acknowledged as part of the current system and are common in RAG pipelines.
+- For reproducible results, use the full pipeline orchestration script.
 
 ## Tips & Troubleshooting
 - For faster Q&A generation, use a machine with an NVIDIA GPU and the correct CUDA drivers.
 - If you run out of memory, reduce the number of Q&A pairs or use a smaller model (see code/generate_qa_pairs.py).
 - If answers are too short or generic, further tune the answer prompt in generate_qa_pairs.py.
+- If you encounter API rate limits, increase delays or use resume features in scripts.
+
+## Automation & Reproducibility
+- The full pipeline can be run with a single command:
+```
+python code/run_pipeline.py
+```
+- All metrics, ablation, LLM-as-Judge, and visualizations are generated automatically.
+- The report is auto-filled with the latest results and ready for submission.
