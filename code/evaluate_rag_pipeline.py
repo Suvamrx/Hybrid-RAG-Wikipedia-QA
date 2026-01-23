@@ -1,5 +1,6 @@
 import json
 import os
+import csv
 from generate_response_llm import build_context, generate_answer
 from reciprocal_rank_fusion import reciprocal_rank_fusion, retrieve_dense, retrieve_sparse
 from rouge_score import rouge_scorer
@@ -15,6 +16,7 @@ import numpy as np
 # File paths and evaluation parameters
 QA_PATH = os.path.join(os.getcwd(), 'data', 'generated_qa_pairs.json')
 RESULTS_PATH = os.path.join(os.getcwd(), 'data', 'evaluation_results.json')
+CSV_PATH = os.path.join(os.getcwd(), 'data', 'evaluation_results.csv')
 TOP_K = 10  # Number of top chunks to retrieve for evaluation
 
 # Load generated Q&A pairs for evaluation
@@ -73,6 +75,14 @@ for i, qa in enumerate(qa_pairs):
 # Save evaluation results to JSON for reporting
 with open(RESULTS_PATH, 'w', encoding='utf-8') as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
+
+# Save evaluation results to CSV for reporting
+csv_fields = ['question_id', 'question', 'ground_truth', 'generated_answer', 'source_url', 'mrr', 'f1', 'rougeL']
+with open(CSV_PATH, 'w', encoding='utf-8', newline='') as f:
+    writer = csv.DictWriter(f, fieldnames=csv_fields)
+    writer.writeheader()
+    for row in results:
+        writer.writerow({k: row.get(k, '') for k in csv_fields})
 
 # Print summary statistics for all metrics
 mrrs = [r['mrr'] for r in results]

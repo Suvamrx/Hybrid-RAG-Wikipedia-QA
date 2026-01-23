@@ -29,7 +29,9 @@ PIPELINE_STEPS = [
     ("Run full RAG evaluation pipeline", "evaluate_rag_pipeline.py"),
     ("Run dense-only ablation", "evaluate_rag_pipeline_dense.py"),
     ("Run sparse-only ablation", "evaluate_rag_pipeline_sparse.py"),
+    ("LLM-as-Judge Evaluation", "llm_judge_evaluation.py"),
     ("Generate report (HTML/PDF)", "generate_report.py"),
+    ("Generate evaluation visualizations", "evaluation_visualizations.py"),
 ]
 
 # Parse command-line arguments for skipping or running specific steps
