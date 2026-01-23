@@ -4,12 +4,52 @@ import re
 import csv
 from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
 
+
+# Parameters
+MODEL_NAME = 'google/flan-t5-base'  # Or any open-source LLM you prefer
+
+# Define evaluation criteria and descriptions
+criteria = [
+    ("factuality", "Does the answer accurately reflect facts from the context? (1=not factual, 5=fully factual)"),
+    ("completeness", "Does the answer cover all relevant aspects of the question? (1=incomplete, 5=fully complete)"),
+    ("relevance", "Is the answer relevant to the question and context? (1=irrelevant, 5=fully relevant)")
+]
+
+# Load or initialize the LLM pipeline for scoring and explanation
+generator = pipeline(
+    "text2text-generation",
+    model=MODEL_NAME,
+    tokenizer=AutoTokenizer.from_pretrained(MODEL_NAME)
+)
+
+# Prompt templates
+def build_single_score_prompt(question, context, answer, criterion, description):
+    return (
+        f"Question: {question}\n"
+        f"Context: {context}\n"
+        f"Answer: {answer}\n"
+        f"Criterion: {criterion}\n"
+        f"Instruction: {description} Please provide a single integer score (1-5) only."
+    )
+
+def build_explanation_prompt(question, context, answer):
+    return (
+        f"Question: {question}\n"
+        f"Context: {context}\n"
+        f"Answer: {answer}\n"
+        "Instruction: Briefly explain your judgment of the answer's quality."
+    )
+
 # Parameters
 MODEL_NAME = 'google/flan-t5-base'  # Or any open-source LLM you prefer
 EVAL_RESULTS_PATH = os.path.join(os.getcwd(), 'data', 'evaluation_results.json')
 JUDGE_RESULTS_PATH = os.path.join(os.getcwd(), 'data', 'llm_judge_results.json')
 BATCH_SIZE = 10  # Number of questions to process per batch
 RESUME = True   # Resume from last saved result if True
+
+# Load evaluation results (with generated answers)
+with open(EVAL_RESULTS_PATH, 'r', encoding='utf-8') as f:
+    eval_results = json.load(f)
 
 # Load previous results if resuming
 if RESUME and os.path.exists(JUDGE_RESULTS_PATH):
